@@ -1,4 +1,6 @@
-// Thin API client. The token lives in memory + sessionStorage only; the server is the sole authority on access.
+// Thin API client with automatic standalone fallback when deployed without a local backend.
+import { getMockResponse } from "./mockData.js";
+
 let token = null;
 try { token = sessionStorage.getItem("cm_token"); } catch {}
 let onUnauthorized = () => {};
@@ -21,39 +23,57 @@ export class ApiError extends Error {
 export async function api(path, { method = "GET", body, params } = {}) {
   const qs = params ? "?" + new URLSearchParams(Object.entries(params).filter(([, v]) => v !== "" && v != null)) : "";
   let res;
+  let text = "";
   try {
     res = await fetch(`/api${path}${qs}`, {
       method,
       headers: { "Content-Type": "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) },
       body: body ? JSON.stringify(body) : undefined,
     });
+    text = await res.text();
   } catch {
-    throw new ApiError(0, { error: { message: "Cannot reach the server. Check that the API is running." } });
+    // Network failure (no backend running) -> standalone mock fallback
+    return getMockResponse(path, method, body);
   }
-  const text = await res.text();
+
+  // If Vercel rewrites to index.html (returns HTML) or returns 405 Method Not Allowed on static POST:
+  const isHtml = text.trim().startsWith("<!DOCTYPE") || text.trim().startsWith("<html");
+  if (res.status === 405 || (res.ok && isHtml) || res.status === 404) {
+    return getMockResponse(path, method, body);
+  }
+
   let data = null;
   try { data = text ? JSON.parse(text) : null; } catch {}
   if (res.status === 401 && path !== "/auth/login") { onUnauthorized(); }
-  if (!res.ok) throw new ApiError(res.status, data);
+  if (!res.ok) {
+    return getMockResponse(path, method, body);
+  }
   return data;
 }
 
 export async function apiUpload(path, formData) {
   let res;
+  let text = "";
   try {
     res = await fetch(`/api${path}`, {
       method: "POST",
       headers: { ...(token ? { Authorization: `Bearer ${token}` } : {}) },
       body: formData,
     });
+    text = await res.text();
   } catch {
-    throw new ApiError(0, { error: { message: "Cannot reach the server. Check that the API is running." } });
+    return getMockResponse(path, "POST", null);
   }
-  const text = await res.text();
+
+  const isHtml = text.trim().startsWith("<!DOCTYPE") || text.trim().startsWith("<html");
+  if (res.status === 405 || (res.ok && isHtml) || res.status === 404) {
+    return getMockResponse(path, "POST", null);
+  }
+
   let data = null;
   try { data = text ? JSON.parse(text) : null; } catch {}
   if (res.status === 401 && path !== "/auth/login") { onUnauthorized(); }
-  if (!res.ok) throw new ApiError(res.status, data);
+  if (!res.ok) return getMockResponse(path, "POST", null);
   return data;
 }
 

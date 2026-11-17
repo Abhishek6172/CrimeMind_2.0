@@ -162,18 +162,6 @@ function Login({ onLogin, onOpenResearch }) {
             <small className="muted font-mono" style={{ display: "block", marginTop: 8 }}>
               Default password: <code>crimemind-demo</code>
             </small>
-            {onOpenResearch && (
-              <div style={{ marginTop: 18, borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: 14 }}>
-                <button
-                  type="button"
-                  className="secondary cm-nav-mode-btn"
-                  style={{ width: "100%", justifyContent: "center", padding: "10px 14px", fontSize: "0.85rem", cursor: "pointer" }}
-                  onClick={onOpenResearch}
-                >
-                  🧪 Open Research Lab & Training Case (Standalone) ↗
-                </button>
-              </div>
-            )}
           </div>
         </form>
       </div>
