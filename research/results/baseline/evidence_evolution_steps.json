@@ -1,0 +1,124 @@
+[
+  {
+    "scenario": "SC-ACCESS-CORRECTED",
+    "step": 1,
+    "evidence": "E-0309",
+    "new_status": "SUPERSEDED",
+    "validity_event_id": 1,
+    "flagged_findings": [
+      "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+    ],
+    "expected": [
+      "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+    ],
+    "flagged_not_expected": [],
+    "expected_not_flagged": [],
+    "matches_expected": true
+  },
+  {
+    "scenario": "SC-GPS17-FAULT",
+    "step": 1,
+    "evidence": "E-0308",
+    "new_status": "CHALLENGED",
+    "validity_event_id": 2,
+    "flagged_findings": [
+      "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+      "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+      "MULTI_DOMAIN_001|P-001|P-004",
+      "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+    ],
+    "expected": [
+      "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+      "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+      "MULTI_DOMAIN_001|P-001|P-004",
+      "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+    ],
+    "flagged_not_expected": [],
+    "expected_not_flagged": [],
+    "matches_expected": true
+  },
+  {
+    "scenario": "SC-GPS17-FAULT",
+    "step": 2,
+    "evidence": "E-0308",
+    "new_status": "INVALIDATED",
+    "validity_event_id": 3,
+    "flagged_findings": [
+      "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+      "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+      "MULTI_DOMAIN_001|P-001|P-004",
+      "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+    ],
+    "expected": [
+      "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+      "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+      "MULTI_DOMAIN_001|P-001|P-004",
+      "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+      "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+    ],
+    "flagged_not_expected": [],
+    "expected_not_flagged": [],
+    "matches_expected": true
+  },
+  {
+    "scenario": "SC-TIP-RETRACTED",
+    "step": 1,
+    "evidence": "E-0310",
+    "new_status": "INVALIDATED",
+    "validity_event_id": 4,
+    "flagged_findings": [
+      "MULTI_DOMAIN_001|P-001|P-004",
+      "SHARED_EVIDENCE_001|P-001|P-004"
+    ],
+    "expected": [
+      "MULTI_DOMAIN_001|P-001|P-004",
+      "SHARED_EVIDENCE_001|P-001|P-004"
+    ],
+    "flagged_not_expected": [],
+    "expected_not_flagged": [],
+    "matches_expected": true
+  },
+  {
+    "scenario": "SC-WITNESS",
+    "step": 1,
+    "evidence": "E-0304",
+    "new_status": "CHALLENGED",
+    "validity_event_id": 5,
+    "flagged_findings": [
+      "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+    ],
+    "expected": [
+      "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+    ],
+    "flagged_not_expected": [],
+    "expected_not_flagged": [],
+    "matches_expected": true
+  },
+  {
+    "scenario": "SC-WITNESS",
+    "step": 2,
+    "evidence": "E-0304",
+    "new_status": "SUPPORTED",
+    "validity_event_id": 6,
+    "flagged_findings": [
+      "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+    ],
+    "expected": [
+      "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+    ],
+    "flagged_not_expected": [],
+    "expected_not_flagged": [],
+    "matches_expected": true
+  }
+]

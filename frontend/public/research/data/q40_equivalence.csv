@@ -1,0 +1,9 @@
+case_ref,seed,candidates,max_abs_score_diff,scores_identical,full_order_identical
+CASE-2026-001,2026,109,0.0,True,True
+CASE-2026-002,2026,47,0.0,True,True
+CASE-2040-001,2040,95,0.0,True,True
+CASE-2040-002,2040,37,0.0,True,True
+CASE-2055-001,2055,107,0.0,True,True
+CASE-2055-002,2055,54,0.0,True,True
+CASE-2075-001,2075,107,0.0,True,True
+CASE-2075-002,2075,49,0.0,True,True

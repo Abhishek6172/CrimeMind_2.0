@@ -1,0 +1,3 @@
+{"oracle_seeds": [2026, 2040, 2055, 2075], "edge_seeds": [2026, 2060], "q40_seeds": [2026, 2040, 2055, 2075], "db_check_seed": 2026,
+ "perf": {"seed": 2026, "scales": [1, 2, 5, 10], "repetitions": 20, "slow_query_threshold_ms": 50},
+ "notes": "Parameter sets are generated deterministically from (seed, case, module, variant). Oracles read the committed CSV datasets (dataset_csv) or raw base tables of a mutated disposable DB (edge_mutated); never views or the SQL modules."}

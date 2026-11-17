@@ -1,0 +1,66 @@
+[
+ {
+  "seed": 2026,
+  "case": "CASE-2026-001",
+  "candidates": 109,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2026,
+  "case": "CASE-2026-002",
+  "candidates": 47,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2040,
+  "case": "CASE-2040-001",
+  "candidates": 95,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2040,
+  "case": "CASE-2040-002",
+  "candidates": 37,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2055,
+  "case": "CASE-2055-001",
+  "candidates": 107,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2055,
+  "case": "CASE-2055-002",
+  "candidates": 54,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2075,
+  "case": "CASE-2075-001",
+  "candidates": 107,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ },
+ {
+  "seed": 2075,
+  "case": "CASE-2075-002",
+  "candidates": 49,
+  "max_abs_score_diff": 0.0,
+  "same_candidate_set": true,
+  "match": true
+ }
+]

@@ -1,0 +1,643 @@
+{
+ "reliability_split_median": 0.7142857142857143,
+ "random": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 30,
+   "share_top5": 0.05714285714285714,
+   "mrr_like": 0.07775985071100626
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 30,
+   "share_top5": 0.06367041198501873,
+   "mrr_like": 0.07115901612326192
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 30,
+   "share_top5": 0.07234042553191489,
+   "mrr_like": 0.07802144916879943
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 30,
+   "share_top5": 0.06291390728476821,
+   "mrr_like": 0.07192401350925878
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 30,
+   "share_top5": 0.054945054945054944,
+   "mrr_like": 0.07076478204226992
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 29,
+   "share_top5": 0.08860759493670886,
+   "mrr_like": 0.08314339079843265
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 30,
+   "share_top5": 0.07368421052631578,
+   "mrr_like": 0.08248774518121778
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 30,
+   "share_top5": 0.054945054945054944,
+   "mrr_like": 0.07076478204226992
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 31,
+   "share_top5": 0.020833333333333332,
+   "mrr_like": 0.053487324426066636
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 34,
+   "share_top5": 0.045454545454545456,
+   "mrr_like": 0.04936567390664293
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 35,
+   "share_top5": 0.07017543859649122,
+   "mrr_like": 0.07631693740458792
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 29,
+   "share_top5": 0.06321839080459771,
+   "mrr_like": 0.072551259827658
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 32,
+   "share_top5": 0.0625,
+   "mrr_like": 0.07107135054518483
+  }
+ },
+ "communication_frequency": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 3,
+   "share_top5": 0.6571428571428571,
+   "mrr_like": 0.40161417015176415
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 11,
+   "share_top5": 0.2883895131086142,
+   "mrr_like": 0.204124378391456
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 9,
+   "share_top5": 0.34893617021276596,
+   "mrr_like": 0.24034387379189825
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 10,
+   "share_top5": 0.33112582781456956,
+   "mrr_like": 0.22701226816500164
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 7,
+   "share_top5": 0.4230769230769231,
+   "mrr_like": 0.28809478898432955
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 7,
+   "share_top5": 0.37341772151898733,
+   "mrr_like": 0.25865372807346093
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 13,
+   "share_top5": 0.24736842105263157,
+   "mrr_like": 0.1693678237182979
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 7,
+   "share_top5": 0.4230769230769231,
+   "mrr_like": 0.28809478898432955
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 6,
+   "share_top5": 0.5,
+   "mrr_like": 0.34567942427046794
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 32,
+   "share_top5": 0.06818181818181818,
+   "mrr_like": 0.06768129059867432
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 18,
+   "share_top5": 0.19298245614035087,
+   "mrr_like": 0.1758952482127306
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 14,
+   "share_top5": 0.1839080459770115,
+   "mrr_like": 0.13768005616703666
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 5,
+   "share_top5": 0.53125,
+   "mrr_like": 0.34844824384973533
+  }
+ },
+ "spatial_proximity": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 3,
+   "share_top5": 0.7714285714285715,
+   "mrr_like": 0.41606575963718817
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 5,
+   "share_top5": 0.5880149812734082,
+   "mrr_like": 0.3017364745523512
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 4,
+   "share_top5": 0.676595744680851,
+   "mrr_like": 0.3370702465383317
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 4,
+   "share_top5": 0.609271523178808,
+   "mrr_like": 0.31498655726085883
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 4,
+   "share_top5": 0.6428571428571429,
+   "mrr_like": 0.3279857589230497
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 3,
+   "share_top5": 0.9177215189873418,
+   "mrr_like": 0.4766048824593129
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 4,
+   "share_top5": 0.6684210526315789,
+   "mrr_like": 0.33901211361737676
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 4,
+   "share_top5": 0.6428571428571429,
+   "mrr_like": 0.3279857589230497
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 14,
+   "share_top5": 0.0,
+   "mrr_like": 0.07006552664336275
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 2,
+   "share_top5": 0.9545454545454546,
+   "mrr_like": 0.5458333333333333
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 3,
+   "share_top5": 1.0,
+   "mrr_like": 0.4728070175438596
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 5,
+   "share_top5": 0.5804597701149425,
+   "mrr_like": 0.2957124180472005
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 4,
+   "share_top5": 0.6484375,
+   "mrr_like": 0.3411873402544256
+  }
+ },
+ "degree_centrality": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 6,
+   "share_top5": 0.4857142857142857,
+   "mrr_like": 0.2651193652343359
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 14,
+   "share_top5": 0.250936329588015,
+   "mrr_like": 0.19019233835592614
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 13,
+   "share_top5": 0.2936170212765957,
+   "mrr_like": 0.20840394795841571
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 14,
+   "share_top5": 0.2781456953642384,
+   "mrr_like": 0.19887593418620542
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 11,
+   "share_top5": 0.35714285714285715,
+   "mrr_like": 0.2558790049094695
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 13,
+   "share_top5": 0.3037974683544304,
+   "mrr_like": 0.21492633877955716
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 15,
+   "share_top5": 0.24210526315789474,
+   "mrr_like": 0.17059409098242362
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 11,
+   "share_top5": 0.35714285714285715,
+   "mrr_like": 0.2558790049094695
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 19,
+   "share_top5": 0.125,
+   "mrr_like": 0.09184169662609158
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 32,
+   "share_top5": 0.06818181818181818,
+   "mrr_like": 0.06706122509909462
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 26,
+   "share_top5": 0.10526315789473684,
+   "mrr_like": 0.11118663299410096
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 18,
+   "share_top5": 0.1781609195402299,
+   "mrr_like": 0.13155410284843347
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 8,
+   "share_top5": 0.4140625,
+   "mrr_like": 0.29039154866098915
+  }
+ },
+ "pagerank": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 4,
+   "share_top5": 0.6,
+   "mrr_like": 0.3636429791190388
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 9,
+   "share_top5": 0.3895131086142322,
+   "mrr_like": 0.24571472702042624
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 8,
+   "share_top5": 0.42127659574468085,
+   "mrr_like": 0.2675627307212183
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 8,
+   "share_top5": 0.4139072847682119,
+   "mrr_like": 0.2593819085550337
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 4,
+   "share_top5": 0.5879120879120879,
+   "mrr_like": 0.3559600918437342
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 8,
+   "share_top5": 0.45569620253164556,
+   "mrr_like": 0.2783796585428684
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 9,
+   "share_top5": 0.38421052631578945,
+   "mrr_like": 0.2359926299448867
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 4,
+   "share_top5": 0.5879120879120879,
+   "mrr_like": 0.3559600918437342
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 15,
+   "share_top5": 0.20833333333333334,
+   "mrr_like": 0.12636791752928797
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 32,
+   "share_top5": 0.045454545454545456,
+   "mrr_like": 0.056394154688502396
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 26,
+   "share_top5": 0.10526315789473684,
+   "mrr_like": 0.11398372275538723
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 14,
+   "share_top5": 0.28160919540229884,
+   "mrr_like": 0.17439157555346987
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 4,
+   "share_top5": 0.59375,
+   "mrr_like": 0.3749156424790344
+  }
+ },
+ "q40": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 2,
+   "share_top5": 0.8285714285714286,
+   "mrr_like": 0.554875283446712
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 5,
+   "share_top5": 0.5692883895131086,
+   "mrr_like": 0.32711411527977596
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 4,
+   "share_top5": 0.6553191489361702,
+   "mrr_like": 0.3746378384082983
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 4,
+   "share_top5": 0.5993377483443708,
+   "mrr_like": 0.3535102771534275
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 3,
+   "share_top5": 0.6428571428571429,
+   "mrr_like": 0.38682807184078455
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 2,
+   "share_top5": 0.9810126582278481,
+   "mrr_like": 0.5666666666666667
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 4,
+   "share_top5": 0.6578947368421053,
+   "mrr_like": 0.36870254273133135
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 3,
+   "share_top5": 0.6428571428571429,
+   "mrr_like": 0.38682807184078455
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 5,
+   "share_top5": 0.6666666666666666,
+   "mrr_like": 0.25278604497354495
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 4,
+   "share_top5": 0.75,
+   "mrr_like": 0.3385822510822511
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 1,
+   "share_top5": 1.0,
+   "mrr_like": 0.8391812865497077
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 5,
+   "share_top5": 0.5402298850574713,
+   "mrr_like": 0.2919893642261952
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 3,
+   "share_top5": 0.6796875,
+   "mrr_like": 0.4371402681638839
+  }
+ },
+ "q40_r": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 2,
+   "share_top5": 0.8857142857142857,
+   "mrr_like": 0.5983673469387755
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 4,
+   "share_top5": 0.6404494382022472,
+   "mrr_like": 0.3515653165225133
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 3,
+   "share_top5": 0.7446808510638298,
+   "mrr_like": 0.4101592325074835
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 4,
+   "share_top5": 0.6688741721854304,
+   "mrr_like": 0.3801682008422788
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 3,
+   "share_top5": 0.7142857142857143,
+   "mrr_like": 0.41769100917066143
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 2,
+   "share_top5": 0.9873417721518988,
+   "mrr_like": 0.5883514165159736
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 3,
+   "share_top5": 0.7421052631578947,
+   "mrr_like": 0.4016796294524662
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 3,
+   "share_top5": 0.7142857142857143,
+   "mrr_like": 0.41769100917066143
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 5,
+   "share_top5": 0.5833333333333334,
+   "mrr_like": 0.2536292989417989
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 4,
+   "share_top5": 0.7045454545454546,
+   "mrr_like": 0.33371212121212124
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 1,
+   "share_top5": 1.0,
+   "mrr_like": 0.7748538011695906
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 4,
+   "share_top5": 0.6206896551724138,
+   "mrr_like": 0.31047509900223985
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 3,
+   "share_top5": 0.734375,
+   "mrr_like": 0.47490726115608173
+  }
+ },
+ "raeer": {
+  "contradiction:lead has contradicting evidence": {
+   "n": 35,
+   "median_rank": 1,
+   "share_top5": 1.0,
+   "mrr_like": 0.8357142857142857
+  },
+  "contradiction:no contradicting evidence": {
+   "n": 267,
+   "median_rank": 2,
+   "share_top5": 0.8426966292134831,
+   "mrr_like": 0.5014122787823634
+  },
+  "evidence_type:CCTV": {
+   "n": 235,
+   "median_rank": 2,
+   "share_top5": 0.9914893617021276,
+   "mrr_like": 0.6179432624113476
+  },
+  "evidence_type:CDR": {
+   "n": 302,
+   "median_rank": 2,
+   "share_top5": 0.8609271523178808,
+   "mrr_like": 0.5401558888572551
+  },
+  "evidence_type:DOCUMENT": {
+   "n": 182,
+   "median_rank": 2,
+   "share_top5": 0.8956043956043956,
+   "mrr_like": 0.600522029609924
+  },
+  "evidence_type:GPS": {
+   "n": 158,
+   "median_rank": 1,
+   "share_top5": 0.9936708860759493,
+   "mrr_like": 0.7456298975286317
+  },
+  "evidence_type:TRANSACTION_RECORD": {
+   "n": 190,
+   "median_rank": 2,
+   "share_top5": 0.9894736842105263,
+   "mrr_like": 0.5840350877192982
+  },
+  "evidence_type:WITNESS_STATEMENT": {
+   "n": 182,
+   "median_rank": 2,
+   "share_top5": 0.8956043956043956,
+   "mrr_like": 0.600522029609924
+  },
+  "red_herring:HIGH_COMMUNICATION": {
+   "n": 48,
+   "median_rank": 7,
+   "share_top5": 0.2916666666666667,
+   "mrr_like": 0.16771810365560366
+  },
+  "red_herring:HIGH_PROXIMITY": {
+   "n": 44,
+   "median_rank": 7,
+   "share_top5": 0.2727272727272727,
+   "mrr_like": 0.14374048596976405
+  },
+  "red_herring:MIXED": {
+   "n": 57,
+   "median_rank": 3,
+   "share_top5": 0.9824561403508771,
+   "mrr_like": 0.3385964912280702
+  },
+  "reliability:high (>= median)": {
+   "n": 174,
+   "median_rank": 2,
+   "share_top5": 0.8563218390804598,
+   "mrr_like": 0.46924560754339945
+  },
+  "reliability:low (< median)": {
+   "n": 128,
+   "median_rank": 2,
+   "share_top5": 0.8671875,
+   "mrr_like": 0.6365495525182774
+  }
+ }
+}

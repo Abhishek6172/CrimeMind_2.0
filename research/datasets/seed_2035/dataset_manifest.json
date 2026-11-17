@@ -1,0 +1,61 @@
+{
+ "cases": [
+  "CASE-2035-001",
+  "CASE-2035-002"
+ ],
+ "database": "cm_r_2035",
+ "seconds": 2.5,
+ "seed": 2035,
+ "summary": {
+  "content_sha256": "f19bb7924b959c876e05a8b1b055b48601f31e0f270de17c7e955c90624cd9b5",
+  "evidence_rows": 502,
+  "findings": 180,
+  "leads": 3,
+  "lifecycle_steps": 12,
+  "persons": 106,
+  "red_herrings": 1
+ },
+ "tables": {
+  "communications": {
+   "rows": 1534,
+   "sha256": "f5b462433252fb08cbcdec057363c1bcb6cbe2b3b1f37e976f58b86961340a2e"
+  },
+  "entities": {
+   "rows": 220,
+   "sha256": "76ebb9595b9df7dc476c3be59261b2a0e57bdc8bff1ef8f65624b8608a3030df"
+  },
+  "event_entities": {
+   "rows": 2,
+   "sha256": "b7f97556db55dc9b3c05d3bfa751c1c3e1f24698c45a756d27962d8fbe6701da"
+  },
+  "events": {
+   "rows": 2,
+   "sha256": "52a73582b11b01cd0ae2c5294cc74f926dffb6b2c32346e58cc3e88130eb435a"
+  },
+  "evidence": {
+   "rows": 502,
+   "sha256": "f55a4db02e49a8bb2d17d94fbf861cddda26430208b7b6a7cb25eac7a2ca385d"
+  },
+  "evidence_entities": {
+   "rows": 526,
+   "sha256": "5ecf87fc20480c280c799b8e929d7e743d95b7f4323e6e53bb45c9730e6d794a"
+  },
+  "evidence_events": {
+   "rows": 6,
+   "sha256": "4054493a18abeb6b08f686fe4c549f0c639026b232e429a17944b9d2d9d352a1"
+  },
+  "location_observations": {
+   "rows": 1651,
+   "sha256": "52ac5fbcfea81f3ad426daeb0d975c843ce062fc339bb9570733748f3f6a5d72"
+  },
+  "relationships": {
+   "rows": 599,
+   "sha256": "4529a0fa102b8b0c600ec6f0162315128126bdfed6502b8433f1c648b5c17a8a"
+  },
+  "transactions": {
+   "rows": 333,
+   "sha256": "a9adf80f54d072c728ce96427846df5d9f88a2cbf92cda6fcb54535c9af47b6e"
+  }
+ },
+ "validation": "PASSED"
+}

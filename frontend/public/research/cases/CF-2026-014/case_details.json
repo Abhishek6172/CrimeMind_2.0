@@ -1,0 +1,38 @@
+{
+  "case_id": "CF-2026-014",
+  "title": "The Missing Research Laptop",
+  "case_type": "Theft / property investigation",
+  "status": "Open",
+  "classification": "Fictional training case",
+  "incident_date": "2026-10-28",
+  "reported_at": "2026-10-28T18:40:00",
+  "location": "Meridian Innovation Centre, Building B, Room 204",
+  "reporting_person": "Dr. Meera Sen",
+  "estimated_loss": "₹85,000",
+  "summary": "A university-owned research laptop was reported missing from Room 204 after an afternoon project meeting. The room was used by several staff members and students during the day. Available records establish a limited timeline, but do not identify a confirmed offender. The evidence contains both potentially relevant and inconclusive details.",
+  "investigative_questions": [
+    "When was the laptop last confirmed present?",
+    "Who had authorised access to Room 204 during the relevant period?",
+    "Do the access log and witness accounts agree on the timeline?",
+    "Can the corridor camera still be obtained and reviewed?",
+    "Is there evidence that distinguishes accidental relocation from theft?"
+  ],
+  "persons_of_interest": [
+    {
+      "name": "Arjun Rao",
+      "role": "Research assistant",
+      "status": "Person to interview; not an accused person"
+    },
+    {
+      "name": "Nisha Kapoor",
+      "role": "Project student",
+      "status": "Person to interview; not an accused person"
+    },
+    {
+      "name": "Facilities staff member",
+      "role": "Building access",
+      "status": "Identity to be confirmed"
+    }
+  ],
+  "caution": "All names, places, records and events in this package are fictional. This case is for training and demonstration only. No person should be treated as guilty based on these materials."
+}

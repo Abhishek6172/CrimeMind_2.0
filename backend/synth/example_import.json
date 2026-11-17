@@ -1,0 +1,53 @@
+{
+  "dry_run": true,
+  "entities": [
+    {
+      "entity_type": "PERSON",
+      "display_name": "Example Person",
+      "ref": "P-301"
+    },
+    {
+      "entity_type": "LOCATION",
+      "display_name": "Example Cafe",
+      "ref": "L-301",
+      "attributes": {
+        "lat": 20.31,
+        "lon": 85.83,
+        "kind": "PUBLIC"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_type": "CCTV",
+      "source": "CAM-77",
+      "description": "Example camera clip",
+      "ref": "E-N901",
+      "origin_root": "CCTV:CAM-77",
+      "entity_refs": [
+        "P-301",
+        "L-301"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "subject": "P-301",
+      "location": "L-301",
+      "observed_from": "2026-08-14T20:00:00+05:30",
+      "observed_to": "2026-08-14T20:30:00+05:30",
+      "source_kind": "CCTV",
+      "source": "CAM-77",
+      "evidence_ref": "E-N901"
+    }
+  ],
+  "communications": [
+    {
+      "sender": "P-301",
+      "receiver": "P-004",
+      "comm_type": "CALL",
+      "occurred_at": "2026-08-14T19:50:00+05:30",
+      "duration_sec": 90
+    }
+  ]
+}

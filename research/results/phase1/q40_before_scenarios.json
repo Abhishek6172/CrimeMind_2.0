@@ -1,0 +1,598 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_ref": "P-002",
+      "association_score": 0.85,
+      "signals": [
+        "SPATIAL",
+        "TEMPORAL",
+        "FINANCIAL",
+        "RELATIONAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 5
+    },
+    {
+      "rank": 2,
+      "entity_ref": "P-004",
+      "association_score": 0.7,
+      "signals": [
+        "SPATIAL",
+        "TEMPORAL",
+        "RELATIONAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 3,
+      "entity_ref": "P-003",
+      "association_score": 0.55,
+      "signals": [
+        "TEMPORAL",
+        "COMMUNICATION",
+        "FINANCIAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 4
+    },
+    {
+      "rank": 4,
+      "entity_ref": "P-011",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 5,
+      "entity_ref": "P-012",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 6,
+      "entity_ref": "P-013",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 7,
+      "entity_ref": "P-014",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 8,
+      "entity_ref": "P-015",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 9,
+      "entity_ref": "P-017",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 10,
+      "entity_ref": "P-019",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 11,
+      "entity_ref": "P-021",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 12,
+      "entity_ref": "P-022",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 13,
+      "entity_ref": "P-024",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 14,
+      "entity_ref": "P-027",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 15,
+      "entity_ref": "P-028",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 16,
+      "entity_ref": "P-030",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 17,
+      "entity_ref": "P-033",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 18,
+      "entity_ref": "P-037",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 19,
+      "entity_ref": "P-038",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 20,
+      "entity_ref": "P-039",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 21,
+      "entity_ref": "P-041",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 22,
+      "entity_ref": "P-043",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 23,
+      "entity_ref": "P-047",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 24,
+      "entity_ref": "P-048",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 25,
+      "entity_ref": "P-054",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    }
+  ],
+  "metrics_by_k": [
+    {
+      "case": "CASE-2026-001",
+      "k": 1,
+      "ranking_top": [
+        "P-002"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.5,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 0,
+        "steps_not_applied": 6,
+        "steps_passed": 0,
+        "lifecycle_transition_accuracy": null,
+        "affected_finding_precision_micro": null,
+        "affected_finding_recall_micro": null,
+        "affected_finding_f1_micro": null,
+        "unnecessary_recomputation_rate": null,
+        "missed_recomputation_rate": null
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": false,
+          "passed": null
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 0,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 2,
+      "ranking_top": [
+        "P-002",
+        "P-004"
+      ],
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.5,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 0,
+        "steps_not_applied": 6,
+        "steps_passed": 0,
+        "lifecycle_transition_accuracy": null,
+        "affected_finding_precision_micro": null,
+        "affected_finding_recall_micro": null,
+        "affected_finding_f1_micro": null,
+        "unnecessary_recomputation_rate": null,
+        "missed_recomputation_rate": null
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": false,
+          "passed": null
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 0,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 3,
+      "ranking_top": [
+        "P-002",
+        "P-004",
+        "P-003"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 0,
+        "steps_not_applied": 6,
+        "steps_passed": 0,
+        "lifecycle_transition_accuracy": null,
+        "affected_finding_precision_micro": null,
+        "affected_finding_recall_micro": null,
+        "affected_finding_f1_micro": null,
+        "unnecessary_recomputation_rate": null,
+        "missed_recomputation_rate": null
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": false,
+          "passed": null
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 0,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 5,
+      "ranking_top": [
+        "P-002",
+        "P-004",
+        "P-003",
+        "P-011",
+        "P-012"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 0,
+        "steps_not_applied": 6,
+        "steps_passed": 0,
+        "lifecycle_transition_accuracy": null,
+        "affected_finding_precision_micro": null,
+        "affected_finding_recall_micro": null,
+        "affected_finding_f1_micro": null,
+        "unnecessary_recomputation_rate": null,
+        "missed_recomputation_rate": null
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": false,
+          "passed": null
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": false,
+          "passed": null
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 0,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    }
+  ]
+}

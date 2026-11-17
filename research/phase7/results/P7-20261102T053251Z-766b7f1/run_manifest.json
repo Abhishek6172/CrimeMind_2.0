@@ -1,0 +1,61 @@
+{
+ "config": {
+  "db_check_seed": 2026,
+  "edge_seeds": [
+   2026,
+   2060
+  ],
+  "notes": "Parameter sets are generated deterministically from (seed, case, module, variant). Oracles read the committed CSV datasets (dataset_csv) or raw base tables of a mutated disposable DB (edge_mutated); never views or the SQL modules.",
+  "oracle_seeds": [
+   2026,
+   2040,
+   2055,
+   2075
+  ],
+  "perf": {
+   "repetitions": 20,
+   "scales": [
+    1,
+    2,
+    5,
+    10
+   ],
+   "seed": 2026,
+   "slow_query_threshold_ms": 50
+  },
+  "q40_seeds": [
+   2026,
+   2040,
+   2055,
+   2075
+  ]
+ },
+ "environment": {
+  "cpu_count": 2,
+  "git_commit": "766b7f1",
+  "git_dirty": true,
+  "packages": {
+   "fastapi": "0.162.0",
+   "matplotlib": "3.11.2",
+   "networkx": "3.7",
+   "numpy": "2.5.3",
+   "psycopg": "3.3.6",
+   "pytest": "9.1.1",
+   "scipy": "1.18.1"
+  },
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "postgres": null,
+  "python": "3.13.18",
+  "timestamp_utc": "2026-11-02T05:35:12.295712+00:00"
+ },
+ "errors": {},
+ "phase": "phase7",
+ "quick": false,
+ "run_id": "P7-20261102T053251Z-766b7f1",
+ "stages": {
+  "db": "EXECUTED",
+  "oracles": "EXECUTED",
+  "perf": "EXECUTED",
+  "q40": "EXECUTED"
+ }
+}

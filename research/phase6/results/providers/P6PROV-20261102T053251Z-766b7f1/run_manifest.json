@@ -1,0 +1,37 @@
+{
+ "environment": {
+  "cpu_count": 2,
+  "git_commit": "766b7f1",
+  "git_dirty": true,
+  "packages": {
+   "fastapi": "0.162.0",
+   "matplotlib": "3.11.2",
+   "networkx": "3.7",
+   "numpy": "2.5.3",
+   "psycopg": "3.3.6",
+   "pytest": "9.1.1",
+   "scipy": "1.18.1"
+  },
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "postgres": null,
+  "python": "3.13.18",
+  "timestamp_utc": "2026-11-02T05:32:51.379836+00:00"
+ },
+ "kind": "provider_evaluation",
+ "phase": 6,
+ "providers": {
+  "anthropic": {
+   "reason": "ANTHROPIC_API_KEY is not set",
+   "status": "NOT_RUN"
+  },
+  "gemini": {
+   "reason": "GEMINI_API_KEY is not set",
+   "status": "NOT_RUN"
+  },
+  "offline-template": {
+   "note": "deterministic template, not an LLM; evaluated on the full benchmark by research/phase6/run_phase6.py",
+   "status": "EXECUTED"
+  }
+ },
+ "run_id": "P6PROV-20261102T053251Z-766b7f1"
+}

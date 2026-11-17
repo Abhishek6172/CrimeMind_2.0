@@ -1,0 +1,345 @@
+{
+ "run_id": "P8-20261102T052552Z-766b7f1",
+ "quick": false,
+ "phases": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "command": "/usr/local/bin/python3 -m research.run_all --phases 3 4 5 6 7 8 --out research/phase8/results/FULL_RUN",
+ "environment": {
+  "timestamp_utc": "2026-11-02T05:35:35.511563+00:00",
+  "git_commit": "766b7f1",
+  "git_dirty": true,
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "cpu_count": 2,
+  "postgres": null,
+  "packages": {
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "matplotlib": "3.11.2",
+   "psycopg": "3.3.6",
+   "fastapi": "0.162.0",
+   "pytest": "9.1.1",
+   "networkx": "3.7"
+  }
+ },
+ "git_commit": "766b7f1",
+ "git_dirty": true,
+ "steps": {
+  "phase3.experiment": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 81.4,
+   "command": "python -m research.phase3.run_phase3 --workers 3"
+  },
+  "phase3.report": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.0,
+   "command": "python /home/claude/cm2/crimemind/research/phase3/reports/make_report.py"
+  },
+  "phase4.experiment": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 85.9,
+   "command": "python -m research.phase4.run_phase4 --workers 3"
+  },
+  "phase4.report": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.0,
+   "command": "python /home/claude/cm2/crimemind/research/phase4/reports/make_report.py"
+  },
+  "phase5.experiment": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 188.3,
+   "command": "python -m research.phase5.run_phase5 --workers 3"
+  },
+  "phase5.analysis": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 6.1,
+   "command": "python -m research.phase5.analyse"
+  },
+  "phase5.report": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.0,
+   "command": "python /home/claude/cm2/crimemind/research/phase5/make_report.py"
+  },
+  "phase6.benchmark": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.4,
+   "command": "python -m research.phase6.benchmark.build_benchmark"
+  },
+  "phase6.experiment": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 56.5,
+   "command": "python -m research.phase6.run_phase6 --workers 3"
+  },
+  "phase6.provider_harness": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.4,
+   "command": "python -m research.phase6.provider_eval"
+  },
+  "phase6.report": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.0,
+   "command": "python /home/claude/cm2/crimemind/research/phase6/reports/make_report.py"
+  },
+  "phase7.experiment": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 160.9,
+   "command": "python -m research.phase7.run_phase7"
+  },
+  "phase7.docs": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.1,
+   "command": "python /home/claude/cm2/crimemind/research/phase7/reports/make_docs.py"
+  },
+  "phase7.report": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.0,
+   "command": "python /home/claude/cm2/crimemind/research/phase7/reports/make_report.py"
+  },
+  "phase8.aggregate_and_figures": {
+   "status": "EXECUTED"
+  },
+  "phase8.final_report": {
+   "status": "EXECUTED",
+   "return_code": 0,
+   "seconds": 0.1
+  }
+ },
+ "datasets": [
+  {
+   "seed": "2026",
+   "content_sha256": "70ddea0e74b147f2d724ae9b9679f490bec3f70d29a0f551bad43ed2b729479e"
+  },
+  {
+   "seed": "2027",
+   "content_sha256": "7c67bfe12444d075a0f1dd0b7ebbaed80a1bee9bbe39efc7760d7cdb65cc6a28"
+  },
+  {
+   "seed": "2028",
+   "content_sha256": "76b802ce9a6914b5b8124b128597a59a69240351cb5107e701658792ea087fb6"
+  },
+  {
+   "seed": "2029",
+   "content_sha256": "de75b30d31b0ba8c2b88ab330e86f1823b121448c5311c1d2de667945a99c19c"
+  },
+  {
+   "seed": "2030",
+   "content_sha256": "cd7cd378227eb30c7ceac899bcc4d3de3eb79cda1a9a19ffc0d865e8672a75d2"
+  },
+  {
+   "seed": "2031",
+   "content_sha256": "996187bb54db6b4ea42c3d692ad235304d5fa6ca2e8fd4736c785aee4d29ff5a"
+  },
+  {
+   "seed": "2032",
+   "content_sha256": "a721382fb6ed7137149b25458a9b12f50e2016fd86bd0b3abc6d3e900ac18a2f"
+  },
+  {
+   "seed": "2033",
+   "content_sha256": "2bf3d3e9a715449697ac4138a3b41bca9cc70ac28a398e6361f27577f0376eba"
+  },
+  {
+   "seed": "2034",
+   "content_sha256": "311d289388a239aa65740d1c97659227a48d429b0448b633a752bc20fa9750f0"
+  },
+  {
+   "seed": "2035",
+   "content_sha256": "f19bb7924b959c876e05a8b1b055b48601f31e0f270de17c7e955c90624cd9b5"
+  },
+  {
+   "seed": "2036",
+   "content_sha256": "350e1af678e0be7890fd78eb5750b817f09472a344062328bae4bc1413bf7071"
+  },
+  {
+   "seed": "2037",
+   "content_sha256": "e446f7bb9df7a97a43ee564605acc32e4eed7e9eebea738e347a6c8a1f33be25"
+  },
+  {
+   "seed": "2038",
+   "content_sha256": "f3bc1a980792ccc7998f6fa22b5b5161e9c1ec5c504b4bf999cc2694903c8f31"
+  },
+  {
+   "seed": "2039",
+   "content_sha256": "de7efcd1df17263c0e154e01102721d6e61eb031ec028d7ac4b641cec1e28e44"
+  },
+  {
+   "seed": "2040",
+   "content_sha256": "ba0f0e3f9fa08c7eb6659d23990405a6d738ed480b272655bb1e5593abd32731"
+  },
+  {
+   "seed": "2041",
+   "content_sha256": "a08d408f332e8090a2f420d0dfff578d64d71fc2ac38013682641791ad105179"
+  },
+  {
+   "seed": "2042",
+   "content_sha256": "c1bd0b7d33d14311984ed4636f01822e7eb46558f175c285d01436c1a72e5c60"
+  },
+  {
+   "seed": "2043",
+   "content_sha256": "158a5b0fffd5a92d1e8d8f6946bf48010472a6901a782db37effd93aa9c9736e"
+  },
+  {
+   "seed": "2044",
+   "content_sha256": "4cb6ca9c582b29a50e322bb7bbbd4714750330f771461de78edd40635db85ff0"
+  },
+  {
+   "seed": "2045",
+   "content_sha256": "8de35d22cceb0dcf75b24d5adb06a475d392fd9eac6773f687af9e5656615ae9"
+  },
+  {
+   "seed": "2046",
+   "content_sha256": "3ba261c55090be230aba28dac3ed39d3d074a4e8fe3e16361abb2e20b3798a1e"
+  },
+  {
+   "seed": "2047",
+   "content_sha256": "d67eccadcd2e94c7c4216f372ab01a29b75a665fdaca2da5af1c1a19157188ee"
+  },
+  {
+   "seed": "2048",
+   "content_sha256": "0a2cfbe1a8b8d856ec4c92ddcca687380de2e9c75ac58ff2f93e6556d5d322b0"
+  },
+  {
+   "seed": "2049",
+   "content_sha256": "a53fdc56a6d417e33ab2d0cbd2679e9e448b6e42562910e0cd8665c302cfebbb"
+  },
+  {
+   "seed": "2050",
+   "content_sha256": "ac7180288126f60e1a920d4a347c6f95f2417bbac37622c9bc7b5bc2a051138d"
+  },
+  {
+   "seed": "2051",
+   "content_sha256": "bed4b7607e8eff2f0ac5aafd36e8b4d1534a964b1255b42bf5899dd53b61e8c7"
+  },
+  {
+   "seed": "2052",
+   "content_sha256": "2bf8b55b94bb746725f2f15437676527a4bf0c92ec7ba5a78389562dcd18b633"
+  },
+  {
+   "seed": "2053",
+   "content_sha256": "f2d6a438a0a7628b8d22c549e03638fc579be95f278bd3bc364fb6c4c9fba8cf"
+  },
+  {
+   "seed": "2054",
+   "content_sha256": "158bcd7e6c63906abb5413ce9405d3599cbfbdd7b13c55482f050b284b803418"
+  },
+  {
+   "seed": "2055",
+   "content_sha256": "c3e1104b309a0f3b88ba444e4e9f851f7aa52cb9d8fb25626521aa56ce6e692f"
+  },
+  {
+   "seed": "2056",
+   "content_sha256": "4176c1f921e18b9d9b7fcf102042e1daca24925a69379599510f9eb666c56d51"
+  },
+  {
+   "seed": "2057",
+   "content_sha256": "042d828f3beeefea54c7ff6d083fbc724f790c089489cf3f37b996a1553ef390"
+  },
+  {
+   "seed": "2058",
+   "content_sha256": "63dda3e37230cf3224951df5570e97334abfcd8b894dbf3e11c2e50014d456a5"
+  },
+  {
+   "seed": "2059",
+   "content_sha256": "404743ae3e122df4eecf8d93dcd58c959cd19f70a47c303386c5baac6112e517"
+  },
+  {
+   "seed": "2060",
+   "content_sha256": "d6ee3c220c0e41656db60d07c95dd38e2d14a2c64acb4e8d573bfabd7a4fa944"
+  },
+  {
+   "seed": "2061",
+   "content_sha256": "9e00c5fe57a162a2586b2092bfff9482e61babff0daf3132742f4a93b33f80c5"
+  },
+  {
+   "seed": "2062",
+   "content_sha256": "6a75d0decacfdb8212e751068406f2e2d9a5f0cb9b90bdbeeec0b612a28969e7"
+  },
+  {
+   "seed": "2063",
+   "content_sha256": "13023473295f33a40d6adc019df4fbcf14ed0a4392ba7b42dfcfc1462681d71d"
+  },
+  {
+   "seed": "2064",
+   "content_sha256": "a0e22bb8c913154f2e2f61fe94f82e52dc91ffca9e1c2c20b8b8f6874ffddbab"
+  },
+  {
+   "seed": "2065",
+   "content_sha256": "436e81db5929e0bf58f2e9396706754b76efda7c028ce7cb87eafac65815720d"
+  },
+  {
+   "seed": "2066",
+   "content_sha256": "036318a480a8b3d08002e9c8101b11c1114a6649e6171b954c136c575141fac3"
+  },
+  {
+   "seed": "2067",
+   "content_sha256": "de92988a653cc4c8e30857a4519ad7bc4581b993e7855acf189095d91be22903"
+  },
+  {
+   "seed": "2068",
+   "content_sha256": "c4d0a5090ceac22db6ad997c0c6e2c8b252827dce7f9b49f64a70a4d45488ce2"
+  },
+  {
+   "seed": "2069",
+   "content_sha256": "4f45d76be4e744e3211cbbe865b7b75c11bcee6b60bc27280e959e7b464fb958"
+  },
+  {
+   "seed": "2070",
+   "content_sha256": "a52169a0ddfaa517600bf790d0a3c3c7db2cd5ed43d4f7a6cc8b917a1d6fb071"
+  },
+  {
+   "seed": "2071",
+   "content_sha256": "7b476cbffdcb40c8257fd2b0a4848aec6d5a2c4db8954389ceaa768a8c2e6eec"
+  },
+  {
+   "seed": "2072",
+   "content_sha256": "0d78fbf0f53cfff84d28cd361d9115945a81174f603518b44dd0dbf634d4b8a7"
+  },
+  {
+   "seed": "2073",
+   "content_sha256": "0a14eff7b0cb2be997e93af99be941a1bbed1163b056507e5b920ab46c5c44e1"
+  },
+  {
+   "seed": "2074",
+   "content_sha256": "1c771c3755c1dbec92a9f897df48da398cb9b4148d15bb5c7c6487236e23b11d"
+  },
+  {
+   "seed": "2075",
+   "content_sha256": "5cc0e2ec5f351a0fb620953c3aec88726a5e2c956f519c41d167e7f253cc9304"
+  }
+ ],
+ "configs": {
+  "research/phase3/configs/phase3_config.json": "40590e9e0376efdbea3272a8103c6210bbceddcb6a9db71d2e0bd0cfe49515ad",
+  "research/phase4/configs/phase4_config.json": "3ddfab382491683d9efbdcfd5c4c81f3061785a240d3731697c6a0ea172dc6cc",
+  "research/phase5/configs/phase5_config.json": "a8df8c3676ce97f3f8adafe42d51b42ccd5ab2c921cfe1642fdc75a38b431ea0",
+  "research/phase7/configs/phase7_config.json": "8029314443f417c77afa11e59ae28e077f3cc995826062b328224ee585749e14",
+  "research/generation_config.json": "54a2891d4cecfa7a9fc1b61974557d88c5ae8bd40b384bf1616d1b3ae8ccedc9"
+ },
+ "frozen_q40_bundle": {
+  "research/results/baseline/evidence_evolution_steps.json": "d9692378f0f89b64d8f0c2894b892ca39b89c903aef7e0a2b43403840b84d66f",
+  "research/results/baseline/manifest.json": "ad0a27bfdf130a1736483976df6476acc668833f3a3541e16496367a87a5f60c",
+  "research/results/baseline/pytest_junit.xml": "efdc1e926313925dd8987c18644fc99726f2b2a998d643bd3b6133ec00006cc2",
+  "research/results/baseline/pytest_output.txt": "1566dc4c0fa27cdfe0aaa2adea5d1d4377a002df6262ac875d65595d29d1ae54",
+  "research/results/baseline/q40_after_scenarios.json": "1d4302d64baf585049acc5c2b16f01ff095ae3df03c8b90440546d2f9504b3b4",
+  "research/results/baseline/q40_before_scenarios.json": "e14ec683968f88efeb1031501140fc9eaac0dbc2d4ab0b033a5ce5b50363fa02"
+ },
+ "status": "COMPLETED"
+}

@@ -1,0 +1,388 @@
+{
+ "config": {
+  "ablations": [
+   "raeer",
+   "raeer-no_reliability",
+   "raeer-no_contradiction",
+   "raeer-no_temporal",
+   "raeer-no_spatial",
+   "raeer-no_communication",
+   "raeer-no_graph",
+   "raeer-no_lifecycle",
+   "raeer-no_corroboration",
+   "raeer-no_independence",
+   "raeer-no_provenance"
+  ],
+  "communication": {
+   "note": "equal weights, min-max normalised per case; no tuning against labels",
+   "pre_incident_days": 7,
+   "recency_half_life_hours": 24,
+   "weights": {
+    "count": 0.25,
+    "pre_incident_week_frequency": 0.25,
+    "recency": 0.25,
+    "unique_partners": 0.25
+   }
+  },
+  "config_version": "p3:p3-1.0+p4:p4-1.0+p5:p5-1.0",
+  "evolution": {
+   "methods": [
+    "q40",
+    "q40_r",
+    "raeer",
+    "raeer-no_lifecycle"
+   ],
+   "top_k_overlap": 5
+  },
+  "frozen_before_evaluation": true,
+  "graph": {
+   "pagerank_damping": 0.85,
+   "pagerank_max_iter": 200,
+   "pagerank_tol": 1e-10
+  },
+  "key_metrics": [
+   "nDCG@5",
+   "MRR",
+   "AP"
+  ],
+  "methods_robustness": [
+   "q40_py",
+   "q40_r",
+   "raeer",
+   "raeer-no_independence",
+   "raeer-no_lifecycle",
+   "spatial_proximity",
+   "communication_frequency",
+   "pagerank"
+  ],
+  "metrics": {
+   "ks": [
+    1,
+    3,
+    5
+   ],
+   "ndcg_gain": "2^grade - 1, discount 1/log2(rank+1)",
+   "relevant": "grade >= 1 (binary metrics)"
+  },
+  "missing_reliability": 0.5,
+  "missing_reliability_rationale": "A record with no linked evidence has unknown provenance; the neutral midpoint 0.5 neither rewards nor erases it. Q40 effectively uses 1.0.",
+  "note": "Parameters below were fixed a priori from existing system thresholds and documented rationale and were NOT tuned on any ground truth. Any later change must be a new config_version with ALL variants reported.",
+  "perturbation_semantics": {
+   "p": "fraction of items affected (evidence items, records or candidates, see research/phase5/perturb.py); low_reliability: reliability scaled by (1-p); mixed_quality level L applies missing(L/2), timestamps(L/2), low_reliability(L/2), duplicate(L/2), invalidation(L/4)",
+   "timestamp_shift_minutes": [
+    30,
+    240
+   ]
+  },
+  "perturbations": {
+   "challenge": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "contradictory_records": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "delayed_evidence": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "duplicate_evidence": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "incorrect_timestamps": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "invalidation": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "low_reliability": [
+    0.2,
+    0.4,
+    0.6
+   ],
+   "missing_evidence": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "mixed_quality": [
+    0.2,
+    0.4,
+    0.6
+   ],
+   "noisy_location": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "reduced_communication": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "reduced_graph": [
+    0.1,
+    0.3,
+    0.5
+   ],
+   "update_superseded": [
+    0.1,
+    0.3,
+    0.5
+   ]
+  },
+  "q40": {
+   "result_limit": 1000,
+   "weights_frozen_in": "backend/app/sql_modules/18_get_case_evidence_ranking.sql (variant overall)",
+   "window_minutes": 60
+  },
+  "q40_py_note": "q40_py is Q40 re-expressed in Python (Q40-R with reliability off and only SUPPORTED records). It equals the frozen SQL within its 2-decimal rounding on clean data (test_q40r_with_reliability_off_equals_frozen_q40_on_real_data) and is used because the SQL cannot run on in-memory perturbed data.",
+  "q40r": {
+   "evidence_divisor": 3.0,
+   "features": {
+    "reliability": true
+   },
+   "weights": {
+    "communication": 0.15,
+    "evidence": 0.15,
+    "financial": 0.15,
+    "relational": 0.1,
+    "spatial": 0.35,
+    "temporal": 0.1
+   },
+   "weights_rationale": "identical to frozen Q40 so that only the reliability treatment differs"
+  },
+  "raeer": {
+   "contradiction": {
+    "distance_m": 1000,
+    "gamma": 0.5,
+    "rationale": "distance from CONTRADICTION_001; gamma<1 so a contradiction can lower but never erase support (contradiction is not proof of innocence)"
+   },
+   "corroboration_domains_cap": 3,
+   "expansion": "Reliability-Aware Evidence Evolution Ranking (name from the project's Part 7 specification; the formula is defined in research/phase4/docs/RAEER_DEFINITION.md because no mathematical definition existed)",
+   "features": {
+    "contradiction": true,
+    "corroboration": true,
+    "independence": true,
+    "lifecycle": true,
+    "provenance": true,
+    "relational": true,
+    "reliability": true,
+    "temporal": true
+   },
+   "scene_radius_m": 150,
+   "scene_radius_rationale": "threshold of the existing INCIDENT_PROXIMITY_001 correlation rule",
+   "temporal_tau_minutes": 30,
+   "temporal_tau_rationale": "half of the 60-minute incident window: evidence at the incident time counts fully, evidence at the window edge about e^-2",
+   "weights": {
+    "communication": 0.15,
+    "corroboration": 0.15,
+    "financial": 0.15,
+    "relational": 0.1,
+    "spatial": 0.35,
+    "temporal": 0.1
+   },
+   "weights_rationale": "same weights as Q40 by design: differences from Q40 come from feature definitions, not from re-weighting"
+  },
+  "random": {
+   "repetitions": 100,
+   "seed_scheme": "sha256(dataset_id|case_ref|repetition)"
+  },
+  "seeds": "2026-2075",
+  "sensitivity": {
+   "contradiction_distance_m": [
+    500,
+    1000,
+    2000
+   ],
+   "gamma": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+   ],
+   "scene_radius_m": [
+    50,
+    150,
+    300
+   ],
+   "tau_minutes": [
+    15,
+    30,
+    60,
+    120
+   ],
+   "weight_note": "each weight scaled by the factor, others renormalised to sum 1 (one-at-a-time)",
+   "weight_scale": [
+    0.5,
+    1.5
+   ]
+  },
+  "spatial": {
+   "note": "score = 1/(1+d_min/scale) over observations overlapping +/-window of the incident; no observation in window -> 0",
+   "proximity_scale_m": 100
+  },
+  "statistics": {
+   "bootstrap_resamples": 10000,
+   "bootstrap_seed": 20260101,
+   "effect_size": "matched-pairs rank-biserial r and Cohen d_z",
+   "multiplicity": "Holm-Bonferroni across all method pairs within each metric",
+   "test": "paired Wilcoxon signed-rank (two-sided)"
+  },
+  "status_factor": {
+   "CHALLENGED": 0.5,
+   "INVALIDATED": 0.0,
+   "SUPERSEDED": 0.0,
+   "SUPPORTED": 1.0
+  },
+  "status_factor_rationale": "Q40 excludes non-SUPPORTED records entirely. Challenged evidence is under documented dispute, so it keeps half weight; invalidated/superseded evidence is never treated as current support (0).",
+  "tie_break": "descending raw score, then ascending sha256(dataset_id|case_ref|candidate) - independent of reference order and of labels",
+  "unit_of_analysis": "seed (mean over the seed's two cases); case-level reported as secondary",
+  "window_minutes": 60
+ },
+ "dataset_hashes": {
+  "2026": "70ddea0e74b147f2d724ae9b9679f490bec3f70d29a0f551bad43ed2b729479e",
+  "2027": "7c67bfe12444d075a0f1dd0b7ebbaed80a1bee9bbe39efc7760d7cdb65cc6a28",
+  "2028": "76b802ce9a6914b5b8124b128597a59a69240351cb5107e701658792ea087fb6",
+  "2029": "de75b30d31b0ba8c2b88ab330e86f1823b121448c5311c1d2de667945a99c19c",
+  "2030": "cd7cd378227eb30c7ceac899bcc4d3de3eb79cda1a9a19ffc0d865e8672a75d2",
+  "2031": "996187bb54db6b4ea42c3d692ad235304d5fa6ca2e8fd4736c785aee4d29ff5a",
+  "2032": "a721382fb6ed7137149b25458a9b12f50e2016fd86bd0b3abc6d3e900ac18a2f",
+  "2033": "2bf3d3e9a715449697ac4138a3b41bca9cc70ac28a398e6361f27577f0376eba",
+  "2034": "311d289388a239aa65740d1c97659227a48d429b0448b633a752bc20fa9750f0",
+  "2035": "f19bb7924b959c876e05a8b1b055b48601f31e0f270de17c7e955c90624cd9b5",
+  "2036": "350e1af678e0be7890fd78eb5750b817f09472a344062328bae4bc1413bf7071",
+  "2037": "e446f7bb9df7a97a43ee564605acc32e4eed7e9eebea738e347a6c8a1f33be25",
+  "2038": "f3bc1a980792ccc7998f6fa22b5b5161e9c1ec5c504b4bf999cc2694903c8f31",
+  "2039": "de7efcd1df17263c0e154e01102721d6e61eb031ec028d7ac4b641cec1e28e44",
+  "2040": "ba0f0e3f9fa08c7eb6659d23990405a6d738ed480b272655bb1e5593abd32731",
+  "2041": "a08d408f332e8090a2f420d0dfff578d64d71fc2ac38013682641791ad105179",
+  "2042": "c1bd0b7d33d14311984ed4636f01822e7eb46558f175c285d01436c1a72e5c60",
+  "2043": "158a5b0fffd5a92d1e8d8f6946bf48010472a6901a782db37effd93aa9c9736e",
+  "2044": "4cb6ca9c582b29a50e322bb7bbbd4714750330f771461de78edd40635db85ff0",
+  "2045": "8de35d22cceb0dcf75b24d5adb06a475d392fd9eac6773f687af9e5656615ae9",
+  "2046": "3ba261c55090be230aba28dac3ed39d3d074a4e8fe3e16361abb2e20b3798a1e",
+  "2047": "d67eccadcd2e94c7c4216f372ab01a29b75a665fdaca2da5af1c1a19157188ee",
+  "2048": "0a2cfbe1a8b8d856ec4c92ddcca687380de2e9c75ac58ff2f93e6556d5d322b0",
+  "2049": "a53fdc56a6d417e33ab2d0cbd2679e9e448b6e42562910e0cd8665c302cfebbb",
+  "2050": "ac7180288126f60e1a920d4a347c6f95f2417bbac37622c9bc7b5bc2a051138d",
+  "2051": "bed4b7607e8eff2f0ac5aafd36e8b4d1534a964b1255b42bf5899dd53b61e8c7",
+  "2052": "2bf8b55b94bb746725f2f15437676527a4bf0c92ec7ba5a78389562dcd18b633",
+  "2053": "f2d6a438a0a7628b8d22c549e03638fc579be95f278bd3bc364fb6c4c9fba8cf",
+  "2054": "158bcd7e6c63906abb5413ce9405d3599cbfbdd7b13c55482f050b284b803418",
+  "2055": "c3e1104b309a0f3b88ba444e4e9f851f7aa52cb9d8fb25626521aa56ce6e692f",
+  "2056": "4176c1f921e18b9d9b7fcf102042e1daca24925a69379599510f9eb666c56d51",
+  "2057": "042d828f3beeefea54c7ff6d083fbc724f790c089489cf3f37b996a1553ef390",
+  "2058": "63dda3e37230cf3224951df5570e97334abfcd8b894dbf3e11c2e50014d456a5",
+  "2059": "404743ae3e122df4eecf8d93dcd58c959cd19f70a47c303386c5baac6112e517",
+  "2060": "d6ee3c220c0e41656db60d07c95dd38e2d14a2c64acb4e8d573bfabd7a4fa944",
+  "2061": "9e00c5fe57a162a2586b2092bfff9482e61babff0daf3132742f4a93b33f80c5",
+  "2062": "6a75d0decacfdb8212e751068406f2e2d9a5f0cb9b90bdbeeec0b612a28969e7",
+  "2063": "13023473295f33a40d6adc019df4fbcf14ed0a4392ba7b42dfcfc1462681d71d",
+  "2064": "a0e22bb8c913154f2e2f61fe94f82e52dc91ffca9e1c2c20b8b8f6874ffddbab",
+  "2065": "436e81db5929e0bf58f2e9396706754b76efda7c028ce7cb87eafac65815720d",
+  "2066": "036318a480a8b3d08002e9c8101b11c1114a6649e6171b954c136c575141fac3",
+  "2067": "de92988a653cc4c8e30857a4519ad7bc4581b993e7855acf189095d91be22903",
+  "2068": "c4d0a5090ceac22db6ad997c0c6e2c8b252827dce7f9b49f64a70a4d45488ce2",
+  "2069": "4f45d76be4e744e3211cbbe865b7b75c11bcee6b60bc27280e959e7b464fb958",
+  "2070": "a52169a0ddfaa517600bf790d0a3c3c7db2cd5ed43d4f7a6cc8b917a1d6fb071",
+  "2071": "7b476cbffdcb40c8257fd2b0a4848aec6d5a2c4db8954389ceaa768a8c2e6eec",
+  "2072": "0d78fbf0f53cfff84d28cd361d9115945a81174f603518b44dd0dbf634d4b8a7",
+  "2073": "0a14eff7b0cb2be997e93af99be941a1bbed1163b056507e5b920ab46c5c44e1",
+  "2074": "1c771c3755c1dbec92a9f897df48da398cb9b4148d15bb5c7c6487236e23b11d",
+  "2075": "5cc0e2ec5f351a0fb620953c3aec88726a5e2c956f519c41d167e7f253cc9304"
+ },
+ "environment": {
+  "cpu_count": 2,
+  "git_commit": "5a32c26",
+  "git_dirty": true,
+  "packages": {
+   "fastapi": "0.162.0",
+   "matplotlib": "3.11.2",
+   "networkx": "3.7",
+   "numpy": "2.5.3",
+   "psycopg": "3.3.6",
+   "pytest": "9.1.1",
+   "scipy": "1.18.1"
+  },
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "postgres": null,
+  "python": "3.13.18",
+  "timestamp_utc": "2026-11-01T13:31:37.047124+00:00"
+ },
+ "errors": [],
+ "parts": [
+  "ablation",
+  "robustness",
+  "sensitivity",
+  "evolution"
+ ],
+ "phase": 5,
+ "rows": 38400,
+ "run_id": "P5-20261101T132831Z-5a32c26",
+ "seeds": [
+  2026,
+  2027,
+  2028,
+  2029,
+  2030,
+  2031,
+  2032,
+  2033,
+  2034,
+  2035,
+  2036,
+  2037,
+  2038,
+  2039,
+  2040,
+  2041,
+  2042,
+  2043,
+  2044,
+  2045,
+  2046,
+  2047,
+  2048,
+  2049,
+  2050,
+  2051,
+  2052,
+  2053,
+  2054,
+  2055,
+  2056,
+  2057,
+  2058,
+  2059,
+  2060,
+  2061,
+  2062,
+  2063,
+  2064,
+  2065,
+  2066,
+  2067,
+  2068,
+  2069,
+  2070,
+  2071,
+  2072,
+  2073,
+  2074,
+  2075
+ ],
+ "seeds_evaluated": 50,
+ "status": "COMPLETED"
+}

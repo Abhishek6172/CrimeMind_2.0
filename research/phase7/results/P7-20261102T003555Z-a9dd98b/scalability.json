@@ -1,0 +1,3384 @@
+{
+ "seed": 2026,
+ "scales": {
+  "1": {
+   "table_rows": {
+    "entities": 162,
+    "evidence": 373,
+    "communications": 1276,
+    "location_observations": 1265,
+    "relationships": 462,
+    "transactions": 242,
+    "events": 1,
+    "evidence_entities": 392
+   },
+   "latency": {
+    "M1.contacts": {
+     "n_runs": 20,
+     "rows": 8,
+     "p50_ms": 0.62,
+     "p95_ms": 1.06,
+     "p99_ms": 1.7,
+     "max_ms": 1.7,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.frequency": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.59,
+     "p95_ms": 0.97,
+     "p99_ms": 0.98,
+     "max_ms": 0.98,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.pairs": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 5.41,
+     "p95_ms": 6.27,
+     "p99_ms": 6.56,
+     "max_ms": 6.56,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "min_count": 2,
+      "include_historical": false
+     }
+    },
+    "M2.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.45,
+     "p95_ms": 0.77,
+     "p99_ms": 0.84,
+     "max_ms": 0.84,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.present": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.78,
+     "p95_ms": 1.17,
+     "p99_ms": 1.25,
+     "max_ms": 1.25,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.copresence": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 7.6,
+     "p95_ms": 8.95,
+     "p99_ms": 10.89,
+     "max_ms": 10.89,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 30,
+      "include_historical": false
+     }
+    },
+    "M4.shared": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.55,
+     "p95_ms": 1.11,
+     "p99_ms": 1.15,
+     "max_ms": 1.15,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M4.frequency": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.48,
+     "p95_ms": 0.84,
+     "p99_ms": 0.89,
+     "max_ms": 0.89,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.history": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.5,
+     "p95_ms": 1.0,
+     "p99_ms": 1.54,
+     "max_ms": 1.54,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.frequency": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.47,
+     "p95_ms": 0.85,
+     "p99_ms": 0.93,
+     "max_ms": 0.93,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M6.default": {
+     "n_runs": 20,
+     "rows": 55,
+     "p50_ms": 1.7,
+     "p95_ms": 2.49,
+     "p99_ms": 2.76,
+     "max_ms": 2.76,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M7.default": {
+     "n_runs": 20,
+     "rows": 20,
+     "p50_ms": 2.42,
+     "p95_ms": 3.19,
+     "p99_ms": 3.22,
+     "max_ms": 3.22,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "gap_minutes": 60,
+      "include_historical": false
+     }
+    },
+    "M8.before": {
+     "n_runs": 20,
+     "rows": 117,
+     "p50_ms": 5.25,
+     "p95_ms": 6.35,
+     "p99_ms": 6.4,
+     "max_ms": 6.4,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.after": {
+     "n_runs": 20,
+     "rows": 97,
+     "p50_ms": 3.31,
+     "p95_ms": 3.81,
+     "p99_ms": 4.08,
+     "max_ms": 4.08,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.around": {
+     "n_runs": 20,
+     "rows": 109,
+     "p50_ms": 5.58,
+     "p95_ms": 7.91,
+     "p99_ms": 9.18,
+     "max_ms": 9.18,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M9.default": {
+     "n_runs": 20,
+     "rows": 11,
+     "p50_ms": 0.61,
+     "p95_ms": 0.96,
+     "p99_ms": 1.42,
+     "max_ms": 1.42,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M10.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.65,
+     "p95_ms": 0.98,
+     "p99_ms": 1.08,
+     "max_ms": 1.08,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M11.connected": {
+     "n_runs": 20,
+     "rows": 32,
+     "p50_ms": 12.93,
+     "p95_ms": 23.58,
+     "p99_ms": 23.63,
+     "max_ms": 23.63,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M11.shortest": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 11.72,
+     "p95_ms": 13.59,
+     "p99_ms": 13.62,
+     "max_ms": 13.62,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M12.default": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.46,
+     "p95_ms": 0.79,
+     "p99_ms": 0.97,
+     "max_ms": 0.97,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "minimum_strength": 0.3,
+      "include_historical": false
+     }
+    },
+    "M13.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.3,
+     "p95_ms": 0.58,
+     "p99_ms": 0.7,
+     "max_ms": 0.7,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.near_location": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.45,
+     "p95_ms": 0.76,
+     "p99_ms": 0.96,
+     "max_ms": 0.96,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.associated_entities": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.53,
+     "p95_ms": 0.95,
+     "p99_ms": 5.87,
+     "max_ms": 5.87,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.repeated": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.64,
+     "p95_ms": 1.03,
+     "p99_ms": 1.17,
+     "max_ms": 1.17,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.entity": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.82,
+     "p95_ms": 1.22,
+     "p99_ms": 1.34,
+     "max_ms": 1.34,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.between": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.43,
+     "p95_ms": 0.71,
+     "p99_ms": 0.79,
+     "max_ms": 0.79,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.top_amounts": {
+     "n_runs": 20,
+     "rows": 113,
+     "p50_ms": 2.06,
+     "p95_ms": 3.68,
+     "p99_ms": 6.14,
+     "max_ms": 6.14,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.patterns": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.58,
+     "p95_ms": 0.91,
+     "p99_ms": 0.99,
+     "max_ms": 0.99,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.repeated_or_unusual": {
+     "n_runs": 20,
+     "rows": 34,
+     "p50_ms": 12.67,
+     "p95_ms": 22.91,
+     "p99_ms": 36.12,
+     "max_ms": 36.12,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.entity": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.26,
+     "p95_ms": 0.56,
+     "p99_ms": 0.73,
+     "max_ms": 0.73,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.event": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.19,
+     "p95_ms": 0.37,
+     "p99_ms": 0.55,
+     "max_ms": 0.55,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_entity": {
+     "n_runs": 20,
+     "rows": 19,
+     "p50_ms": 1.41,
+     "p95_ms": 1.7,
+     "p99_ms": 1.72,
+     "max_ms": 1.72,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_type": {
+     "n_runs": 20,
+     "rows": 110,
+     "p50_ms": 1.88,
+     "p95_ms": 2.37,
+     "p99_ms": 2.51,
+     "max_ms": 2.51,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.corroborating": {
+     "n_runs": 20,
+     "rows": 10,
+     "p50_ms": 1.15,
+     "p95_ms": 1.42,
+     "p99_ms": 1.81,
+     "max_ms": 1.81,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M18.reliability": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 0.46,
+     "p95_ms": 0.57,
+     "p99_ms": 0.67,
+     "max_ms": 0.67,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.evidence_strength": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 1.63,
+     "p95_ms": 2.42,
+     "p99_ms": 2.68,
+     "max_ms": 2.68,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.connected_both": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 1.56,
+     "p95_ms": 2.22,
+     "p99_ms": 2.33,
+     "max_ms": 2.33,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.multi_domain": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 3.2,
+     "p95_ms": 4.01,
+     "p99_ms": 4.1,
+     "max_ms": 4.1,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.overall": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 8.64,
+     "p95_ms": 10.36,
+     "p99_ms": 11.37,
+     "max_ms": 11.37,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    }
+   }
+  },
+  "2": {
+   "table_rows": {
+    "entities": 324,
+    "evidence": 746,
+    "communications": 2552,
+    "location_observations": 2530,
+    "relationships": 924,
+    "transactions": 484,
+    "events": 2,
+    "evidence_entities": 784
+   },
+   "latency": {
+    "M1.contacts": {
+     "n_runs": 20,
+     "rows": 8,
+     "p50_ms": 0.54,
+     "p95_ms": 0.8,
+     "p99_ms": 1.22,
+     "max_ms": 1.22,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.frequency": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.57,
+     "p95_ms": 0.94,
+     "p99_ms": 1.01,
+     "max_ms": 1.01,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.pairs": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 12.36,
+     "p95_ms": 13.51,
+     "p99_ms": 13.88,
+     "max_ms": 13.88,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "min_count": 2,
+      "include_historical": false
+     }
+    },
+    "M2.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.19,
+     "p95_ms": 0.43,
+     "p99_ms": 0.98,
+     "max_ms": 0.98,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.present": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.73,
+     "p95_ms": 1.1,
+     "p99_ms": 1.47,
+     "max_ms": 1.47,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.copresence": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 9.68,
+     "p95_ms": 14.67,
+     "p99_ms": 16.8,
+     "max_ms": 16.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 30,
+      "include_historical": false
+     }
+    },
+    "M4.shared": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.18,
+     "p95_ms": 0.31,
+     "p99_ms": 0.82,
+     "max_ms": 0.82,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M4.frequency": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.44,
+     "p95_ms": 0.57,
+     "p99_ms": 0.65,
+     "max_ms": 0.65,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.history": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.15,
+     "p95_ms": 0.21,
+     "p99_ms": 0.61,
+     "max_ms": 0.61,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.frequency": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.15,
+     "p95_ms": 0.29,
+     "p99_ms": 0.71,
+     "max_ms": 0.71,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M6.default": {
+     "n_runs": 20,
+     "rows": 55,
+     "p50_ms": 0.64,
+     "p95_ms": 0.84,
+     "p99_ms": 2.2,
+     "max_ms": 2.2,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M7.default": {
+     "n_runs": 20,
+     "rows": 20,
+     "p50_ms": 0.39,
+     "p95_ms": 0.62,
+     "p99_ms": 1.91,
+     "max_ms": 1.91,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "gap_minutes": 60,
+      "include_historical": false
+     }
+    },
+    "M8.before": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 5.73,
+     "p95_ms": 6.32,
+     "p99_ms": 6.82,
+     "max_ms": 6.82,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.after": {
+     "n_runs": 20,
+     "rows": 194,
+     "p50_ms": 5.99,
+     "p95_ms": 9.84,
+     "p99_ms": 10.23,
+     "max_ms": 10.23,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.around": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 5.82,
+     "p95_ms": 6.74,
+     "p99_ms": 8.57,
+     "max_ms": 8.57,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M9.default": {
+     "n_runs": 20,
+     "rows": 11,
+     "p50_ms": 0.19,
+     "p95_ms": 0.44,
+     "p99_ms": 0.8,
+     "max_ms": 0.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M10.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.12,
+     "p95_ms": 0.22,
+     "p99_ms": 0.8,
+     "max_ms": 0.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M11.connected": {
+     "n_runs": 20,
+     "rows": 32,
+     "p50_ms": 19.14,
+     "p95_ms": 20.87,
+     "p99_ms": 21.32,
+     "max_ms": 21.32,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M11.shortest": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 17.04,
+     "p95_ms": 20.16,
+     "p99_ms": 22.19,
+     "max_ms": 22.19,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M12.default": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.2,
+     "p95_ms": 0.35,
+     "p99_ms": 0.75,
+     "max_ms": 0.75,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "minimum_strength": 0.3,
+      "include_historical": false
+     }
+    },
+    "M13.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.11,
+     "p95_ms": 0.27,
+     "p99_ms": 0.69,
+     "max_ms": 0.69,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.near_location": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.13,
+     "p95_ms": 0.32,
+     "p99_ms": 0.8,
+     "max_ms": 0.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.associated_entities": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.11,
+     "p95_ms": 0.17,
+     "p99_ms": 0.78,
+     "max_ms": 0.78,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.repeated": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.3,
+     "p95_ms": 0.59,
+     "p99_ms": 1.66,
+     "max_ms": 1.66,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.entity": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.15,
+     "p95_ms": 0.3,
+     "p99_ms": 0.89,
+     "max_ms": 0.89,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.between": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.14,
+     "p95_ms": 0.9,
+     "p99_ms": 1.91,
+     "max_ms": 1.91,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.top_amounts": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 3.62,
+     "p95_ms": 5.02,
+     "p99_ms": 5.61,
+     "max_ms": 5.61,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.patterns": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.23,
+     "p95_ms": 0.42,
+     "p99_ms": 0.87,
+     "max_ms": 0.87,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.repeated_or_unusual": {
+     "n_runs": 20,
+     "rows": 68,
+     "p50_ms": 3.4,
+     "p95_ms": 4.01,
+     "p99_ms": 4.32,
+     "max_ms": 4.32,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.entity": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.12,
+     "p95_ms": 0.3,
+     "p99_ms": 0.73,
+     "max_ms": 0.73,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.event": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.17,
+     "p95_ms": 0.22,
+     "p99_ms": 0.54,
+     "max_ms": 0.54,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_entity": {
+     "n_runs": 20,
+     "rows": 38,
+     "p50_ms": 2.66,
+     "p95_ms": 4.49,
+     "p99_ms": 5.24,
+     "max_ms": 5.24,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_type": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 2.95,
+     "p95_ms": 4.12,
+     "p99_ms": 4.16,
+     "max_ms": 4.16,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.corroborating": {
+     "n_runs": 20,
+     "rows": 10,
+     "p50_ms": 0.41,
+     "p95_ms": 0.57,
+     "p99_ms": 2.51,
+     "max_ms": 2.51,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M18.reliability": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 0.58,
+     "p95_ms": 0.88,
+     "p99_ms": 0.95,
+     "max_ms": 0.95,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.evidence_strength": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 2.26,
+     "p95_ms": 2.44,
+     "p99_ms": 2.89,
+     "max_ms": 2.89,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.connected_both": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.56,
+     "p95_ms": 0.7,
+     "p99_ms": 1.87,
+     "max_ms": 1.87,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.multi_domain": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 1.33,
+     "p95_ms": 3.33,
+     "p99_ms": 5.69,
+     "max_ms": 5.69,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.overall": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 13.39,
+     "p95_ms": 17.0,
+     "p99_ms": 19.06,
+     "max_ms": 19.06,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    }
+   }
+  },
+  "5": {
+   "table_rows": {
+    "entities": 810,
+    "evidence": 1865,
+    "communications": 6380,
+    "location_observations": 6325,
+    "relationships": 2310,
+    "transactions": 1210,
+    "events": 5,
+    "evidence_entities": 1960
+   },
+   "latency": {
+    "M1.contacts": {
+     "n_runs": 20,
+     "rows": 8,
+     "p50_ms": 0.47,
+     "p95_ms": 0.77,
+     "p99_ms": 1.41,
+     "max_ms": 1.41,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.frequency": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.36,
+     "p95_ms": 0.58,
+     "p99_ms": 0.94,
+     "max_ms": 0.94,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.pairs": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 24.48,
+     "p95_ms": 26.97,
+     "p99_ms": 27.89,
+     "max_ms": 27.89,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "min_count": 2,
+      "include_historical": false
+     }
+    },
+    "M2.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.11,
+     "p95_ms": 0.24,
+     "p99_ms": 0.85,
+     "max_ms": 0.85,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.present": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.73,
+     "p95_ms": 1.43,
+     "p99_ms": 2.36,
+     "max_ms": 2.36,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.copresence": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 11.14,
+     "p95_ms": 13.67,
+     "p99_ms": 21.1,
+     "max_ms": 21.1,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 30,
+      "include_historical": false
+     }
+    },
+    "M4.shared": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.18,
+     "p95_ms": 0.29,
+     "p99_ms": 0.85,
+     "max_ms": 0.85,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M4.frequency": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.46,
+     "p95_ms": 0.59,
+     "p99_ms": 0.67,
+     "max_ms": 0.67,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.history": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.18,
+     "p95_ms": 0.25,
+     "p99_ms": 0.73,
+     "max_ms": 0.73,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.frequency": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.16,
+     "p95_ms": 0.29,
+     "p99_ms": 0.88,
+     "max_ms": 0.88,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M6.default": {
+     "n_runs": 20,
+     "rows": 55,
+     "p50_ms": 0.73,
+     "p95_ms": 2.22,
+     "p99_ms": 2.31,
+     "max_ms": 2.31,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M7.default": {
+     "n_runs": 20,
+     "rows": 20,
+     "p50_ms": 0.53,
+     "p95_ms": 0.74,
+     "p99_ms": 2.34,
+     "max_ms": 2.34,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "gap_minutes": 60,
+      "include_historical": false
+     }
+    },
+    "M8.before": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 12.11,
+     "p95_ms": 15.8,
+     "p99_ms": 17.17,
+     "max_ms": 17.17,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.after": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 11.68,
+     "p95_ms": 15.44,
+     "p99_ms": 18.47,
+     "max_ms": 18.47,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.around": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 16.01,
+     "p95_ms": 19.49,
+     "p99_ms": 20.8,
+     "max_ms": 20.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M9.default": {
+     "n_runs": 20,
+     "rows": 11,
+     "p50_ms": 0.24,
+     "p95_ms": 0.66,
+     "p99_ms": 1.31,
+     "max_ms": 1.31,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M10.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.14,
+     "p95_ms": 0.25,
+     "p99_ms": 0.83,
+     "max_ms": 0.83,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M11.connected": {
+     "n_runs": 20,
+     "rows": 32,
+     "p50_ms": 37.38,
+     "p95_ms": 46.08,
+     "p99_ms": 46.2,
+     "max_ms": 46.2,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M11.shortest": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 33.4,
+     "p95_ms": 38.01,
+     "p99_ms": 38.48,
+     "max_ms": 38.48,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M12.default": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.18,
+     "p95_ms": 0.27,
+     "p99_ms": 0.82,
+     "max_ms": 0.82,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "minimum_strength": 0.3,
+      "include_historical": false
+     }
+    },
+    "M13.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.11,
+     "p95_ms": 0.44,
+     "p99_ms": 0.7,
+     "max_ms": 0.7,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.near_location": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.21,
+     "p95_ms": 0.99,
+     "p99_ms": 1.25,
+     "max_ms": 1.25,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.associated_entities": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.11,
+     "p95_ms": 0.24,
+     "p99_ms": 0.59,
+     "max_ms": 0.59,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.repeated": {
+     "n_runs": 20,
+     "rows": 5,
+     "p50_ms": 0.22,
+     "p95_ms": 0.69,
+     "p99_ms": 1.1,
+     "max_ms": 1.1,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.entity": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.15,
+     "p95_ms": 0.29,
+     "p99_ms": 0.84,
+     "max_ms": 0.84,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.between": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.12,
+     "p95_ms": 0.25,
+     "p99_ms": 0.8,
+     "max_ms": 0.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.top_amounts": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 7.5,
+     "p95_ms": 11.25,
+     "p99_ms": 12.17,
+     "max_ms": 12.17,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.patterns": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.69,
+     "p95_ms": 0.95,
+     "p99_ms": 1.33,
+     "max_ms": 1.33,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.repeated_or_unusual": {
+     "n_runs": 20,
+     "rows": 170,
+     "p50_ms": 7.23,
+     "p95_ms": 9.13,
+     "p99_ms": 9.19,
+     "max_ms": 9.19,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.entity": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.13,
+     "p95_ms": 0.45,
+     "p99_ms": 0.67,
+     "max_ms": 0.67,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.event": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.13,
+     "p95_ms": 0.25,
+     "p99_ms": 0.5,
+     "max_ms": 0.5,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_entity": {
+     "n_runs": 20,
+     "rows": 95,
+     "p50_ms": 6.23,
+     "p95_ms": 6.68,
+     "p99_ms": 7.84,
+     "max_ms": 7.84,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_type": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 5.58,
+     "p95_ms": 6.87,
+     "p99_ms": 7.25,
+     "max_ms": 7.25,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.corroborating": {
+     "n_runs": 20,
+     "rows": 10,
+     "p50_ms": 0.63,
+     "p95_ms": 0.81,
+     "p99_ms": 2.26,
+     "max_ms": 2.26,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M18.reliability": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 0.98,
+     "p95_ms": 1.12,
+     "p99_ms": 1.25,
+     "max_ms": 1.25,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.evidence_strength": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 5.26,
+     "p95_ms": 6.2,
+     "p99_ms": 6.51,
+     "max_ms": 6.51,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.connected_both": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.43,
+     "p95_ms": 0.65,
+     "p99_ms": 3.57,
+     "max_ms": 3.57,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.multi_domain": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 1.01,
+     "p95_ms": 3.15,
+     "p99_ms": 5.75,
+     "max_ms": 5.75,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.overall": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 25.7,
+     "p95_ms": 27.31,
+     "p99_ms": 28.32,
+     "max_ms": 28.32,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    }
+   }
+  },
+  "10": {
+   "table_rows": {
+    "entities": 1620,
+    "evidence": 3730,
+    "communications": 12760,
+    "location_observations": 12650,
+    "relationships": 4620,
+    "transactions": 2420,
+    "events": 10,
+    "evidence_entities": 3920
+   },
+   "latency": {
+    "M1.contacts": {
+     "n_runs": 20,
+     "rows": 8,
+     "p50_ms": 0.27,
+     "p95_ms": 0.42,
+     "p99_ms": 1.02,
+     "max_ms": 1.02,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.frequency": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.26,
+     "p95_ms": 0.34,
+     "p99_ms": 0.94,
+     "max_ms": 0.94,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M1.pairs": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 48.25,
+     "p95_ms": 76.89,
+     "p99_ms": 78.48,
+     "max_ms": 78.48,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "min_count": 2,
+      "include_historical": false
+     }
+    },
+    "M2.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.11,
+     "p95_ms": 0.3,
+     "p99_ms": 1.16,
+     "max_ms": 1.16,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.present": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.46,
+     "p95_ms": 0.71,
+     "p99_ms": 1.28,
+     "max_ms": 1.28,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M3.copresence": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 8.5,
+     "p95_ms": 9.53,
+     "p99_ms": 10.01,
+     "max_ms": 10.01,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 30,
+      "include_historical": false
+     }
+    },
+    "M4.shared": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.18,
+     "p95_ms": 0.41,
+     "p99_ms": 0.83,
+     "max_ms": 0.83,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M4.frequency": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.41,
+     "p95_ms": 0.58,
+     "p99_ms": 0.65,
+     "max_ms": 0.65,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.history": {
+     "n_runs": 20,
+     "rows": 12,
+     "p50_ms": 0.17,
+     "p95_ms": 0.3,
+     "p99_ms": 0.85,
+     "max_ms": 0.85,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M5.frequency": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.16,
+     "p95_ms": 0.22,
+     "p99_ms": 0.74,
+     "max_ms": 0.74,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M6.default": {
+     "n_runs": 20,
+     "rows": 55,
+     "p50_ms": 0.69,
+     "p95_ms": 1.54,
+     "p99_ms": 2.38,
+     "max_ms": 2.38,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M7.default": {
+     "n_runs": 20,
+     "rows": 20,
+     "p50_ms": 0.43,
+     "p95_ms": 0.65,
+     "p99_ms": 2.16,
+     "max_ms": 2.16,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "gap_minutes": 60,
+      "include_historical": false
+     }
+    },
+    "M8.before": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 37.93,
+     "p95_ms": 47.88,
+     "p99_ms": 51.51,
+     "max_ms": 51.51,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 87,
+      "entity_id_1": 87,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.after": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 40.32,
+     "p95_ms": 51.13,
+     "p99_ms": 63.81,
+     "max_ms": 63.81,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M8.around": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 44.96,
+     "p95_ms": 59.92,
+     "p99_ms": 62.1,
+     "max_ms": 62.1,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "window_minutes": 120,
+      "include_historical": false
+     }
+    },
+    "M9.default": {
+     "n_runs": 20,
+     "rows": 11,
+     "p50_ms": 0.17,
+     "p95_ms": 0.92,
+     "p99_ms": 1.12,
+     "max_ms": 1.12,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M10.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.14,
+     "p95_ms": 0.83,
+     "p99_ms": 1.8,
+     "max_ms": 1.8,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M11.connected": {
+     "n_runs": 20,
+     "rows": 32,
+     "p50_ms": 74.01,
+     "p95_ms": 96.05,
+     "p99_ms": 99.33,
+     "max_ms": 99.33,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M11.shortest": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 60.31,
+     "p95_ms": 85.61,
+     "p99_ms": 88.09,
+     "max_ms": 88.09,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "max_hops": 3,
+      "include_historical": false
+     }
+    },
+    "M12.default": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 0.16,
+     "p95_ms": 0.3,
+     "p99_ms": 0.86,
+     "max_ms": 0.86,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "minimum_strength": 0.3,
+      "include_historical": false
+     }
+    },
+    "M13.default": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.1,
+     "p95_ms": 0.24,
+     "p99_ms": 0.73,
+     "max_ms": 0.73,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.near_location": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.14,
+     "p95_ms": 0.29,
+     "p99_ms": 0.85,
+     "max_ms": 0.85,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.associated_entities": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.12,
+     "p95_ms": 0.22,
+     "p99_ms": 0.65,
+     "max_ms": 0.65,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 87,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M14.repeated": {
+     "n_runs": 20,
+     "rows": 10,
+     "p50_ms": 0.44,
+     "p95_ms": 1.12,
+     "p99_ms": 1.39,
+     "max_ms": 1.39,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.entity": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.2,
+     "p95_ms": 0.48,
+     "p99_ms": 0.98,
+     "max_ms": 0.98,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 145,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.between": {
+     "n_runs": 20,
+     "rows": 1,
+     "p50_ms": 0.15,
+     "p95_ms": 0.27,
+     "p99_ms": 0.86,
+     "max_ms": 0.86,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 157,
+      "entity_id_1": 157,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.top_amounts": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 13.16,
+     "p95_ms": 14.02,
+     "p99_ms": 14.09,
+     "max_ms": 14.09,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.patterns": {
+     "n_runs": 20,
+     "rows": 2,
+     "p50_ms": 0.78,
+     "p95_ms": 0.92,
+     "p99_ms": 1.0,
+     "max_ms": 1.0,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M15.repeated_or_unusual": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 12.08,
+     "p95_ms": 12.99,
+     "p99_ms": 13.33,
+     "max_ms": 13.33,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.entity": {
+     "n_runs": 20,
+     "rows": 3,
+     "p50_ms": 0.14,
+     "p95_ms": 0.28,
+     "p99_ms": 0.7,
+     "max_ms": 0.7,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 138,
+      "entity_id_1": 138,
+      "entity_id_2": 87,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M16.event": {
+     "n_runs": 20,
+     "rows": 4,
+     "p50_ms": 0.15,
+     "p95_ms": 0.26,
+     "p99_ms": 0.59,
+     "max_ms": 0.59,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 50,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_entity": {
+     "n_runs": 20,
+     "rows": 190,
+     "p50_ms": 11.8,
+     "p95_ms": 18.43,
+     "p99_ms": 18.66,
+     "max_ms": 18.66,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 145,
+      "entity_id_1": 145,
+      "entity_id_2": 106,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.multi_type": {
+     "n_runs": 20,
+     "rows": 200,
+     "p50_ms": 10.98,
+     "p95_ms": 16.25,
+     "p99_ms": 25.72,
+     "max_ms": 25.72,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 50,
+      "entity_id_1": 50,
+      "entity_id_2": 157,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M17.corroborating": {
+     "n_runs": 20,
+     "rows": 10,
+     "p50_ms": 1.09,
+     "p95_ms": 1.32,
+     "p99_ms": 2.47,
+     "max_ms": 2.47,
+     "params": {
+      "result_limit": 200,
+      "entity_id": 106,
+      "entity_id_1": 106,
+      "entity_id_2": 138,
+      "location_id": 8,
+      "event_id": 1,
+      "vehicle_id": 160,
+      "include_historical": false
+     }
+    },
+    "M18.reliability": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 1.69,
+     "p95_ms": 1.88,
+     "p99_ms": 1.95,
+     "max_ms": 1.95,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.evidence_strength": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 10.21,
+     "p95_ms": 10.86,
+     "p99_ms": 11.16,
+     "max_ms": 11.16,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.connected_both": {
+     "n_runs": 20,
+     "rows": 0,
+     "p50_ms": 0.33,
+     "p95_ms": 0.52,
+     "p99_ms": 2.3,
+     "max_ms": 2.3,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.multi_domain": {
+     "n_runs": 20,
+     "rows": 13,
+     "p50_ms": 1.37,
+     "p95_ms": 3.28,
+     "p99_ms": 5.77,
+     "max_ms": 5.77,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    },
+    "M18.overall": {
+     "n_runs": 20,
+     "rows": 25,
+     "p50_ms": 50.74,
+     "p95_ms": 83.06,
+     "p99_ms": 83.15,
+     "max_ms": 83.15,
+     "params": {
+      "entity_id": 50,
+      "location_id": 1,
+      "event_id": 1,
+      "window_minutes": 60
+     }
+    }
+   }
+  }
+ },
+ "plans": {
+  "M11.connected": {
+   "execution_ms": 103.54,
+   "planning_ms": 0.654,
+   "seq_scans": [
+    [
+     "relationships",
+     0.6,
+     4600
+    ],
+    [
+     "evidence",
+     0.4,
+     3730
+    ],
+    [
+     "communications",
+     1.1,
+     12760
+    ],
+    [
+     "evidence",
+     0.4,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.4,
+     3730
+    ],
+    [
+     "entities",
+     3.9,
+     1620
+    ],
+    [
+     "entities",
+     3.6,
+     1620
+    ]
+   ],
+   "shared_hit": 2290,
+   "shared_read": 0
+  },
+  "M11.shortest": {
+   "execution_ms": 85.862,
+   "planning_ms": 0.726,
+   "seq_scans": [
+    [
+     "relationships",
+     0.7,
+     4600
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "communications",
+     1.1,
+     12760
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "entities",
+     0.2,
+     1620
+    ],
+    [
+     "entities",
+     0.1,
+     1620
+    ]
+   ],
+   "shared_hit": 616,
+   "shared_read": 0
+  },
+  "M18.overall": {
+   "execution_ms": 83.794,
+   "planning_ms": 3.657,
+   "seq_scans": [
+    [
+     "events",
+     0.0,
+     1
+    ],
+    [
+     "event_entities",
+     0.0,
+     11
+    ],
+    [
+     "evidence_entities",
+     0.3,
+     3920
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "entities",
+     0.3,
+     1099
+    ],
+    [
+     "communications",
+     1.1,
+     12760
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "communications",
+     1.1,
+     12760
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "location_observations",
+     3.1,
+     13203
+    ],
+    [
+     "evidence",
+     8.9,
+     3907
+    ],
+    [
+     "communications",
+     1.7,
+     13283
+    ],
+    [
+     "evidence",
+     0.8,
+     3907
+    ],
+    [
+     "communications",
+     0.9,
+     13283
+    ],
+    [
+     "evidence",
+     0.4,
+     3907
+    ],
+    [
+     "transactions",
+     0.2,
+     2523
+    ],
+    [
+     "evidence",
+     0.4,
+     3907
+    ],
+    [
+     "transactions",
+     0.2,
+     2523
+    ],
+    [
+     "evidence",
+     0.4,
+     3907
+    ],
+    [
+     "event_entities",
+     0.0,
+     11
+    ],
+    [
+     "events",
+     0.0,
+     11
+    ],
+    [
+     "relationships",
+     1.2,
+     4600
+    ],
+    [
+     "evidence",
+     0.9,
+     3730
+    ],
+    [
+     "relationships",
+     1.2,
+     4600
+    ],
+    [
+     "evidence",
+     0.9,
+     3730
+    ]
+   ],
+   "shared_hit": 2552,
+   "shared_read": 0
+  },
+  "M1.pairs": {
+   "execution_ms": 58.951,
+   "planning_ms": 0.692,
+   "seq_scans": [
+    [
+     "communications",
+     1.5,
+     12760
+    ],
+    [
+     "evidence",
+     0.9,
+     3730
+    ]
+   ],
+   "shared_hit": 76833,
+   "shared_read": 0
+  },
+  "M8.around": {
+   "execution_ms": 63.938,
+   "planning_ms": 1.174,
+   "seq_scans": [
+    [
+     "location_observations",
+     5.3,
+     12650
+    ],
+    [
+     "evidence",
+     0.6,
+     3730
+    ],
+    [
+     "communications",
+     1.3,
+     12760
+    ],
+    [
+     "evidence",
+     0.6,
+     3730
+    ],
+    [
+     "communications",
+     1.1,
+     12760
+    ],
+    [
+     "evidence",
+     0.4,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "transactions",
+     0.3,
+     2420
+    ],
+    [
+     "evidence",
+     0.6,
+     3730
+    ],
+    [
+     "event_entities",
+     0.0,
+     10
+    ],
+    [
+     "events",
+     0.0,
+     10
+    ],
+    [
+     "events",
+     0.0,
+     1
+    ]
+   ],
+   "shared_hit": 8126,
+   "shared_read": 0
+  },
+  "M8.after": {
+   "execution_ms": 54.687,
+   "planning_ms": 1.082,
+   "seq_scans": [
+    [
+     "location_observations",
+     1.3,
+     12650
+    ],
+    [
+     "evidence",
+     0.6,
+     3730
+    ],
+    [
+     "communications",
+     1.3,
+     12760
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "communications",
+     1.1,
+     12760
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.5,
+     3730
+    ],
+    [
+     "transactions",
+     0.2,
+     2420
+    ],
+    [
+     "evidence",
+     0.6,
+     3730
+    ],
+    [
+     "event_entities",
+     0.0,
+     10
+    ],
+    [
+     "events",
+     0.0,
+     10
+    ],
+    [
+     "events",
+     0.0,
+     1
+    ]
+   ],
+   "shared_hit": 2399,
+   "shared_read": 0
+  }
+ },
+ "index_experiment": {
+  "queries_over_threshold": [
+   "M1.pairs",
+   "M8.after",
+   "M8.around",
+   "M11.connected",
+   "M11.shortest",
+   "M18.overall"
+  ],
+  "threshold_ms": 50,
+  "candidates": {
+   "idx_cand_obs_loc_subj": {
+    "M1.pairs": {
+     "before_p95": 76.89,
+     "after_p95": 51.02
+    },
+    "M8.after": {
+     "before_p95": 51.13,
+     "after_p95": 47.69
+    },
+    "M8.around": {
+     "before_p95": 59.92,
+     "after_p95": 54.15
+    },
+    "M11.connected": {
+     "before_p95": 96.05,
+     "after_p95": 92.63
+    },
+    "M11.shortest": {
+     "before_p95": 85.61,
+     "after_p95": 87.32
+    },
+    "M18.overall": {
+     "before_p95": 83.06,
+     "after_p95": 72.9
+    }
+   },
+   "idx_cand_evid_ent_ev": {
+    "M1.pairs": {
+     "before_p95": 76.89,
+     "after_p95": 56.45
+    },
+    "M8.after": {
+     "before_p95": 51.13,
+     "after_p95": 52.73
+    },
+    "M8.around": {
+     "before_p95": 59.92,
+     "after_p95": 48.96
+    },
+    "M11.connected": {
+     "before_p95": 96.05,
+     "after_p95": 89.03
+    },
+    "M11.shortest": {
+     "before_p95": 85.61,
+     "after_p95": 92.59
+    },
+    "M18.overall": {
+     "before_p95": 83.06,
+     "after_p95": 58.16
+    }
+   },
+   "idx_cand_event_ent": {
+    "M1.pairs": {
+     "before_p95": 76.89,
+     "after_p95": 53.55
+    },
+    "M8.after": {
+     "before_p95": 51.13,
+     "after_p95": 68.35
+    },
+    "M8.around": {
+     "before_p95": 59.92,
+     "after_p95": 60.59
+    },
+    "M11.connected": {
+     "before_p95": 96.05,
+     "after_p95": 103.71
+    },
+    "M11.shortest": {
+     "before_p95": 85.61,
+     "after_p95": 73.04
+    },
+    "M18.overall": {
+     "before_p95": 83.06,
+     "after_p95": 60.32
+    }
+   },
+   "idx_cand_comm_time": {
+    "M1.pairs": {
+     "before_p95": 76.89,
+     "after_p95": 73.33
+    },
+    "M8.after": {
+     "before_p95": 51.13,
+     "after_p95": 72.36
+    },
+    "M8.around": {
+     "before_p95": 59.92,
+     "after_p95": 71.93
+    },
+    "M11.connected": {
+     "before_p95": 96.05,
+     "after_p95": 75.73
+    },
+    "M11.shortest": {
+     "before_p95": 85.61,
+     "after_p95": 86.06
+    },
+    "M18.overall": {
+     "before_p95": 83.06,
+     "after_p95": 59.57
+    }
+   },
+   "idx_cand_obs_time": {
+    "M1.pairs": {
+     "before_p95": 76.89,
+     "after_p95": 78.89
+    },
+    "M8.after": {
+     "before_p95": 51.13,
+     "after_p95": 54.81
+    },
+    "M8.around": {
+     "before_p95": 59.92,
+     "after_p95": 63.66
+    },
+    "M11.connected": {
+     "before_p95": 96.05,
+     "after_p95": 117.09
+    },
+    "M11.shortest": {
+     "before_p95": 85.61,
+     "after_p95": 79.91
+    },
+    "M18.overall": {
+     "before_p95": 83.06,
+     "after_p95": 72.1
+    }
+   }
+  }
+ },
+ "config": {
+  "postgres": "16.15 (Ubuntu 16.15-0ubuntu0.24.04.1)",
+  "effective_cache_size": "5242888kB",
+  "jit": "on",
+  "max_parallel_workers_per_gather": "2",
+  "random_page_cost": "4",
+  "shared_buffers": "163848kB",
+  "work_mem": "4096kB"
+ }
+}

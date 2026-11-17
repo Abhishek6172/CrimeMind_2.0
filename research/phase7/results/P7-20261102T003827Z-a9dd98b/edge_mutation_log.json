@@ -1,0 +1,834 @@
+[
+ {
+  "seed": 2026,
+  "case_id": 1,
+  "mutations": [
+   {
+    "mutation": "insert entity with no records",
+    "accepted": true
+   },
+   {
+    "mutation": "insert second person for duplicate/null cases",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #1",
+    "accepted": true
+   },
+   {
+    "mutation": "communication with NULL evidence and NULL duration",
+    "accepted": true
+   },
+   {
+    "mutation": "self-communication",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"communications\" violates check constraint \"communications_check\""
+   },
+   {
+    "mutation": "duplicate zero-length observation #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate zero-length observation #1",
+    "accepted": true
+   },
+   {
+    "mutation": "observation with NULL observed_to",
+    "accepted": false,
+    "reason": "NotNullViolation: null value in column \"observed_to\" of relation \"location_observations\" violates not-null constraint"
+   },
+   {
+    "mutation": "observation ending before it starts",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"location_observations\" violates check constraint \"location_observations_check\""
+   },
+   {
+    "mutation": "transaction amount 0.00",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"transactions\" violates check constraint \"transactions_amount_check\""
+   },
+   {
+    "mutation": "transaction amount 99999999.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "relationship with NULL strength",
+    "accepted": true
+   },
+   {
+    "mutation": "contradictory relationship (same pair, other type)",
+    "accepted": true
+   },
+   {
+    "mutation": "self relationship",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_check\""
+   },
+   {
+    "mutation": "relationship strength out of range",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_strength_check\""
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   }
+  ]
+ },
+ {
+  "seed": 2026,
+  "case_id": 2,
+  "mutations": [
+   {
+    "mutation": "insert entity with no records",
+    "accepted": true
+   },
+   {
+    "mutation": "insert second person for duplicate/null cases",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #1",
+    "accepted": true
+   },
+   {
+    "mutation": "communication with NULL evidence and NULL duration",
+    "accepted": true
+   },
+   {
+    "mutation": "self-communication",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"communications\" violates check constraint \"communications_check\""
+   },
+   {
+    "mutation": "duplicate zero-length observation #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate zero-length observation #1",
+    "accepted": true
+   },
+   {
+    "mutation": "observation with NULL observed_to",
+    "accepted": false,
+    "reason": "NotNullViolation: null value in column \"observed_to\" of relation \"location_observations\" violates not-null constraint"
+   },
+   {
+    "mutation": "observation ending before it starts",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"location_observations\" violates check constraint \"location_observations_check\""
+   },
+   {
+    "mutation": "transaction amount 0.00",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"transactions\" violates check constraint \"transactions_amount_check\""
+   },
+   {
+    "mutation": "transaction amount 99999999.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "relationship with NULL strength",
+    "accepted": true
+   },
+   {
+    "mutation": "contradictory relationship (same pair, other type)",
+    "accepted": true
+   },
+   {
+    "mutation": "self relationship",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_check\""
+   },
+   {
+    "mutation": "relationship strength out of range",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_strength_check\""
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   }
+  ]
+ },
+ {
+  "seed": 2060,
+  "case_id": 1,
+  "mutations": [
+   {
+    "mutation": "insert entity with no records",
+    "accepted": true
+   },
+   {
+    "mutation": "insert second person for duplicate/null cases",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #1",
+    "accepted": true
+   },
+   {
+    "mutation": "communication with NULL evidence and NULL duration",
+    "accepted": true
+   },
+   {
+    "mutation": "self-communication",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"communications\" violates check constraint \"communications_check\""
+   },
+   {
+    "mutation": "duplicate zero-length observation #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate zero-length observation #1",
+    "accepted": true
+   },
+   {
+    "mutation": "observation with NULL observed_to",
+    "accepted": false,
+    "reason": "NotNullViolation: null value in column \"observed_to\" of relation \"location_observations\" violates not-null constraint"
+   },
+   {
+    "mutation": "observation ending before it starts",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"location_observations\" violates check constraint \"location_observations_check\""
+   },
+   {
+    "mutation": "transaction amount 0.00",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"transactions\" violates check constraint \"transactions_amount_check\""
+   },
+   {
+    "mutation": "transaction amount 99999999.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "relationship with NULL strength",
+    "accepted": true
+   },
+   {
+    "mutation": "contradictory relationship (same pair, other type)",
+    "accepted": true
+   },
+   {
+    "mutation": "self relationship",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_check\""
+   },
+   {
+    "mutation": "relationship strength out of range",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_strength_check\""
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   }
+  ]
+ },
+ {
+  "seed": 2060,
+  "case_id": 2,
+  "mutations": [
+   {
+    "mutation": "insert entity with no records",
+    "accepted": true
+   },
+   {
+    "mutation": "insert second person for duplicate/null cases",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate communication #1",
+    "accepted": true
+   },
+   {
+    "mutation": "communication with NULL evidence and NULL duration",
+    "accepted": true
+   },
+   {
+    "mutation": "self-communication",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"communications\" violates check constraint \"communications_check\""
+   },
+   {
+    "mutation": "duplicate zero-length observation #0",
+    "accepted": true
+   },
+   {
+    "mutation": "duplicate zero-length observation #1",
+    "accepted": true
+   },
+   {
+    "mutation": "observation with NULL observed_to",
+    "accepted": false,
+    "reason": "NotNullViolation: null value in column \"observed_to\" of relation \"location_observations\" violates not-null constraint"
+   },
+   {
+    "mutation": "observation ending before it starts",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"location_observations\" violates check constraint \"location_observations_check\""
+   },
+   {
+    "mutation": "transaction amount 0.00",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"transactions\" violates check constraint \"transactions_amount_check\""
+   },
+   {
+    "mutation": "transaction amount 99999999.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "transaction amount 10.00",
+    "accepted": true
+   },
+   {
+    "mutation": "relationship with NULL strength",
+    "accepted": true
+   },
+   {
+    "mutation": "contradictory relationship (same pair, other type)",
+    "accepted": true
+   },
+   {
+    "mutation": "self relationship",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_check\""
+   },
+   {
+    "mutation": "relationship strength out of range",
+    "accepted": false,
+    "reason": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_strength_check\""
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity CHALLENGED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity INVALIDATED",
+    "accepted": true
+   },
+   {
+    "mutation": "validity SUPERSEDED",
+    "accepted": true
+   }
+  ]
+ }
+]

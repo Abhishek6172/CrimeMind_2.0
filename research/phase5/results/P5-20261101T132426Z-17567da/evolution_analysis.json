@@ -1,0 +1,175 @@
+{
+ "cases": 100,
+ "steps": 530,
+ "integrity": {
+  "history_ok_cases": 100,
+  "event_ids_unique_cases": 100,
+  "event_times_monotonic_cases": 100,
+  "transition_checks_failed_total": 0,
+  "steps_applied": 530,
+  "steps_total": 530,
+  "lifecycle_transition_accuracy_mean": 1.0
+ },
+ "impact_detection": {
+  "all_steps": {
+   "steps": 530,
+   "expected_findings": 386,
+   "detected": 150,
+   "recall": 0.38860103626943004,
+   "must_not_flag_findings_flagged": 0,
+   "flagged_total": 1311,
+   "flagged_indeterminate": 1161,
+   "flagged_unclassified": 0
+  },
+  "first_dispute_step": {
+   "steps": 332,
+   "expected_findings": 193,
+   "detected": 150,
+   "recall": 0.7772020725388601,
+   "must_not_flag_findings_flagged": 0,
+   "flagged_total": 1311,
+   "flagged_indeterminate": 1161,
+   "flagged_unclassified": 0
+  },
+  "later_steps": {
+   "steps": 198,
+   "expected_findings": 193,
+   "detected": 0,
+   "recall": 0.0,
+   "must_not_flag_findings_flagged": 0,
+   "flagged_total": 0,
+   "flagged_indeterminate": 0,
+   "flagged_unclassified": 0
+  }
+ },
+ "ranking_change": {
+  "q40": {
+   "steps_with_any_score_change": 80,
+   "of": 530,
+   "mean_kendall_tau": 0.9838017093706125,
+   "mean_spearman": 0.9885982575496438,
+   "mean_top5_overlap": 0.9811320754716981,
+   "mean_rank_displacement": 0.5266610095854282,
+   "unnecessary_changes_total": 332,
+   "changes_on_touched_total": 80,
+   "expected_people": 246,
+   "expected_people_updated": 80,
+   "missed_expected_updates": 166,
+   "nDCG@5_initial_mean": 0.5782001684340559,
+   "nDCG@5_final_mean": 0.6512419438884371,
+   "MRR_initial_mean": 0.6643521843080665,
+   "MRR_final_mean": 0.7831979797979798
+  },
+  "q40_r": {
+   "steps_with_any_score_change": 310,
+   "of": 530,
+   "mean_kendall_tau": 0.9836258507048634,
+   "mean_spearman": 0.9892168776201281,
+   "mean_top5_overlap": 0.9803773584905661,
+   "mean_rank_displacement": 0.5364676275097945,
+   "unnecessary_changes_total": 332,
+   "changes_on_touched_total": 310,
+   "expected_people": 246,
+   "expected_people_updated": 160,
+   "missed_expected_updates": 86,
+   "nDCG@5_initial_mean": 0.631941946099627,
+   "nDCG@5_final_mean": 0.7137279225707066,
+   "MRR_initial_mean": 0.7021987734487735,
+   "MRR_final_mean": 0.810671717171717
+  },
+  "raeer": {
+   "steps_with_any_score_change": 246,
+   "of": 530,
+   "mean_kendall_tau": 0.9854976586636657,
+   "mean_spearman": 0.9925960566771467,
+   "mean_top5_overlap": 0.980754716981132,
+   "mean_rank_displacement": 0.4691876144673135,
+   "unnecessary_changes_total": 632,
+   "changes_on_touched_total": 246,
+   "expected_people": 246,
+   "expected_people_updated": 246,
+   "missed_expected_updates": 0,
+   "nDCG@5_initial_mean": 0.8550934566969619,
+   "nDCG@5_final_mean": 0.8433009146253129,
+   "MRR_initial_mean": 0.9522619047619049,
+   "MRR_final_mean": 0.9566666666666667
+  },
+  "raeer-no_lifecycle": {
+   "steps_with_any_score_change": 51,
+   "of": 530,
+   "mean_kendall_tau": 0.99998576024763,
+   "mean_spearman": 0.9999990562759036,
+   "mean_top5_overlap": 1.0,
+   "mean_rank_displacement": 0.00033833235894057664,
+   "unnecessary_changes_total": 0,
+   "changes_on_touched_total": 51,
+   "expected_people": 246,
+   "expected_people_updated": 0,
+   "missed_expected_updates": 246,
+   "nDCG@5_initial_mean": 0.8550934566969619,
+   "nDCG@5_final_mean": 0.8550934566969619,
+   "MRR_initial_mean": 0.9522619047619049,
+   "MRR_final_mean": 0.9522619047619049
+  }
+ },
+ "latency_ms": {
+  "apply_ms": {
+   "n": 530,
+   "p50": 7.105497500020874,
+   "p95": 21.15675029999692,
+   "p99": 28.669710199988014,
+   "mean": 8.899281020754945
+  },
+  "recompute_ms": {
+   "n": 373,
+   "p50": 43.80578199999263,
+   "p95": 126.9397658000002,
+   "p99": 160.58646620000437,
+   "mean": 53.769610806970164
+  },
+  "rank_ms_per_method": {
+   "n": 530,
+   "p50": 29.502069499997674,
+   "p95": 71.61689748749325,
+   "p99": 86.71227751249944,
+   "mean": 34.77058759056647
+  }
+ },
+ "ndcg_change_by_scenario": {
+  "SC-ALIBI-CORRECTED": {
+   "q40": 0.0,
+   "q40_r": 0.0,
+   "raeer": 0.0,
+   "raeer-no_lifecycle": 0.0,
+   "n_steps": 51
+  },
+  "SC-DEVICE-FAULT": {
+   "q40": 0.04565110965898831,
+   "q40_r": 0.05111623529442474,
+   "raeer": 0.010869746928424077,
+   "raeer-no_lifecycle": 0.0,
+   "n_steps": 160
+  },
+  "SC-WITNESS": {
+   "q40": 0.0,
+   "q40_r": 0.0,
+   "raeer": 0.0,
+   "raeer-no_lifecycle": 0.0,
+   "n_steps": 150
+  },
+  "SC-LEAD-TIMESTAMP": {
+   "q40": 0.0,
+   "q40_r": 0.0,
+   "raeer": -0.03393504320596223,
+   "raeer-no_lifecycle": 0.0,
+   "n_steps": 86
+  },
+  "SC-TIP-RETRACTED": {
+   "q40": 0.0,
+   "q40_r": 0.0,
+   "raeer": 0.0,
+   "raeer-no_lifecycle": 0.0,
+   "n_steps": 83
+  }
+ }
+}

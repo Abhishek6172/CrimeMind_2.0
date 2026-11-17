@@ -1,0 +1,191 @@
+[
+ {
+  "id": "DB-01",
+  "area": "constraints",
+  "check": "duplicate (case, ref) on entities is rejected",
+  "result": "PASS",
+  "observed": "UniqueViolation: duplicate key value violates unique constraint \"entities_case_id_ref_key\""
+ },
+ {
+  "id": "DB-02",
+  "area": "constraints",
+  "check": "unknown entity type is rejected (FK)",
+  "result": "PASS",
+  "observed": "ForeignKeyViolation: insert or update on table \"entities\" violates foreign key constraint \"entities_entity_type_fkey\""
+ },
+ {
+  "id": "DB-03",
+  "area": "constraints",
+  "check": "communication referencing an entity of ANOTHER case is rejected",
+  "result": "PASS",
+  "observed": "ForeignKeyViolation: insert or update on table \"communications\" violates foreign key constraint \"communications_case_id_receiver_id_fkey\""
+ },
+ {
+  "id": "DB-04",
+  "area": "constraints",
+  "check": "relationship strength > 1 is rejected",
+  "result": "PASS",
+  "observed": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_strength_check\""
+ },
+ {
+  "id": "DB-05",
+  "area": "constraints",
+  "check": "self relationship is rejected",
+  "result": "PASS",
+  "observed": "CheckViolation: new row for relation \"relationships\" violates check constraint \"relationships_check\""
+ },
+ {
+  "id": "DB-06",
+  "area": "constraints",
+  "check": "observation ending before it starts is rejected",
+  "result": "PASS",
+  "observed": "CheckViolation: new row for relation \"location_observations\" violates check constraint \"location_observations_check\""
+ },
+ {
+  "id": "DB-07",
+  "area": "constraints",
+  "check": "new evidence must start SUPPORTED",
+  "result": "PASS",
+  "observed": "RaiseException: New evidence must start SUPPORTED; use change_validity() for later changes"
+ },
+ {
+  "id": "DB-08",
+  "area": "constraints",
+  "check": "event referencing a location of ANOTHER case is rejected",
+  "result": "PASS",
+  "observed": "ForeignKeyViolation: insert or update on table \"events\" violates foreign key constraint \"events_case_id_location_entity_id_fkey\""
+ },
+ {
+  "id": "DB-10",
+  "area": "lifecycle",
+  "check": "validity_status cannot be updated directly",
+  "result": "PASS",
+  "observed": "RaiseException: validity_status can only be changed via change_validity()"
+ },
+ {
+  "id": "DB-11",
+  "area": "lifecycle",
+  "check": "evidence rows cannot be deleted",
+  "result": "PASS",
+  "observed": "RaiseException: DELETE on evidence is not allowed (append-only / history-preserving)"
+ },
+ {
+  "id": "DB-12",
+  "area": "lifecycle",
+  "check": "evidence identity fields are immutable",
+  "result": "PASS",
+  "observed": "RaiseException: Evidence identity/provenance fields are immutable; supersede the record instead"
+ },
+ {
+  "id": "DB-13",
+  "area": "lifecycle",
+  "check": "audit_log is append-only (UPDATE)",
+  "result": "PASS",
+  "observed": "RaiseException: UPDATE on audit_log is not allowed (append-only / history-preserving)"
+ },
+ {
+  "id": "DB-14",
+  "area": "lifecycle",
+  "check": "audit_log is append-only (DELETE)",
+  "result": "PASS",
+  "observed": "RaiseException: DELETE on audit_log is not allowed (append-only / history-preserving)"
+ },
+ {
+  "id": "DB-16",
+  "area": "lifecycle",
+  "check": "evidence.validity_status equals the newest validity event for every evidence row",
+  "result": "PASS",
+  "observed": "0 evidence rows disagree with their latest validity event"
+ },
+ {
+  "id": "DB-15",
+  "area": "lifecycle",
+  "check": "evidence_validity_events is append-only (UPDATE, once rows exist)",
+  "result": "PASS",
+  "observed": "RaiseException: UPDATE on evidence_validity_events is not allowed (append-only / history-preserving)"
+ },
+ {
+  "id": "DB-17",
+  "area": "audit",
+  "check": "every validity event is mirrored in the audit log",
+  "result": "PASS",
+  "observed": "audit rows for validity events=1, events=1"
+ },
+ {
+  "id": "DB-18",
+  "area": "transactions",
+  "check": "failed change_validity (unknown actor) leaves no event and no status change",
+  "result": "PASS",
+  "observed": "events 1->1, status INVALIDATED"
+ },
+ {
+  "id": "DB-19",
+  "area": "concurrency",
+  "check": "8 concurrent change_validity calls on one evidence row: final status equals the newest event, one event per accepted call",
+  "result": "PASS",
+  "observed": "accepted=2 rejected=6 events=2 final status=INVALIDATED latest event=INVALIDATED; rejections: ['Transition INVALIDATED -> CHALLENGED via DOCUMENTED_CONTRADICTION is not permitted by the EVLM rules', 'Transition INVALIDATED -> INVALIDATED via CONFIRMED_INVALIDITY is not permitted by the EVLM rules']"
+ },
+ {
+  "id": "SEC-01",
+  "area": "privilege",
+  "check": "cm_app cannot read the ground-truth schema",
+  "result": "PASS",
+  "observed": "InsufficientPrivilege: permission denied for schema gt"
+ },
+ {
+  "id": "SEC-02",
+  "area": "privilege",
+  "check": "cm_app cannot write the ground-truth schema",
+  "result": "PASS",
+  "observed": "InsufficientPrivilege: permission denied for schema gt"
+ },
+ {
+  "id": "SEC-03",
+  "area": "privilege",
+  "check": "cm_app cannot UPDATE evidence directly",
+  "result": "PASS",
+  "observed": "InsufficientPrivilege: permission denied for table evidence"
+ },
+ {
+  "id": "SEC-04",
+  "area": "privilege",
+  "check": "cm_app cannot DELETE evidence",
+  "result": "PASS",
+  "observed": "InsufficientPrivilege: permission denied for table evidence"
+ },
+ {
+  "id": "SEC-05",
+  "area": "privilege",
+  "check": "cm_app cannot modify the audit log",
+  "result": "PASS",
+  "observed": "InsufficientPrivilege: permission denied for table audit_log"
+ },
+ {
+  "id": "SEC-06",
+  "area": "privilege",
+  "check": "cm_app cannot create or drop tables",
+  "result": "PASS",
+  "observed": "InsufficientPrivilege: permission denied for schema public"
+ },
+ {
+  "id": "SEC-10",
+  "area": "injection",
+  "check": "hostile values in entity_id/start_time/result_limit are rejected as invalid parameters; evidence table intact",
+  "result": "PASS",
+  "observed": "accepted=[] unexpected_exceptions=[] evidence_rows_intact=550"
+ },
+ {
+  "id": "SEC-11",
+  "area": "isolation",
+  "check": "an entity identifier belonging to another case cannot be resolved",
+  "result": "PASS",
+  "observed": "numeric id from another case rejected"
+ },
+ {
+  "id": "DB-20",
+  "area": "isolation",
+  "check": "validity changes in case 1 create no events in case 2",
+  "result": "PASS",
+  "observed": "case-2 validity events after case-1 changes = 0"
+ }
+]

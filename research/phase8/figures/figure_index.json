@@ -1,0 +1,56 @@
+[
+ {
+  "file": "fig01_ranking_comparison.png",
+  "title": "Ranking comparison",
+  "caption": "Seed-level means (each seed = mean of its 2 cases). Red bars: Q40 family. Synthetic data; see Section 'Threats to validity' for generator coupling.",
+  "source": "phase3/results/<latest>/aggregate_metrics.csv; phase4/results/<latest>/aggregate_metrics.csv"
+ },
+ {
+  "file": "fig02_metrics_at_k.png",
+  "title": "Metrics at K",
+  "caption": "Precision falls and recall rises with K as expected; relevant = perpetrator or accomplice.",
+  "source": "phase3/4 aggregate_metrics.csv"
+ },
+ {
+  "file": "fig03_ablation.png",
+  "title": "Ablation",
+  "caption": "Negative = component helps. Most components show no detectable effect on clean data; spatial and contradiction handling matter most.",
+  "source": "phase5/results/<latest>/analysis.json (ablation.clean.means)"
+ },
+ {
+  "file": "fig04_robustness.png",
+  "title": "Robustness",
+  "caption": "Six of 13 perturbation types shown; all 13 are in the Phase 5 report. Level 0 is the clean run.",
+  "source": "phase5/results/<latest>/analysis.json (robustness, robustness_clean)"
+ },
+ {
+  "file": "fig05_evolution.png",
+  "title": "Evidence evolution",
+  "caption": "Expected-flag recall is measured against independently authored three-tier expectations; the 0 recall at later transitions is discussed in the Phase 5 report.",
+  "source": "phase5/results/<latest>/evolution_analysis.json"
+ },
+ {
+  "file": "fig06_retrieval.png",
+  "title": "Retrieval",
+  "caption": "Typo-tolerant matching accounts for the gain over plain BM25 here; entity and reference boosts had negligible effect. Multi-hop and SQL-investigation questions are weakest.",
+  "source": "phase6/results/<latest>/analysis.json"
+ },
+ {
+  "file": "fig07_answer_metrics.png",
+  "title": "Answer metrics (template provider)",
+  "caption": "Template answers restate retrieved records, so groundedness is high and hallucination zero by construction; correct refusal is 0 because the template never refuses. No LLM provider result exists.",
+  "source": "phase6/results/<latest>/analysis.json (answer.ALL)"
+ },
+ {
+  "file": "fig08_sql_scalability.png",
+  "title": "SQL scalability",
+  "caption": "Synthetic replication model; indicative only. p95 over repeated executions.",
+  "source": "phase7/results/<latest>/scalability.json"
+ },
+ {
+  "file": "fig09_oracle_agreement.png",
+  "title": "Oracle agreement",
+  "caption": "Green fully covering grey = every comparison matched (after the two defects found by this phase were fixed).",
+  "source": "phase7/results/<latest>/oracle_summary.json"
+ }
+]

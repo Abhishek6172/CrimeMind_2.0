@@ -1,0 +1,271 @@
+{
+ "M1.contacts": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M1.frequency": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M1.pairs": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M2.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M3.present": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M3.copresence": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M4.shared": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M4.frequency": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M5.history": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M5.frequency": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M6.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M7.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M8.before": {
+  "comparisons": 96,
+  "matches": 88,
+  "mismatches": 8,
+  "examples": [
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'event_id'"
+   },
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'event_id'"
+   }
+  ]
+ },
+ "M8.after": {
+  "comparisons": 96,
+  "matches": 88,
+  "mismatches": 8,
+  "examples": [
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'event_id'"
+   },
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'event_id'"
+   }
+  ]
+ },
+ "M8.around": {
+  "comparisons": 96,
+  "matches": 6,
+  "mismatches": 90,
+  "examples": [
+   {
+    "source": "dataset_csv",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "content differs; only-in-oracle=[(('entity_ref', 'P-022'), ('recorded_at_incident_location', False), ('record_count', 1), ('first_record', '2026-08-14T15:01:00+00:00'), ('last_record', '2026-08-14T15:01:00+00:00'), ('record_refs', ('TXN-00120',)), ('evidence_refs', ('E-0242',))), (('entity_ref', 'P-086'), ('recorded_at_incident_location', False), ('record_count', 2), ('first_record', '2026-08-14T1"
+   },
+   {
+    "source": "dataset_csv",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "content differs; only-in-oracle=[(('entity_ref', 'P-022'), ('recorded_at_incident_location', False), ('record_count', 1), ('first_record', '2026-08-14T15:01:00+00:00'), ('last_record', '2026-08-14T15:01:00+00:00'), ('record_refs', ('TXN-00120',)), ('evidence_refs', ('E-0242',))), (('entity_ref', 'P-086'), ('recorded_at_incident_location', False), ('record_count', 2), ('first_record', '2026-08-14T1"
+   }
+  ]
+ },
+ "M9.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M10.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M11.connected": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M11.shortest": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M12.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M13.default": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M14.near_location": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M14.associated_entities": {
+  "comparisons": 96,
+  "matches": 80,
+  "mismatches": 16,
+  "examples": [
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'vehicle_id'"
+   },
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'vehicle_id'"
+   }
+  ]
+ },
+ "M14.repeated": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M15.entity": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M15.between": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M15.top_amounts": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M15.patterns": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M15.repeated_or_unusual": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M16.entity": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M16.event": {
+  "comparisons": 96,
+  "matches": 88,
+  "mismatches": 8,
+  "examples": [
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'event_id'"
+   },
+   {
+    "source": "edge_mutated",
+    "seed": 2026,
+    "case_id": 1,
+    "problem": "EXCEPTION KeyError: 'event_id'"
+   }
+  ]
+ },
+ "M17.multi_entity": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M17.multi_type": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ },
+ "M17.corroborating": {
+  "comparisons": 96,
+  "matches": 96,
+  "mismatches": 0,
+  "examples": []
+ }
+}

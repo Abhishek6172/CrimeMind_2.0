@@ -1,0 +1,32 @@
+............................................................             [100%]
+=============================== warnings summary ===============================
+tests/test_ai_graph.py::test_offline_provider_is_labelled_and_valid
+  /home/claude/cm2/crimemind/backend/app/main.py:20: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("startup")
+
+tests/test_ai_graph.py::test_offline_provider_is_labelled_and_valid
+tests/test_ai_graph.py::test_offline_provider_is_labelled_and_valid
+  /usr/local/lib/python3.13/site-packages/fastapi/applications.py:4723: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    return self.router.on_event(event_type)  # ty: ignore[deprecated]
+
+tests/test_ai_graph.py::test_offline_provider_is_labelled_and_valid
+  /home/claude/cm2/crimemind/backend/app/main.py:25: DeprecationWarning: 
+          on_event is deprecated, use lifespan event handlers instead.
+  
+          Read more about it in the
+          [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+          
+    @app.on_event("shutdown")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+60 passed, 4 warnings in 26.16s

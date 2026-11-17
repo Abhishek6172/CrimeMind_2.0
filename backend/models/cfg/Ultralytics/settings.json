@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "C:\\Users\\KIIT0001\\Downloads\\datasets",
+  "weights_dir": "C:\\Users\\KIIT0001\\Downloads\\CrimeMind_ResearchLab_Case_Integrated\\weights",
+  "runs_dir": "C:\\Users\\KIIT0001\\Downloads\\CrimeMind_ResearchLab_Case_Integrated\\runs",
+  "uuid": "dad501e073398f23b17ac388621bee55f6ec0834a9c05e813dc787374307db6c",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

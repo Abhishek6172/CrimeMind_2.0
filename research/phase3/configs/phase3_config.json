@@ -1,0 +1,16 @@
+{
+  "config_version": "p3-1.0",
+  "seeds": "2026-2075",
+  "unit_of_analysis": "seed (mean over the seed's two cases); case-level reported as secondary",
+  "window_minutes": 60,
+  "random": {"repetitions": 100, "seed_scheme": "sha256(dataset_id|case_ref|repetition)"},
+  "communication": {"weights": {"count": 0.25, "unique_partners": 0.25, "pre_incident_week_frequency": 0.25, "recency": 0.25},
+                    "pre_incident_days": 7, "recency_half_life_hours": 24,
+                    "note": "equal weights, min-max normalised per case; no tuning against labels"},
+  "spatial": {"proximity_scale_m": 100, "note": "score = 1/(1+d_min/scale) over observations overlapping +/-window of the incident; no observation in window -> 0"},
+  "graph": {"pagerank_damping": 0.85, "pagerank_tol": 1e-10, "pagerank_max_iter": 200},
+  "q40": {"result_limit": 1000, "window_minutes": 60, "weights_frozen_in": "backend/app/sql_modules/18_get_case_evidence_ranking.sql (variant overall)"},
+  "tie_break": "descending raw score, then ascending sha256(dataset_id|case_ref|candidate) - independent of reference order and of labels",
+  "metrics": {"ks": [1, 3, 5], "relevant": "grade >= 1 (binary metrics)", "ndcg_gain": "2^grade - 1, discount 1/log2(rank+1)"},
+  "statistics": {"bootstrap_resamples": 10000, "bootstrap_seed": 20260101, "test": "paired Wilcoxon signed-rank (two-sided)", "effect_size": "matched-pairs rank-biserial r and Cohen d_z", "multiplicity": "Holm-Bonferroni across all method pairs within each metric"}
+}

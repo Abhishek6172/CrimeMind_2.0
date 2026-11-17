@@ -1,0 +1,14 @@
+{
+ "offline-template": {
+  "status": "EXECUTED",
+  "note": "deterministic template, not an LLM; evaluated on the full benchmark by research/phase6/run_phase6.py"
+ },
+ "gemini": {
+  "status": "NOT_RUN",
+  "reason": "GEMINI_API_KEY is not set"
+ },
+ "anthropic": {
+  "status": "NOT_RUN",
+  "reason": "ANTHROPIC_API_KEY is not set"
+ }
+}

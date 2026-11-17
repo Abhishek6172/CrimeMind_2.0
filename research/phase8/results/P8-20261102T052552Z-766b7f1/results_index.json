@@ -1,0 +1,234 @@
+[
+ {
+  "phase": "phase3",
+  "run_id": "P3-20261102T052553Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase3/results/P3-20261102T052553Z-766b7f1/aggregate_metrics.csv",
+  "bytes": 10697,
+  "sha256": "a67bc5af1008f6ac1641273ccdaa0ab9e6e5d1ec866bf5cf2ea34e637836c170"
+ },
+ {
+  "phase": "phase3",
+  "run_id": "P3-20261102T052553Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase3/results/P3-20261102T052553Z-766b7f1/analysis.json",
+  "bytes": 150063,
+  "sha256": "17c8ab8c755909f44b633e9d22463c25db5bb24787c69174efdc044005569ef6"
+ },
+ {
+  "phase": "phase3",
+  "run_id": "P3-20261102T052553Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase3/results/P3-20261102T052553Z-766b7f1/paired_comparisons.csv",
+  "bytes": 54865,
+  "sha256": "becfcdf5a5116baefc048d75ba0bee7c137136e29ae7652be2967b7c4529a66c"
+ },
+ {
+  "phase": "phase3",
+  "run_id": "P3-20261102T052553Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase3/results/P3-20261102T052553Z-766b7f1/per_case_metrics.csv",
+  "bytes": 128898,
+  "sha256": "2ab802afe543c4de206c3680ee5df76f5bd684249aee82d6306314d49fcd8ee6"
+ },
+ {
+  "phase": "phase3",
+  "run_id": "P3-20261102T052553Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase3/results/P3-20261102T052553Z-766b7f1/per_seed_metrics.csv",
+  "bytes": 68087,
+  "sha256": "7cd657a34712328f8bba6d25290242c61668d03ca83b7bec14558aa5d8c1186c"
+ },
+ {
+  "phase": "phase3",
+  "run_id": "P3-20261102T052553Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase3/results/P3-20261102T052553Z-766b7f1/run_manifest.json",
+  "bytes": 6695,
+  "sha256": "7ace6563cb7c4e953817bc8cdafc6e4afdb7774230b7118dc51c11017f464642"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/aggregate_metrics.csv",
+  "bytes": 11781,
+  "sha256": "b5931583d914af4551156e8c7cd22e4ebac97888a47fe043ce1c4d3e42548818"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/analysis.json",
+  "bytes": 191411,
+  "sha256": "d1db50003b4defe5257b8bed0fc54cf7a874802221a867fca2078937a9bed19b"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/paired_comparisons.csv",
+  "bytes": 69502,
+  "sha256": "c87693643b78d37502f159d96c2082b9b701855d02823c33f11009bba69756a3"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/per_case_metrics.csv",
+  "bytes": 146126,
+  "sha256": "5b36ef1c1857ba60aac8374aee6407c55394ec1a5f89f1afb95b400c217b8923"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/per_seed_metrics.csv",
+  "bytes": 77181,
+  "sha256": "35e0afd56167bdf137bb656491635301c393307f9181fffcca68e3d0eb340ddf"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/run_manifest.json",
+  "bytes": 9167,
+  "sha256": "0524c2c886c6fcaf1c058fb70752fdc435211a2bae6bcd38dcd3c101d4424b20"
+ },
+ {
+  "phase": "phase4",
+  "run_id": "P4-20261102T052715Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase4/results/P4-20261102T052715Z-766b7f1/strata.json",
+  "bytes": 15145,
+  "sha256": "08ca450fa79a9f357956b812ed93b1e898191c653e6442500d808efd283ce32a"
+ },
+ {
+  "phase": "phase5",
+  "run_id": "P5-20261102T052840Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase5/results/P5-20261102T052840Z-766b7f1/analysis.json",
+  "bytes": 369161,
+  "sha256": "c2ca9d21e2be410e51df967b7d6d1572f6ad5a5ddef7c929807c4fb55fe2c1b1"
+ },
+ {
+  "phase": "phase5",
+  "run_id": "P5-20261102T052840Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase5/results/P5-20261102T052840Z-766b7f1/evolution_analysis.json",
+  "bytes": 4925,
+  "sha256": "a16413f6da0c8b8fe1c710405468a2c2f5b4c4870572511c42f4917ca6c040bc"
+ },
+ {
+  "phase": "phase5",
+  "run_id": "P5-20261102T052840Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase5/results/P5-20261102T052840Z-766b7f1/evolution_results.json",
+  "bytes": 1911861,
+  "sha256": "ed0a2480242391fdd4e33eeeb96969d914abbbebdb3988376d092cff228874b2"
+ },
+ {
+  "phase": "phase5",
+  "run_id": "P5-20261102T052840Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase5/results/P5-20261102T052840Z-766b7f1/per_case_results.csv",
+  "bytes": 5064670,
+  "sha256": "4369016c2d7fbdcea534ecd8041cc105aea056ebba6f4ce34a2fb0b1234b2f74"
+ },
+ {
+  "phase": "phase5",
+  "run_id": "P5-20261102T052840Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase5/results/P5-20261102T052840Z-766b7f1/run_manifest.json",
+  "bytes": 11611,
+  "sha256": "777a116bad321574e9a30a8ab8abb5cca08fdb1b2bc901ff1a95f898c4713768"
+ },
+ {
+  "phase": "phase6",
+  "run_id": "P6-20261102T053155Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase6/results/P6-20261102T053155Z-766b7f1/analysis.json",
+  "bytes": 133643,
+  "sha256": "683151e2627e9e88e61965be7af897bb93f96cbfd156c0a8b07c5721bf4bedbd"
+ },
+ {
+  "phase": "phase6",
+  "run_id": "P6-20261102T053155Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase6/results/P6-20261102T053155Z-766b7f1/per_question_results.json",
+  "bytes": 742359,
+  "sha256": "e28c1a5d3f2a3ebac6d56cdaaf4a1ba3017a0f1e2c568bf4f1ad08aaa04db032"
+ },
+ {
+  "phase": "phase6",
+  "run_id": "P6-20261102T053155Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase6/results/P6-20261102T053155Z-766b7f1/run_manifest.json",
+  "bytes": 1292,
+  "sha256": "44f0f05b02c9d37d96d2417320e64340b9e98de465ee829ec659ff52ea520eb2"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/db_security_checks.json",
+  "bytes": 6414,
+  "sha256": "e19609f958a83e6dc736322caac5482cf0258af6a1c1dd9fbd60c4375f1548c7"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/edge_mutation_log.json",
+  "bytes": 21870,
+  "sha256": "90fd4c69a7a5d25f09921017aa959ce97709dcbf8cb1e0ce27a402bcf10ba1b6"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/oracle_comparisons.csv",
+  "bytes": 193543,
+  "sha256": "3341c3aca91456653d7061da22963f3c4281592a73b9a57bb8d51f80f3716352"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/oracle_summary.json",
+  "bytes": 3402,
+  "sha256": "8af33be056f147a5834cc737d311816cb099406d13377420496a46701148444d"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/q40_vs_python.json",
+  "bytes": 1165,
+  "sha256": "0a6dd50c9a18f392b5f9dcb5fc9384014fc6de989b11f2fcbc3a087e0a619043"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/run_manifest.json",
+  "bytes": 1209,
+  "sha256": "967fce7cdbf8d9a0b5ff88f192e7962e74b21c44d0bf1ceb0d7df13231b06a1a"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/scalability.json",
+  "bytes": 66972,
+  "sha256": "2247d83e19166be782d19388e80d4e51bf047eaa5807ff07a042d97f3d5bab2d"
+ },
+ {
+  "phase": "phase7",
+  "run_id": "P7-20261102T053251Z-766b7f1",
+  "git_commit": "766b7f1",
+  "file": "research/phase7/results/P7-20261102T053251Z-766b7f1/stage_status.json",
+  "bytes": 163,
+  "sha256": "0e675f55bf61c9b7b9d9ba5f5b4eecc70801b8904b7b5ee56a11b3ec7f47cb0f"
+ }
+]

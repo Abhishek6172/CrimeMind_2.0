@@ -1,0 +1,30 @@
+{
+  "config_version": "p5-1.0",
+  "methods_robustness": ["q40_py", "q40_r", "raeer", "raeer-no_independence", "raeer-no_lifecycle", "spatial_proximity", "communication_frequency", "pagerank"],
+  "q40_py_note": "q40_py is Q40 re-expressed in Python (Q40-R with reliability off and only SUPPORTED records). It equals the frozen SQL within its 2-decimal rounding on clean data (test_q40r_with_reliability_off_equals_frozen_q40_on_real_data) and is used because the SQL cannot run on in-memory perturbed data.",
+  "perturbations": {
+    "missing_evidence": [0.1, 0.3, 0.5],
+    "noisy_location": [0.1, 0.3, 0.5],
+    "incorrect_timestamps": [0.1, 0.3, 0.5],
+    "duplicate_evidence": [0.1, 0.3, 0.5],
+    "contradictory_records": [0.1, 0.3, 0.5],
+    "reduced_communication": [0.1, 0.3, 0.5],
+    "reduced_graph": [0.1, 0.3, 0.5],
+    "low_reliability": [0.2, 0.4, 0.6],
+    "delayed_evidence": [0.1, 0.3, 0.5],
+    "invalidation": [0.1, 0.3, 0.5],
+    "challenge": [0.1, 0.3, 0.5],
+    "update_superseded": [0.1, 0.3, 0.5],
+    "mixed_quality": [0.2, 0.4, 0.6]
+  },
+  "perturbation_semantics": {
+    "p": "fraction of items affected (evidence items, records or candidates, see research/phase5/perturb.py); low_reliability: reliability scaled by (1-p); mixed_quality level L applies missing(L/2), timestamps(L/2), low_reliability(L/2), duplicate(L/2), invalidation(L/4)",
+    "timestamp_shift_minutes": [30, 240]
+  },
+  "sensitivity": {"gamma": [0.0, 0.25, 0.5, 0.75, 1.0], "tau_minutes": [15, 30, 60, 120], "scene_radius_m": [50, 150, 300], "contradiction_distance_m": [500, 1000, 2000],
+                  "weight_scale": [0.5, 1.5], "weight_note": "each weight scaled by the factor, others renormalised to sum 1 (one-at-a-time)"},
+  "ablations": ["raeer", "raeer-no_reliability", "raeer-no_contradiction", "raeer-no_temporal", "raeer-no_spatial", "raeer-no_communication",
+                "raeer-no_graph", "raeer-no_lifecycle", "raeer-no_corroboration", "raeer-no_independence", "raeer-no_provenance"],
+  "key_metrics": ["nDCG@5", "MRR", "AP"],
+  "evolution": {"methods": ["q40", "q40_r", "raeer", "raeer-no_lifecycle"], "top_k_overlap": 5}
+}

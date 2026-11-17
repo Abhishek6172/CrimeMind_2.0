@@ -1,0 +1,26 @@
+{
+  "name": "Q40 - strongest combined association with the incident",
+  "frozen_as": "research-baseline-v1",
+  "source": "backend/app/sql_modules/18_get_case_evidence_ranking.sql, variant 'overall' (module M18 v1.0)",
+  "registry_entry": "backend/app/registry.py: Q40",
+  "inputs": {"event_id": "EVT-001 (the incident)", "window_minutes": 60, "result_limit": 25, "include_historical": false},
+  "scored_population": "entities of type PERSON, excluding the victim(s) of the incident event",
+  "signals": {
+    "spatial":       {"weight": 0.35, "definition": "has a location observation at the incident location within +/- window of the incident time"},
+    "temporal":      {"weight": 0.10, "definition": "has any recorded activity (v_activity) within +/- window of the incident time"},
+    "communication": {"weight": 0.15, "definition": "has a communication record with the victim or with anyone with a spatial signal"},
+    "financial":     {"weight": 0.15, "definition": "has a transaction with the victim or with anyone with a spatial signal"},
+    "relational":    {"weight": 0.10, "definition": "has a relationship (other than OWNS/USES) with the victim"},
+    "evidence":      {"weight": 0.15, "definition": "min(1, independent_evidence_sources / 3); independent source = distinct provenance origin_root (else source)"}
+  },
+  "score": "association_score = sum(weight * signal), rounded to 2 decimals; the five behavioural signals are BINARY (present/absent)",
+  "tie_break": "association_score DESC, then entity ref ASC",
+  "validity_handling": "only SUPPORTED evidence/records count (include_historical=false); CHALLENGED, INVALIDATED and SUPERSEDED records are excluded",
+  "not_used": [
+    "evidence reliability_score (a per-evidence-type heuristic weight, see evidence_types) - it is used only by Q34/Q35 and in displays, NOT by Q40",
+    "contradiction detection (CONTRADICTION_001) and correlation classifications (FACT/CORRELATED/INFERRED)"
+  ],
+  "weights_origin": "hand-assigned ('approved heuristic weights, not probabilities' - README); not fitted to data",
+  "reliability_weights_by_evidence_type": {"DNA": 1.0, "TRANSACTION_RECORD": 0.9, "FINGERPRINT": 0.9, "CDR": 0.85, "DEVICE_DIAGNOSTIC": 0.85, "ACCESS_LOG": 0.8, "GPS": 0.75, "CCTV": 0.7, "AUDIO": 0.6, "WITNESS_STATEMENT": 0.6, "DOCUMENT": 0.5},
+  "correlation_rules_version": "backend/app/correlation/rules.py: 10 rules, all version 1"
+}

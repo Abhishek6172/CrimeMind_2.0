@@ -1,0 +1,11 @@
+timestamp,event,evidence_reference,time_quality
+2026-10-28 15:50,Laptop reportedly seen on meeting-room desk,EV-001,Approximate witness recollection
+2026-10-28 16:00,Project meeting begins,EV-001,Approximate
+2026-10-28 16:45,Project meeting ends,EV-001,Approximate
+2026-10-28 16:52:11,Badge B-104 access granted,EV-002,System timestamp; clock unverified
+2026-10-28 16:58,Facilities socket-inspection email received,EV-004,Email extract timestamp
+2026-10-28 17:08:43,Badge B-219 access granted,EV-002,System timestamp; clock unverified
+2026-10-28 17:20,Unidentified person seen with dark sleeve/case,EV-003,Approximate witness recollection
+2026-10-28 17:46:02,Badge B-031 access granted,EV-002,System timestamp; clock unverified
+2026-10-28 18:25,Laptop noticed missing,EV-001,Approximate witness recollection
+2026-10-28 19:05,Reporting person's statement recorded,EV-001,Recorded time

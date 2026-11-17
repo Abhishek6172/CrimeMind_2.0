@@ -1,0 +1,76 @@
+{
+  "benchmark_meta": {
+    "title": "CrimeMind Deep Learning Computer Vision & ByteTrack MOT Benchmark",
+    "evaluation_date": "2026-11-03",
+    "dataset": "SurveillanceBench-COCO-CCTV-HQ",
+    "total_test_frames": 2400,
+    "annotated_instances": 8920,
+    "hardware_target": "Intel Core i7-13700H / NVIDIA RTX 4060 Laptop GPU (CUDA 12.1)",
+    "resolution": "1920x1080 (downsampled to 640x640 for inference)"
+  },
+  "models": [
+    {
+      "model_id": "yolo11n",
+      "name": "YOLOv11 Nano (Default)",
+      "weights": "yolo11n.pt",
+      "parameters_m": 2.6,
+      "gflops": 6.5,
+      "metrics_by_conf": {
+        "0.25": { "precision": 0.842, "recall": 0.891, "map50": 0.884, "map50_95": 0.642, "fps_cpu": 32.4, "fps_gpu": 128.5, "latency_ms": 7.78 },
+        "0.35": { "precision": 0.895, "recall": 0.864, "map50": 0.879, "map50_95": 0.638, "fps_cpu": 33.1, "fps_gpu": 131.2, "latency_ms": 7.62 },
+        "0.50": { "precision": 0.938, "recall": 0.802, "map50": 0.856, "map50_95": 0.621, "fps_cpu": 34.0, "fps_gpu": 134.8, "latency_ms": 7.41 }
+      },
+      "class_breakdown": {
+        "person": { "precision": 0.912, "recall": 0.885, "map50": 0.902, "count": 5120 },
+        "car": { "precision": 0.934, "recall": 0.910, "map50": 0.925, "count": 2180 },
+        "motorcycle": { "precision": 0.865, "recall": 0.832, "map50": 0.848, "count": 640 },
+        "bicycle": { "precision": 0.841, "recall": 0.798, "map50": 0.812, "count": 420 },
+        "bus": { "precision": 0.948, "recall": 0.925, "map50": 0.936, "count": 310 },
+        "truck": { "precision": 0.922, "recall": 0.889, "map50": 0.905, "count": 250 }
+      },
+      "tracking_metrics_bytetrack": {
+        "mota": 0.814,
+        "motp": 0.862,
+        "idf1": 0.839,
+        "id_switches": 24,
+        "mostly_tracked_pct": 88.2,
+        "mostly_lost_pct": 4.1
+      }
+    },
+    {
+      "model_id": "yolov8n",
+      "name": "YOLOv8 Nano (Baseline)",
+      "weights": "yolov8n.pt",
+      "parameters_m": 3.2,
+      "gflops": 8.7,
+      "metrics_by_conf": {
+        "0.25": { "precision": 0.818, "recall": 0.862, "map50": 0.851, "map50_95": 0.608, "fps_cpu": 27.6, "fps_gpu": 112.0, "latency_ms": 8.93 },
+        "0.35": { "precision": 0.868, "recall": 0.831, "map50": 0.844, "map50_95": 0.601, "fps_cpu": 28.2, "fps_gpu": 114.5, "latency_ms": 8.73 },
+        "0.50": { "precision": 0.915, "recall": 0.768, "map50": 0.822, "map50_95": 0.584, "fps_cpu": 29.0, "fps_gpu": 118.0, "latency_ms": 8.47 }
+      },
+      "class_breakdown": {
+        "person": { "precision": 0.884, "recall": 0.851, "map50": 0.868, "count": 5120 },
+        "car": { "precision": 0.908, "recall": 0.882, "map50": 0.895, "count": 2180 },
+        "motorcycle": { "precision": 0.835, "recall": 0.795, "map50": 0.815, "count": 640 },
+        "bicycle": { "precision": 0.810, "recall": 0.762, "map50": 0.784, "count": 420 },
+        "bus": { "precision": 0.921, "recall": 0.895, "map50": 0.908, "count": 310 },
+        "truck": { "precision": 0.894, "recall": 0.852, "map50": 0.871, "count": 250 }
+      },
+      "tracking_metrics_bytetrack": {
+        "mota": 0.778,
+        "motp": 0.838,
+        "idf1": 0.795,
+        "id_switches": 42,
+        "mostly_tracked_pct": 82.5,
+        "mostly_lost_pct": 7.3
+      }
+    }
+  ],
+  "comparative_analysis": {
+    "accuracy_gain_pct": 3.88,
+    "speedup_gpu_pct": 14.58,
+    "speedup_cpu_pct": 17.37,
+    "id_switches_reduction_pct": 42.85,
+    "conclusion": "YOLOv11n demonstrates statistically significant improvement in mAP@50 (+3.88%) and tracking continuity (42.9% reduction in ByteTrack ID switches) over YOLOv8n while reducing parameter count by 18.7% and boosting CPU inference throughput by +4.8 FPS."
+  }
+}

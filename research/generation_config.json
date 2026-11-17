@@ -1,0 +1,27 @@
+{
+  "config_version": "1.0",
+  "description": "Identical for every seed; only the random seed differs. Story structure (leads, decoys, witnesses, evolution) is drawn from these ranges by the seed.",
+  "cases_per_seed": 2,
+  "background_persons": {"primary": [85, 115], "secondary": [35, 55]},
+  "n_true_leads": [2, 4],
+  "n_red_herrings": [1, 2],
+  "n_bystanders": [4, 8],
+  "max_passersby_at_scene": 2,
+  "decoy_types": ["HIGH_COMMUNICATION", "HIGH_PROXIMITY", "MIXED"],
+  "lead_strengths": {"strong": 0.4, "medium": 0.4, "weak": 0.2},
+  "witness_contradiction_probability": 0.35,
+  "incident": {"day": 2, "hour_range": [19, 21]},
+  "evolution": {
+    "device_fault": 1.0,
+    "tip_retraction": 0.8,
+    "witness_challenge_reinstate": 0.7,
+    "alibi_correction": 0.5,
+    "lead_cctv_timestamp_error": 0.5
+  },
+  "ground_truth_policy": {
+    "relevant_leads": "perpetrator (grade 3) and accomplices (grade 2) chosen by the generator, independent of any ranking method",
+    "must_flag": "planted claims (person near the incident) whose supporting evidence, as recorded by the generator, includes the changed evidence",
+    "must_not_flag": "findings that involve no entity touched by any record citing the changed evidence",
+    "indeterminate": "all other findings (involve a touched entity but are not planted claims); reported, never counted as errors"
+  }
+}

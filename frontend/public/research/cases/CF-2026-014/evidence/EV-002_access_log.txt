@@ -1,0 +1,20 @@
+EVIDENCE ITEM: EV-002
+TYPE: Access-control log extract
+SOURCE: Meridian Innovation Centre access system
+LOCATION: Building B, Room 204
+EXPORT TIME: 28 October 2026, 20:10
+DATE RANGE: 28 October 2026, 16:30–18:00
+
+EXTRACT
+16:52:11 | Badge ID B-104 | Door access granted
+17:08:43 | Badge ID B-219 | Door access granted
+17:46:02 | Badge ID B-031 | Door access granted
+
+SYSTEM NOTES
+- The export contains badge identifiers only; the authorised badge-holder mapping was not included.
+- The system clock has not yet been checked against a trusted time source.
+- An access-granted event does not prove that the badge holder removed property.
+- No door-held-open or forced-entry events appear in this extract.
+
+FOLLOW-UP REQUIRED
+Obtain the signed badge-holder mapping from Facilities and preserve the original system export with its audit metadata.

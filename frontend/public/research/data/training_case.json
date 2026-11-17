@@ -1,0 +1,155 @@
+{
+  "case": {
+    "case_id": "CF-2026-014",
+    "title": "The Missing Research Laptop",
+    "case_type": "Theft / property investigation",
+    "status": "Open",
+    "classification": "Fictional training case",
+    "incident_date": "2026-10-28",
+    "reported_at": "2026-10-28T18:40:00",
+    "location": "Meridian Innovation Centre, Building B, Room 204",
+    "reporting_person": "Dr. Meera Sen",
+    "estimated_loss": "₹85,000",
+    "summary": "A university-owned research laptop was reported missing from Room 204 after an afternoon project meeting. The room was used by several staff members and students during the day. Available records establish a limited timeline, but do not identify a confirmed offender. The evidence contains both potentially relevant and inconclusive details.",
+    "investigative_questions": [
+      "When was the laptop last confirmed present?",
+      "Who had authorised access to Room 204 during the relevant period?",
+      "Do the access log and witness accounts agree on the timeline?",
+      "Can the corridor camera still be obtained and reviewed?",
+      "Is there evidence that distinguishes accidental relocation from theft?"
+    ],
+    "persons_of_interest": [
+      {
+        "name": "Arjun Rao",
+        "role": "Research assistant",
+        "status": "Person to interview; not an accused person"
+      },
+      {
+        "name": "Nisha Kapoor",
+        "role": "Project student",
+        "status": "Person to interview; not an accused person"
+      },
+      {
+        "name": "Facilities staff member",
+        "role": "Building access",
+        "status": "Identity to be confirmed"
+      }
+    ],
+    "caution": "All names, places, records and events in this package are fictional. This case is for training and demonstration only. No person should be treated as guilty based on these materials."
+  },
+  "overview": "# Case CF-2026-014 — The Missing Research Laptop\n\n**Classification:** Fictional training case  \n**Status:** Open  \n**Incident date:** 28 October 2026  \n**Location:** Meridian Innovation Centre, Building B, Room 204  \n**Reported by:** Dr. Meera Sen  \n**Estimated property value:** ₹85,000\n\n## Case summary\nA university-owned research laptop was reported missing from Room 204 after an afternoon project meeting. Several staff members and students used the room during the day. The available records provide a partial timeline, but there is not enough evidence to identify a person responsible.\n\n## Known facts\n- The laptop was reportedly seen on the meeting-room desk at approximately 15:50.\n- The room was used for a project meeting between 16:00 and 16:45.\n- The reporting person noticed the laptop missing at approximately 18:25.\n- The electronic access log records three entries after the meeting.\n- A witness recalls seeing someone carrying a dark laptop sleeve, but could not identify the person or confirm the device inside it.\n\n## Persons to clarify / interview\n- **Arjun Rao:** Research assistant; attended the meeting.\n- **Nisha Kapoor:** Project student; attended the meeting.\n- **Facilities staff member:** Accessed the room later in the afternoon; identity to be confirmed.\n\nThese are investigative leads only. No evidence in this package establishes guilt.\n\n## Initial investigative priorities\n1. Preserve the original access-control log and verify its clock accuracy.\n2. Obtain and preserve corridor CCTV footage covering 16:30–18:30.\n3. Interview the meeting attendees separately and clarify the last confirmed sighting.\n4. Check whether the laptop was moved for maintenance, charging, or safekeeping.\n5. Record the device serial number and check authorised asset or repair records.\n\n## Evidence inventory\nSee `evidence_register.csv` and the five evidence files in `evidence/`.\n\n## Important limitation\nThis is a fictional, intentionally incomplete case file. The materials contain leads and inconsistencies, not a final finding. Treat each item according to its stated source and reliability.\n",
+  "evidence": [
+    {
+      "evidence_id": "EV-001",
+      "evidence_type": "Witness statement",
+      "source": "Dr. Meera Sen, reporting person",
+      "collected_at": "2026-10-28 19:05",
+      "reliability_note": "Medium; first-hand observation with approximate time",
+      "summary": "Laptop reportedly present at 15:50 and missing at 18:25.",
+      "filename": "EV-001_witness_statement_reporting_person.txt",
+      "content": "EVIDENCE ITEM: EV-001\nTYPE: Witness statement\nSTATEMENT RECORDED: 28 October 2026, 19:05\nWITNESS: Dr. Meera Sen\nROLE: Research supervisor\n\nSTATEMENT\nI used Room 204 for a project meeting on 28 October. I remember seeing the university laptop on the desk near the display screen at approximately 15:50, before the meeting began. The meeting ended at around 16:45. I left the room shortly afterwards and did not check whether the laptop was still on the desk.\n\nAt approximately 18:25, I returned to collect a notebook and noticed that the laptop was no longer there. I asked the office administrator whether it had been moved. No one present could confirm its location.\n\nThe laptop is usually stored in a grey sleeve. I cannot say whether the sleeve was present when I returned.\n\nLIMITATIONS\n- The 15:50 time is an estimate based on memory, not a timestamped photograph.\n- The witness did not observe anyone taking the laptop.\n- The witness did not check the desk immediately after the meeting.\n\nRECORDED BY: Case intake officer\nSTATUS: Statement recorded; witness signature pending\n"
+    },
+    {
+      "evidence_id": "EV-002",
+      "evidence_type": "Access-control log extract",
+      "source": "Building access system export, Room 204",
+      "collected_at": "2026-10-28 20:10",
+      "reliability_note": "Medium; system clock not yet independently verified",
+      "summary": "Three badge events are recorded after the meeting; badge holder identities require confirmation.",
+      "filename": "EV-002_access_log.txt",
+      "content": "EVIDENCE ITEM: EV-002\nTYPE: Access-control log extract\nSOURCE: Meridian Innovation Centre access system\nLOCATION: Building B, Room 204\nEXPORT TIME: 28 October 2026, 20:10\nDATE RANGE: 28 October 2026, 16:30–18:00\n\nEXTRACT\n16:52:11 | Badge ID B-104 | Door access granted\n17:08:43 | Badge ID B-219 | Door access granted\n17:46:02 | Badge ID B-031 | Door access granted\n\nSYSTEM NOTES\n- The export contains badge identifiers only; the authorised badge-holder mapping was not included.\n- The system clock has not yet been checked against a trusted time source.\n- An access-granted event does not prove that the badge holder removed property.\n- No door-held-open or forced-entry events appear in this extract.\n\nFOLLOW-UP REQUIRED\nObtain the signed badge-holder mapping from Facilities and preserve the original system export with its audit metadata.\n"
+    },
+    {
+      "evidence_id": "EV-003",
+      "evidence_type": "Witness statement",
+      "source": "Kavya Iyer, office administrator",
+      "collected_at": "2026-10-28 19:30",
+      "reliability_note": "Low to medium; brief observation, no identification",
+      "summary": "Witness recalls an unidentified person carrying a dark laptop sleeve near the corridor around 17:20.",
+      "filename": "EV-003_witness_statement_administrator.txt",
+      "content": "EVIDENCE ITEM: EV-003\nTYPE: Witness statement\nSTATEMENT RECORDED: 28 October 2026, 19:30\nWITNESS: Kavya Iyer\nROLE: Office administrator\n\nSTATEMENT\nAt approximately 17:20, I was near the printer area in the Building B corridor. I noticed a person walking away from the direction of Room 204 while carrying a dark laptop sleeve or a thin document case. I was several metres away and only saw the person briefly.\n\nI cannot identify the person. I did not see the person's face clearly and did not see what was inside the sleeve. I cannot confirm whether the person came from Room 204 or was simply passing through the corridor.\n\nLIMITATIONS\n- Approximate time based on memory.\n- No identification made.\n- Object may not have contained a laptop.\n- Direction of travel is uncertain.\n\nRECORDED BY: Case intake officer\nSTATUS: Statement recorded; witness signature pending\n"
+    },
+    {
+      "evidence_id": "EV-004",
+      "evidence_type": "Email / maintenance record",
+      "source": "Facilities helpdesk mailbox",
+      "collected_at": "2026-10-29 09:15",
+      "reliability_note": "Medium; record is an email extract, ticket status unverified",
+      "summary": "A maintenance request mentions a power socket inspection in Room 204; it does not state that a laptop was removed.",
+      "filename": "EV-004_maintenance_email.txt",
+      "content": "EVIDENCE ITEM: EV-004\nTYPE: Email / maintenance record\nSOURCE: Facilities helpdesk mailbox\nRECEIVED: 28 October 2026, 16:58\nEXTRACTED: 29 October 2026, 09:15\n\nFROM: facilities.helpdesk@example.invalid\nTO: building.operations@example.invalid\nSUBJECT: Room 204 — socket inspection\n\nPlease arrange a check of the wall socket near the presentation desk in Room 204. A user reported intermittent power at the outlet. The room may be accessed after the scheduled meeting if it is free. Please update the ticket once inspected.\n\nTICKET REFERENCE: FAC-204-1028\nSTATUS IN EXTRACT: Open / completion not recorded\n\nINVESTIGATIVE NOTE\nThis email establishes that a maintenance request existed. It does not establish that a technician attended, entered the room, handled the laptop, or removed any property. Obtain the full ticket history and technician assignment before drawing conclusions.\n\nNOTE: The email domain is deliberately fictional (.invalid).\n"
+    },
+    {
+      "evidence_id": "EV-005",
+      "evidence_type": "Asset register extract",
+      "source": "University IT asset register",
+      "collected_at": "2026-10-29 10:00",
+      "reliability_note": "Medium; serial number needs physical verification",
+      "summary": "Lists one assigned laptop with matching model and asset tag; no confirmed recovery or transfer entry is shown.",
+      "filename": "EV-005_asset_register.txt",
+      "content": "EVIDENCE ITEM: EV-005\nTYPE: Asset register extract\nSOURCE: University IT asset register\nEXTRACTED: 29 October 2026, 10:00\n\nASSET TAG: UNI-IT-8841\nDEVICE: 14-inch research laptop\nMANUFACTURER / MODEL: Northstar Compute N14 (fictional)\nSERIAL NUMBER: NS14-26-771904 (fictional)\nASSIGNED TO: Applied Systems Research Group\nNORMAL LOCATION: Meridian Innovation Centre, Building B, Room 204\nRECORDED VALUE: ₹85,000\nLAST REGISTERED AUDIT: 15 September 2026\nTRANSFER / REPAIR ENTRY: No entry shown in this extract\n\nLIMITATIONS\n- The physical device and serial number have not been independently verified.\n- This extract may not include pending or offline transactions.\n- Absence of a transfer entry in this extract does not prove that no transfer occurred.\n\nFOLLOW-UP\nAsk IT Asset Management to confirm the serial number, audit trail, device-management last-seen status, and any approved repair or loan records.\n"
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "2026-10-28 15:50",
+      "event": "Laptop reportedly seen on meeting-room desk",
+      "evidence_reference": "EV-001",
+      "time_quality": "Approximate witness recollection"
+    },
+    {
+      "timestamp": "2026-10-28 16:00",
+      "event": "Project meeting begins",
+      "evidence_reference": "EV-001",
+      "time_quality": "Approximate"
+    },
+    {
+      "timestamp": "2026-10-28 16:45",
+      "event": "Project meeting ends",
+      "evidence_reference": "EV-001",
+      "time_quality": "Approximate"
+    },
+    {
+      "timestamp": "2026-10-28 16:52:11",
+      "event": "Badge B-104 access granted",
+      "evidence_reference": "EV-002",
+      "time_quality": "System timestamp; clock unverified"
+    },
+    {
+      "timestamp": "2026-10-28 16:58",
+      "event": "Facilities socket-inspection email received",
+      "evidence_reference": "EV-004",
+      "time_quality": "Email extract timestamp"
+    },
+    {
+      "timestamp": "2026-10-28 17:08:43",
+      "event": "Badge B-219 access granted",
+      "evidence_reference": "EV-002",
+      "time_quality": "System timestamp; clock unverified"
+    },
+    {
+      "timestamp": "2026-10-28 17:20",
+      "event": "Unidentified person seen with dark sleeve/case",
+      "evidence_reference": "EV-003",
+      "time_quality": "Approximate witness recollection"
+    },
+    {
+      "timestamp": "2026-10-28 17:46:02",
+      "event": "Badge B-031 access granted",
+      "evidence_reference": "EV-002",
+      "time_quality": "System timestamp; clock unverified"
+    },
+    {
+      "timestamp": "2026-10-28 18:25",
+      "event": "Laptop noticed missing",
+      "evidence_reference": "EV-001",
+      "time_quality": "Approximate witness recollection"
+    },
+    {
+      "timestamp": "2026-10-28 19:05",
+      "event": "Reporting person's statement recorded",
+      "evidence_reference": "EV-001",
+      "time_quality": "Recorded time"
+    }
+  ]
+}

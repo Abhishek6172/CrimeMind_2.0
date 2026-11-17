@@ -1,0 +1,1276 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_ref": "P-002",
+      "association_score": 0.85,
+      "signals": [
+        "SPATIAL",
+        "TEMPORAL",
+        "FINANCIAL",
+        "RELATIONAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 5
+    },
+    {
+      "rank": 2,
+      "entity_ref": "P-003",
+      "association_score": 0.55,
+      "signals": [
+        "TEMPORAL",
+        "COMMUNICATION",
+        "FINANCIAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 4
+    },
+    {
+      "rank": 3,
+      "entity_ref": "P-011",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 4,
+      "entity_ref": "P-012",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 5,
+      "entity_ref": "P-013",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 6,
+      "entity_ref": "P-014",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 7,
+      "entity_ref": "P-015",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 8,
+      "entity_ref": "P-017",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 9,
+      "entity_ref": "P-019",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 10,
+      "entity_ref": "P-021",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 11,
+      "entity_ref": "P-022",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 12,
+      "entity_ref": "P-024",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 13,
+      "entity_ref": "P-027",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 14,
+      "entity_ref": "P-028",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 15,
+      "entity_ref": "P-030",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 16,
+      "entity_ref": "P-033",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 17,
+      "entity_ref": "P-037",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 18,
+      "entity_ref": "P-038",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 19,
+      "entity_ref": "P-039",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 20,
+      "entity_ref": "P-041",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 21,
+      "entity_ref": "P-043",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 22,
+      "entity_ref": "P-047",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 23,
+      "entity_ref": "P-048",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 24,
+      "entity_ref": "P-054",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 25,
+      "entity_ref": "P-055",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    }
+  ],
+  "metrics_by_k": [
+    {
+      "case": "CASE-2026-001",
+      "k": 1,
+      "ranking_top": [
+        "P-002"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.5,
+      "red_herring_ranks": {
+        "P-004": null
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 6,
+        "steps_not_applied": 0,
+        "steps_passed": 6,
+        "lifecycle_transition_accuracy": 1.0,
+        "affected_finding_precision_micro": 1.0,
+        "affected_finding_recall_micro": 1.0,
+        "affected_finding_f1_micro": 1.0,
+        "unnecessary_recomputation_rate": 0.0,
+        "missed_recomputation_rate": 0.0
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": true,
+          "event_id": 1,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 2,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 3,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 4,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "expected": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 5,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": true,
+          "event_id": 6,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 4,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 2,
+      "ranking_top": [
+        "P-002",
+        "P-003"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": null
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 6,
+        "steps_not_applied": 0,
+        "steps_passed": 6,
+        "lifecycle_transition_accuracy": 1.0,
+        "affected_finding_precision_micro": 1.0,
+        "affected_finding_recall_micro": 1.0,
+        "affected_finding_f1_micro": 1.0,
+        "unnecessary_recomputation_rate": 0.0,
+        "missed_recomputation_rate": 0.0
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": true,
+          "event_id": 1,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 2,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 3,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 4,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "expected": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 5,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": true,
+          "event_id": 6,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 4,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 3,
+      "ranking_top": [
+        "P-002",
+        "P-003",
+        "P-011"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": null
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 6,
+        "steps_not_applied": 0,
+        "steps_passed": 6,
+        "lifecycle_transition_accuracy": 1.0,
+        "affected_finding_precision_micro": 1.0,
+        "affected_finding_recall_micro": 1.0,
+        "affected_finding_f1_micro": 1.0,
+        "unnecessary_recomputation_rate": 0.0,
+        "missed_recomputation_rate": 0.0
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": true,
+          "event_id": 1,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 2,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 3,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 4,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "expected": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 5,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": true,
+          "event_id": 6,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 4,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 5,
+      "ranking_top": [
+        "P-002",
+        "P-003",
+        "P-011",
+        "P-012",
+        "P-013"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": null
+      },
+      "lifecycle": {
+        "steps_total": 6,
+        "steps_applied": 6,
+        "steps_not_applied": 0,
+        "steps_passed": 6,
+        "lifecycle_transition_accuracy": 1.0,
+        "affected_finding_precision_micro": 1.0,
+        "affected_finding_recall_micro": 1.0,
+        "affected_finding_f1_micro": 1.0,
+        "unnecessary_recomputation_rate": 0.0,
+        "missed_recomputation_rate": 0.0
+      },
+      "lifecycle_steps": [
+        {
+          "scenario_id": "SC-ACCESS-CORRECTED",
+          "step": 1,
+          "evidence_ref": "E-0309",
+          "expected_status": "SUPERSEDED",
+          "applied": true,
+          "event_id": 1,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 1,
+          "evidence_ref": "E-0308",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 2,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-GPS17-FAULT",
+          "step": 2,
+          "evidence_ref": "E-0308",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 3,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "expected": [
+            "CONTRADICTION_001|P-004|OBS-01090|OBS-01091",
+            "INCIDENT_PROXIMITY_001|P-004|EVT-001",
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "TEMPORAL_SPATIAL_001|P-001|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-002|P-004|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-005|L-GP1",
+            "TEMPORAL_SPATIAL_001|P-004|P-006|L-GP1"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-TIP-RETRACTED",
+          "step": 1,
+          "evidence_ref": "E-0310",
+          "expected_status": "INVALIDATED",
+          "applied": true,
+          "event_id": 4,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "expected": [
+            "MULTI_DOMAIN_001|P-001|P-004",
+            "SHARED_EVIDENCE_001|P-001|P-004"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 1,
+          "evidence_ref": "E-0304",
+          "expected_status": "CHALLENGED",
+          "applied": true,
+          "event_id": 5,
+          "previous_status": "SUPPORTED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        },
+        {
+          "scenario_id": "SC-WITNESS",
+          "step": 2,
+          "evidence_ref": "E-0304",
+          "expected_status": "SUPPORTED",
+          "applied": true,
+          "event_id": 6,
+          "previous_status": "CHALLENGED",
+          "checks": {
+            "evidence_correct": true,
+            "previous_status_valid": true,
+            "transition_permitted": true,
+            "new_status_applied": true,
+            "triggering_evidence_correct": true
+          },
+          "flagged": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "expected": [
+            "INCIDENT_PROXIMITY_001|V-01|EVT-001"
+          ],
+          "false_positives": [],
+          "false_negatives": [],
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "transition_ok": true,
+          "passed": true
+        }
+      ],
+      "history_integrity": {
+        "ok": true,
+        "problems": {},
+        "evidence_with_events": 4,
+        "finding_keys": 92
+      },
+      "stale_current_findings": 0,
+      "note": "Lifecycle metrics are EVENT-BASED: each scripted step is matched to the validity event it should have produced, so intermediate states are no longer compared with final states. Steps not yet applied are reported as such (run `python -m synth.scenario next`). Ties in the Q40 ranking are broken by entity ref."
+    }
+  ]
+}

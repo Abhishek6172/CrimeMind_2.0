@@ -1,0 +1,22 @@
+EVIDENCE ITEM: EV-005
+TYPE: Asset register extract
+SOURCE: University IT asset register
+EXTRACTED: 29 October 2026, 10:00
+
+ASSET TAG: UNI-IT-8841
+DEVICE: 14-inch research laptop
+MANUFACTURER / MODEL: Northstar Compute N14 (fictional)
+SERIAL NUMBER: NS14-26-771904 (fictional)
+ASSIGNED TO: Applied Systems Research Group
+NORMAL LOCATION: Meridian Innovation Centre, Building B, Room 204
+RECORDED VALUE: ₹85,000
+LAST REGISTERED AUDIT: 15 September 2026
+TRANSFER / REPAIR ENTRY: No entry shown in this extract
+
+LIMITATIONS
+- The physical device and serial number have not been independently verified.
+- This extract may not include pending or offline transactions.
+- Absence of a transfer entry in this extract does not prove that no transfer occurred.
+
+FOLLOW-UP
+Ask IT Asset Management to confirm the serial number, audit trail, device-management last-seen status, and any approved repair or loan records.

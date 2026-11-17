@@ -1,0 +1,334 @@
+{
+  "ranking": [
+    {
+      "rank": 1,
+      "entity_ref": "P-002",
+      "association_score": 0.85,
+      "signals": [
+        "SPATIAL",
+        "TEMPORAL",
+        "FINANCIAL",
+        "RELATIONAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 5
+    },
+    {
+      "rank": 2,
+      "entity_ref": "P-004",
+      "association_score": 0.7,
+      "signals": [
+        "SPATIAL",
+        "TEMPORAL",
+        "RELATIONAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 3,
+      "entity_ref": "P-003",
+      "association_score": 0.55,
+      "signals": [
+        "TEMPORAL",
+        "COMMUNICATION",
+        "FINANCIAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 4
+    },
+    {
+      "rank": 4,
+      "entity_ref": "P-011",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 5,
+      "entity_ref": "P-012",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 6,
+      "entity_ref": "P-013",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 7,
+      "entity_ref": "P-014",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 8,
+      "entity_ref": "P-015",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 9,
+      "entity_ref": "P-017",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 10,
+      "entity_ref": "P-019",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 11,
+      "entity_ref": "P-021",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 12,
+      "entity_ref": "P-022",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 13,
+      "entity_ref": "P-024",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 14,
+      "entity_ref": "P-027",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 15,
+      "entity_ref": "P-028",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 16,
+      "entity_ref": "P-030",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 17,
+      "entity_ref": "P-033",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 18,
+      "entity_ref": "P-037",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 19,
+      "entity_ref": "P-038",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 20,
+      "entity_ref": "P-039",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 21,
+      "entity_ref": "P-041",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 22,
+      "entity_ref": "P-043",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 23,
+      "entity_ref": "P-047",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 24,
+      "entity_ref": "P-048",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    },
+    {
+      "rank": 25,
+      "entity_ref": "P-054",
+      "association_score": 0.25,
+      "signals": [
+        "TEMPORAL",
+        "EVIDENCE"
+      ],
+      "independent_sources": 3
+    }
+  ],
+  "metrics_by_k": [
+    {
+      "case": "CASE-2026-001",
+      "k": 1,
+      "ranking_top": [
+        "P-002"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 0.5,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "scenario_steps_at_expected_status": 1,
+      "scenario_steps_not_yet_applied_or_wrong": 5,
+      "stale_current_findings": 0,
+      "note": "Scenario steps not yet applied count as 'not yet'; run `python -m synth.scenario next` to advance."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 2,
+      "ranking_top": [
+        "P-002",
+        "P-004"
+      ],
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.5,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "scenario_steps_at_expected_status": 1,
+      "scenario_steps_not_yet_applied_or_wrong": 5,
+      "stale_current_findings": 0,
+      "note": "Scenario steps not yet applied count as 'not yet'; run `python -m synth.scenario next` to advance."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 3,
+      "ranking_top": [
+        "P-002",
+        "P-004",
+        "P-003"
+      ],
+      "precision_at_k": 0.667,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "scenario_steps_at_expected_status": 1,
+      "scenario_steps_not_yet_applied_or_wrong": 5,
+      "stale_current_findings": 0,
+      "note": "Scenario steps not yet applied count as 'not yet'; run `python -m synth.scenario next` to advance."
+    },
+    {
+      "case": "CASE-2026-001",
+      "k": 5,
+      "ranking_top": [
+        "P-002",
+        "P-004",
+        "P-003",
+        "P-011",
+        "P-012"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "red_herring_ranks": {
+        "P-004": 2
+      },
+      "scenario_steps_at_expected_status": 1,
+      "scenario_steps_not_yet_applied_or_wrong": 5,
+      "stale_current_findings": 0,
+      "note": "Scenario steps not yet applied count as 'not yet'; run `python -m synth.scenario next` to advance."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "questions": 541,
+ "seeds": "2026-2045",
+ "by_category": {
+  "entity_identification": 40,
+  "evidence_lookup": 80,
+  "timeline_reconstruction": 40,
+  "relationship_analysis": 21,
+  "contradiction_analysis": 40,
+  "missing_information": 40,
+  "investigation_summary": 40,
+  "evidence_lifecycle": 80,
+  "sql_investigation": 40,
+  "multi_hop": 40,
+  "unanswerable": 80
+ },
+ "sha256": "2ff1dde1cfbd3ace3a49ce1db03d1c2045ffc81e42a8c848cba3cff776c7ebe3",
+ "annotation_source": "generator ground truth + raw dataset CSVs (never system output)"
+}

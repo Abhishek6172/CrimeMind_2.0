@@ -1,0 +1,26 @@
+{
+  "config_version": "p4-1.0",
+  "frozen_before_evaluation": true,
+  "note": "Parameters below were fixed a priori from existing system thresholds and documented rationale and were NOT tuned on any ground truth. Any later change must be a new config_version with ALL variants reported.",
+  "status_factor": {"SUPPORTED": 1.0, "CHALLENGED": 0.5, "INVALIDATED": 0.0, "SUPERSEDED": 0.0},
+  "status_factor_rationale": "Q40 excludes non-SUPPORTED records entirely. Challenged evidence is under documented dispute, so it keeps half weight; invalidated/superseded evidence is never treated as current support (0).",
+  "missing_reliability": 0.5,
+  "missing_reliability_rationale": "A record with no linked evidence has unknown provenance; the neutral midpoint 0.5 neither rewards nor erases it. Q40 effectively uses 1.0.",
+  "window_minutes": 60,
+  "q40r": {
+    "weights": {"spatial": 0.35, "temporal": 0.10, "communication": 0.15, "financial": 0.15, "relational": 0.10, "evidence": 0.15},
+    "weights_rationale": "identical to frozen Q40 so that only the reliability treatment differs",
+    "evidence_divisor": 3.0,
+    "features": {"reliability": true}
+  },
+  "raeer": {
+    "expansion": "Reliability-Aware Evidence Evolution Ranking (name from the project's Part 7 specification; the formula is defined in research/phase4/docs/RAEER_DEFINITION.md because no mathematical definition existed)",
+    "weights": {"spatial": 0.35, "temporal": 0.10, "communication": 0.15, "financial": 0.15, "relational": 0.10, "corroboration": 0.15},
+    "weights_rationale": "same weights as Q40 by design: differences from Q40 come from feature definitions, not from re-weighting",
+    "scene_radius_m": 150, "scene_radius_rationale": "threshold of the existing INCIDENT_PROXIMITY_001 correlation rule",
+    "temporal_tau_minutes": 30, "temporal_tau_rationale": "half of the 60-minute incident window: evidence at the incident time counts fully, evidence at the window edge about e^-2",
+    "contradiction": {"distance_m": 1000, "gamma": 0.5, "rationale": "distance from CONTRADICTION_001; gamma<1 so a contradiction can lower but never erase support (contradiction is not proof of innocence)"},
+    "corroboration_domains_cap": 3,
+    "features": {"reliability": true, "temporal": true, "relational": true, "independence": true, "contradiction": true, "lifecycle": true, "provenance": true, "corroboration": true}
+  }
+}

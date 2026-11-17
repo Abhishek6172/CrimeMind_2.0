@@ -1,0 +1,19 @@
+EVIDENCE ITEM: EV-004
+TYPE: Email / maintenance record
+SOURCE: Facilities helpdesk mailbox
+RECEIVED: 28 October 2026, 16:58
+EXTRACTED: 29 October 2026, 09:15
+
+FROM: facilities.helpdesk@example.invalid
+TO: building.operations@example.invalid
+SUBJECT: Room 204 — socket inspection
+
+Please arrange a check of the wall socket near the presentation desk in Room 204. A user reported intermittent power at the outlet. The room may be accessed after the scheduled meeting if it is free. Please update the ticket once inspected.
+
+TICKET REFERENCE: FAC-204-1028
+STATUS IN EXTRACT: Open / completion not recorded
+
+INVESTIGATIVE NOTE
+This email establishes that a maintenance request existed. It does not establish that a technician attended, entered the room, handled the laptop, or removed any property. Obtain the full ticket history and technician assignment before drawing conclusions.
+
+NOTE: The email domain is deliberately fictional (.invalid).

@@ -1,0 +1,2810 @@
+[
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.03180361478808267,
+    "p_holm": 0.07261793391080573,
+    "wins": 15,
+    "ties": 15,
+    "losses": 20
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": -0.008429354681963064,
+    "p_holm": 0.4130859375,
+    "wins": 5,
+    "ties": 39,
+    "losses": 6
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.031753093646266904,
+    "p_holm": 0.028173231082003675,
+    "wins": 12,
+    "ties": 19,
+    "losses": 19
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.005577888044098263,
+    "p_holm": 0.6138413568352029,
+    "wins": 12,
+    "ties": 23,
+    "losses": 15
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.017111943527311088,
+    "p_holm": 0.014238030645537783,
+    "wins": 9,
+    "ties": 24,
+    "losses": 17
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.0183511299236083,
+    "p_holm": 0.008714795112609863,
+    "wins": 9,
+    "ties": 26,
+    "losses": 15
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.011674076640832219,
+    "p_holm": 0.4195049460169631,
+    "wins": 12,
+    "ties": 25,
+    "losses": 13
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.06674401563367485,
+    "p_holm": 0.003872105152874423,
+    "wins": 18,
+    "ties": 6,
+    "losses": 26
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": -0.01916959700547357,
+    "p_holm": 0.19380450857542975,
+    "wins": 13,
+    "ties": 16,
+    "losses": 21
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.100939017939852,
+    "p_holm": 0.00019443565065557777,
+    "wins": 14,
+    "ties": 2,
+    "losses": 34
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.019577168813458553,
+    "p_holm": 0.2439118364058197,
+    "wins": 20,
+    "ties": 7,
+    "losses": 23
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.04871240677539312,
+    "p_holm": 0.0004020395969814859,
+    "wins": 7,
+    "ties": 12,
+    "losses": 31
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.03059298724777739,
+    "p_holm": 0.009828643599743456,
+    "wins": 12,
+    "ties": 11,
+    "losses": 27
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.04298425051071281,
+    "p_holm": 0.07113397970306323,
+    "wins": 19,
+    "ties": 6,
+    "losses": 25
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.1141864509230622,
+    "p_holm": 0.0002493494252950922,
+    "wins": 14,
+    "ties": 5,
+    "losses": 31
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": -0.07259024719999763,
+    "p_holm": 0.00011591860074216766,
+    "wins": 8,
+    "ties": 13,
+    "losses": 29
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.18800970552292282,
+    "p_holm": 6.448439690319667e-06,
+    "wins": 14,
+    "ties": 1,
+    "losses": 35
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.016617082775594975,
+    "p_holm": 0.42581320927024535,
+    "wins": 20,
+    "ties": 7,
+    "losses": 23
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.0702176467955495,
+    "p_holm": 0.00046972451312465613,
+    "wins": 12,
+    "ties": 3,
+    "losses": 35
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.04328907865073722,
+    "p_holm": 0.0074320918760331246,
+    "wins": 13,
+    "ties": 4,
+    "losses": 33
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "challenge \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.06542996575871066,
+    "p_holm": 0.05062858474134302,
+    "wins": 21,
+    "ties": 1,
+    "losses": 28
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.00027434266304856794,
+    "p_holm": 0.5,
+    "wins": 0,
+    "ties": 48,
+    "losses": 2
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.013914055462981977,
+    "p_holm": 0.02295734959825862,
+    "wins": 5,
+    "ties": 31,
+    "losses": 14
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.016085541275860506,
+    "p_holm": 0.004847272608650018,
+    "wins": 3,
+    "ties": 33,
+    "losses": 14
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.013914055462981977,
+    "p_holm": 0.02295734959825862,
+    "wins": 5,
+    "ties": 31,
+    "losses": 14
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.0022224293955143692,
+    "p_holm": 0.5,
+    "wins": 0,
+    "ties": 48,
+    "losses": 2
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.004531666199166245,
+    "p_holm": 0.125,
+    "wins": 0,
+    "ties": 46,
+    "losses": 4
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.007601223521906373,
+    "p_holm": 0.0078125,
+    "wins": 0,
+    "ties": 42,
+    "losses": 8
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.010045480386279693,
+    "p_holm": 0.11225136504252554,
+    "wins": 10,
+    "ties": 25,
+    "losses": 15
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.008209538496581448,
+    "p_holm": 0.19181744169633963,
+    "wins": 10,
+    "ties": 25,
+    "losses": 15
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.010045480386279693,
+    "p_holm": 0.11225136504252554,
+    "wins": 10,
+    "ties": 25,
+    "losses": 15
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.0066376283160300064,
+    "p_holm": 0.1875,
+    "wins": 1,
+    "ties": 45,
+    "losses": 4
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.009529109503872101,
+    "p_holm": 0.00390625,
+    "wins": 0,
+    "ties": 41,
+    "losses": 9
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.009041106707963762,
+    "p_holm": 0.001953125,
+    "wins": 1,
+    "ties": 38,
+    "losses": 11
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.038852697083434966,
+    "p_holm": 0.013640327728062944,
+    "wins": 11,
+    "ties": 14,
+    "losses": 25
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.051791711387941836,
+    "p_holm": 0.00015806656554837883,
+    "wins": 8,
+    "ties": 12,
+    "losses": 30
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.038852697083434966,
+    "p_holm": 0.013640327728062944,
+    "wins": 11,
+    "ties": 14,
+    "losses": 25
+  },
+  {
+    "scenario": "contradictory_records \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.0047810588461348535,
+    "p_holm": 0.0625,
+    "wins": 0,
+    "ties": 45,
+    "losses": 5
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": -0.09637745355261536,
+    "p_holm": 9.310690899113286e-06,
+    "wins": 11,
+    "ties": 8,
+    "losses": 31
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.30943100788827244,
+    "p_holm": 3.6770586575585185e-13,
+    "wins": 3,
+    "ties": 0,
+    "losses": 47
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.3344606265030506,
+    "p_holm": 1.7763568394002505e-14,
+    "wins": 2,
+    "ties": 0,
+    "losses": 48
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.6335634349059536,
+    "p_holm": 1.7763568394002505e-15,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.5954374002127804,
+    "p_holm": 1.7763568394002505e-15,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.6335634349059536,
+    "p_holm": 1.7763568394002505e-15,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.4831377499282737,
+    "p_holm": 3.552713678800501e-15,
+    "wins": 1,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": -0.09637745355261536,
+    "p_holm": 9.310690899113286e-06,
+    "wins": 11,
+    "ties": 8,
+    "losses": 31
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.3531527199286117,
+    "p_holm": 5.861977570020827e-14,
+    "wins": 2,
+    "ties": 0,
+    "losses": 48
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.3935819878043413,
+    "p_holm": 5.329070518200751e-15,
+    "wins": 1,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.6347698828346825,
+    "p_holm": 1.7763568394002505e-15,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.5716824809808607,
+    "p_holm": 7.555220876380673e-10,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.6347698828346825,
+    "p_holm": 1.7763568394002505e-15,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.46614978150257647,
+    "p_holm": 3.552713678800501e-15,
+    "wins": 1,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.08623398818192246,
+    "p_holm": 0.00015327743702663542,
+    "wins": 11,
+    "ties": 4,
+    "losses": 35
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": -0.09637745355261536,
+    "p_holm": 9.310690899113286e-06,
+    "wins": 11,
+    "ties": 8,
+    "losses": 31
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.3576934736132319,
+    "p_holm": 3.6770586575585185e-13,
+    "wins": 1,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.3528996105103178,
+    "p_holm": 1.0192735544478637e-11,
+    "wins": 1,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.6427244594722145,
+    "p_holm": 7.553512643873762e-10,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.5982184291087973,
+    "p_holm": 7.555220876380673e-10,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.6427244594722145,
+    "p_holm": 7.553512643873762e-10,
+    "wins": 0,
+    "ties": 0,
+    "losses": 50
+  },
+  {
+    "scenario": "delayed_evidence \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.46614978150257647,
+    "p_holm": 3.552713678800501e-15,
+    "wins": 1,
+    "ties": 0,
+    "losses": 49
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.01788146476679436,
+    "p_holm": 0.0895935975357916,
+    "wins": 11,
+    "ties": 17,
+    "losses": 22
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.005681021141588083,
+    "p_holm": 0.078125,
+    "wins": 2,
+    "ties": 43,
+    "losses": 5
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.01768258487203147,
+    "p_holm": 0.08039456180504524,
+    "wins": 9,
+    "ties": 20,
+    "losses": 21
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.020480845440480053,
+    "p_holm": 0.003821486888341993,
+    "wins": 6,
+    "ties": 22,
+    "losses": 22
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.005308093248703488,
+    "p_holm": 0.41046554523115364,
+    "wins": 12,
+    "ties": 19,
+    "losses": 19
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.021294819537981444,
+    "p_holm": 0.035450146884591055,
+    "wins": 14,
+    "ties": 16,
+    "losses": 20
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "duplicate_evidence \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.005597741939550189,
+    "p_holm": 0.209716796875,
+    "wins": 4,
+    "ties": 37,
+    "losses": 9
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.029240753626179998,
+    "p_holm": 0.03719062702760278,
+    "wins": 8,
+    "ties": 27,
+    "losses": 15
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.024763710738347548,
+    "p_holm": 0.23447084426879883,
+    "wins": 10,
+    "ties": 27,
+    "losses": 13
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.04883003978465201,
+    "p_holm": 0.0009381512023714204,
+    "wins": 7,
+    "ties": 21,
+    "losses": 22
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.04959753779748251,
+    "p_holm": 9.825505868142017e-05,
+    "wins": 4,
+    "ties": 23,
+    "losses": 23
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.04883003978465201,
+    "p_holm": 0.0009381512023714204,
+    "wins": 7,
+    "ties": 21,
+    "losses": 22
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.01631103802805477,
+    "p_holm": 0.68292924410738,
+    "wins": 15,
+    "ties": 23,
+    "losses": 12
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.023308739598058684,
+    "p_holm": 0.00035381317138671875,
+    "wins": 3,
+    "ties": 29,
+    "losses": 18
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.041238334641688114,
+    "p_holm": 0.22934800503594666,
+    "wins": 20,
+    "ties": 6,
+    "losses": 24
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.05145474100038501,
+    "p_holm": 0.11763992010128277,
+    "wins": 20,
+    "ties": 9,
+    "losses": 21
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.08833449965207421,
+    "p_holm": 0.00031783104397825325,
+    "wins": 11,
+    "ties": 6,
+    "losses": 33
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.09245109500756221,
+    "p_holm": 2.715234908597778e-05,
+    "wins": 9,
+    "ties": 7,
+    "losses": 34
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.08833449965207421,
+    "p_holm": 0.00031783104397825325,
+    "wins": 11,
+    "ties": 6,
+    "losses": 33
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.002771406839629173,
+    "p_holm": 0.9224281516253825,
+    "wins": 24,
+    "ties": 4,
+    "losses": 22
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.031132807326977832,
+    "p_holm": 5.245208740234375e-06,
+    "wins": 3,
+    "ties": 25,
+    "losses": 22
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.04722393698812061,
+    "p_holm": 0.1468189646782605,
+    "wins": 19,
+    "ties": 3,
+    "losses": 28
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.04733125448101744,
+    "p_holm": 0.15910075578227634,
+    "wins": 19,
+    "ties": 3,
+    "losses": 28
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.19664766104752052,
+    "p_holm": 2.567207977193713e-07,
+    "wins": 7,
+    "ties": 1,
+    "losses": 42
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.19846419692878925,
+    "p_holm": 6.42963877484364e-08,
+    "wins": 6,
+    "ties": 1,
+    "losses": 43
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.19664766104752052,
+    "p_holm": 2.567207977193713e-07,
+    "wins": 7,
+    "ties": 1,
+    "losses": 42
+  },
+  {
+    "scenario": "incorrect_timestamps \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.04346924222137008,
+    "p_holm": 0.15324250215647695,
+    "wins": 21,
+    "ties": 1,
+    "losses": 28
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.03411126929818475,
+    "p_holm": 0.02872607356403023,
+    "wins": 13,
+    "ties": 15,
+    "losses": 22
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": -0.02770595790092286,
+    "p_holm": 0.02013220073345912,
+    "wins": 3,
+    "ties": 36,
+    "losses": 11
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.028634656764414238,
+    "p_holm": 0.20577896669299578,
+    "wins": 15,
+    "ties": 16,
+    "losses": 19
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.036067112973924544,
+    "p_holm": 0.20437959598348243,
+    "wins": 19,
+    "ties": 12,
+    "losses": 19
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.06349131069612789,
+    "p_holm": 0.00522903933056061,
+    "wins": 10,
+    "ties": 19,
+    "losses": 21
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.0707792846457564,
+    "p_holm": 0.0003418475389480591,
+    "wins": 6,
+    "ties": 22,
+    "losses": 22
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.014008435161621173,
+    "p_holm": 0.5421426937767844,
+    "wins": 12,
+    "ties": 24,
+    "losses": 14
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.04953312563638887,
+    "p_holm": 0.11185002994352544,
+    "wins": 19,
+    "ties": 10,
+    "losses": 21
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": -0.04263593918894868,
+    "p_holm": 0.0022526960717265715,
+    "wins": 5,
+    "ties": 20,
+    "losses": 25
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.08429541400147705,
+    "p_holm": 0.008713190423918604,
+    "wins": 16,
+    "ties": 4,
+    "losses": 30
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.10351657387737388,
+    "p_holm": 0.0026992716151922436,
+    "wins": 16,
+    "ties": 2,
+    "losses": 32
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.1632202711412974,
+    "p_holm": 3.972200398392852e-07,
+    "wins": 6,
+    "ties": 8,
+    "losses": 36
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.1608384669070099,
+    "p_holm": 1.0699040152702562e-06,
+    "wins": 6,
+    "ties": 7,
+    "losses": 37
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.022892399425963817,
+    "p_holm": 0.9020442626962877,
+    "wins": 27,
+    "ties": 2,
+    "losses": 21
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.15633616794803296,
+    "p_holm": 2.724207240853195e-05,
+    "wins": 13,
+    "ties": 4,
+    "losses": 33
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": -0.07842440380231971,
+    "p_holm": 0.00025142912890632583,
+    "wins": 9,
+    "ties": 15,
+    "losses": 26
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.12204957642533203,
+    "p_holm": 0.0003546445036981538,
+    "wins": 14,
+    "ties": 1,
+    "losses": 35
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.15017658076517215,
+    "p_holm": 0.00021386114144553506,
+    "wins": 13,
+    "ties": 0,
+    "losses": 37
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.23613296290653799,
+    "p_holm": 2.8911983918078477e-09,
+    "wins": 7,
+    "ties": 1,
+    "losses": 42
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.25012358645891103,
+    "p_holm": 7.237197507947712e-10,
+    "wins": 7,
+    "ties": 0,
+    "losses": 43
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "invalidation \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.04314940830818898,
+    "p_holm": 0.20103473802823935,
+    "wins": 25,
+    "ties": 0,
+    "losses": 25
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "q40_r",
+    "mean_diff": 0.02293552804656972,
+    "p_holm": 0.013447953228510497,
+    "wins": 18,
+    "ties": 26,
+    "losses": 6
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "raeer",
+    "mean_diff": -0.007400312811174821,
+    "p_holm": 0.2068939208984375,
+    "wins": 6,
+    "ties": 33,
+    "losses": 11
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.0007698444382814018,
+    "p_holm": 0.4070611129985562,
+    "wins": 6,
+    "ties": 28,
+    "losses": 16
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.007400312811174821,
+    "p_holm": 0.2068939208984375,
+    "wins": 6,
+    "ties": 33,
+    "losses": 11
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.2",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "q40_r",
+    "mean_diff": 0.03111515682498597,
+    "p_holm": 0.003769235343806849,
+    "wins": 27,
+    "ties": 13,
+    "losses": 10
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "raeer",
+    "mean_diff": -0.012684442511677923,
+    "p_holm": 0.14496184537373177,
+    "wins": 11,
+    "ties": 22,
+    "losses": 17
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "raeer-no_independence",
+    "mean_diff": 0.0007392140366284538,
+    "p_holm": 0.8232231436493214,
+    "wins": 15,
+    "ties": 17,
+    "losses": 18
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.012684442511677923,
+    "p_holm": 0.14496184537373177,
+    "wins": 11,
+    "ties": 22,
+    "losses": 17
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.4",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "q40_py",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "q40_r",
+    "mean_diff": 0.015344139883920953,
+    "p_holm": 0.13923131884700204,
+    "wins": 26,
+    "ties": 10,
+    "losses": 14
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "raeer",
+    "mean_diff": -0.029418408341513456,
+    "p_holm": 0.005375635345172115,
+    "wins": 11,
+    "ties": 13,
+    "losses": 26
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "raeer-no_independence",
+    "mean_diff": 0.002994055587070116,
+    "p_holm": 0.8373491378039652,
+    "wins": 20,
+    "ties": 7,
+    "losses": 23
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.029418408341513456,
+    "p_holm": 0.005375635345172115,
+    "wins": 11,
+    "ties": 13,
+    "losses": 26
+  },
+  {
+    "scenario": "low_reliability \u00b7 level 0.6",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.017001775459815193,
+    "p_holm": 0.6454122851829651,
+    "wins": 19,
+    "ties": 13,
+    "losses": 18
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": -0.029505276515256255,
+    "p_holm": 0.15741561977915808,
+    "wins": 18,
+    "ties": 7,
+    "losses": 25
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.036029075498202605,
+    "p_holm": 0.08793856762349606,
+    "wins": 14,
+    "ties": 20,
+    "losses": 16
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.048245457684520404,
+    "p_holm": 0.025111419260608354,
+    "wins": 12,
+    "ties": 16,
+    "losses": 22
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.04980379868112827,
+    "p_holm": 0.0015892408200772622,
+    "wins": 8,
+    "ties": 14,
+    "losses": 28
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.04280658571605549,
+    "p_holm": 0.0025474698908079362,
+    "wins": 9,
+    "ties": 16,
+    "losses": 25
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.04980379868112827,
+    "p_holm": 0.0015892408200772622,
+    "wins": 8,
+    "ties": 14,
+    "losses": 28
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.01684728012609543,
+    "p_holm": 0.1047950917347925,
+    "wins": 18,
+    "ties": 23,
+    "losses": 9
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.06513785782718637,
+    "p_holm": 0.0052293474746355146,
+    "wins": 15,
+    "ties": 9,
+    "losses": 26
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": -0.07091295837592625,
+    "p_holm": 0.015206534595321841,
+    "wins": 18,
+    "ties": 2,
+    "losses": 30
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.09236724651435203,
+    "p_holm": 0.002816894557810201,
+    "wins": 16,
+    "ties": 4,
+    "losses": 30
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.09753926409323022,
+    "p_holm": 0.0009779109160348298,
+    "wins": 14,
+    "ties": 3,
+    "losses": 33
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.19322804393711543,
+    "p_holm": 7.038266858216957e-09,
+    "wins": 5,
+    "ties": 3,
+    "losses": 42
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.19225160421462392,
+    "p_holm": 1.0196767857344542e-07,
+    "wins": 5,
+    "ties": 2,
+    "losses": 43
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.19322804393711543,
+    "p_holm": 7.038266858216957e-09,
+    "wins": 5,
+    "ties": 3,
+    "losses": 42
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.0226144667256594,
+    "p_holm": 0.717531516271066,
+    "wins": 25,
+    "ties": 3,
+    "losses": 22
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.1591649976407408,
+    "p_holm": 2.1777897521992126e-06,
+    "wins": 8,
+    "ties": 4,
+    "losses": 38
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": -0.1714408799069277,
+    "p_holm": 2.2687105456498102e-06,
+    "wins": 10,
+    "ties": 3,
+    "losses": 37
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.13363430604181742,
+    "p_holm": 9.81418300807697e-06,
+    "wins": 10,
+    "ties": 0,
+    "losses": 40
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.17749784625397433,
+    "p_holm": 1.4895306321704993e-08,
+    "wins": 6,
+    "ties": 0,
+    "losses": 44
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.26074772160356163,
+    "p_holm": 5.610267805877811e-11,
+    "wins": 5,
+    "ties": 0,
+    "losses": 45
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.2735176583745622,
+    "p_holm": 8.261174893059746e-09,
+    "wins": 5,
+    "ties": 0,
+    "losses": 45
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.26074772160356163,
+    "p_holm": 5.610267805877811e-11,
+    "wins": 5,
+    "ties": 0,
+    "losses": 45
+  },
+  {
+    "scenario": "missing_evidence \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.015600495562383026,
+    "p_holm": 0.5786292137562761,
+    "wins": 24,
+    "ties": 0,
+    "losses": 26
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.03163404908998728,
+    "p_holm": 0.15814080333541924,
+    "wins": 17,
+    "ties": 10,
+    "losses": 23
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "pagerank",
+    "mean_diff": -0.008592099116189043,
+    "p_holm": 0.5400843059758438,
+    "wins": 21,
+    "ties": 8,
+    "losses": 21
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "q40_py",
+    "mean_diff": -0.0504793526465035,
+    "p_holm": 0.22295411566210532,
+    "wins": 20,
+    "ties": 8,
+    "losses": 22
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "q40_r",
+    "mean_diff": -0.06385500326929931,
+    "p_holm": 0.05392516424045368,
+    "wins": 19,
+    "ties": 2,
+    "losses": 29
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "raeer",
+    "mean_diff": -0.12169699552579566,
+    "p_holm": 2.126594299985426e-06,
+    "wins": 9,
+    "ties": 3,
+    "losses": 38
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.12570055383581788,
+    "p_holm": 1.6057166224782226e-07,
+    "wins": 4,
+    "ties": 6,
+    "losses": 40
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.09205476932915932,
+    "p_holm": 1.1277742019459933e-05,
+    "wins": 8,
+    "ties": 5,
+    "losses": 37
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.2",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.01615440489431029,
+    "p_holm": 0.7734678875965956,
+    "wins": 26,
+    "ties": 5,
+    "losses": 19
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.10209546763448589,
+    "p_holm": 0.0002282513765914806,
+    "wins": 13,
+    "ties": 5,
+    "losses": 32
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "pagerank",
+    "mean_diff": -0.058275828290803806,
+    "p_holm": 0.03539015289147784,
+    "wins": 21,
+    "ties": 1,
+    "losses": 28
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "q40_py",
+    "mean_diff": -0.11043747070748341,
+    "p_holm": 0.0007184811309279837,
+    "wins": 17,
+    "ties": 1,
+    "losses": 32
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "q40_r",
+    "mean_diff": -0.1189843452134002,
+    "p_holm": 3.7655198283914615e-05,
+    "wins": 13,
+    "ties": 2,
+    "losses": 35
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "raeer",
+    "mean_diff": -0.2264273492593771,
+    "p_holm": 2.15550244320184e-10,
+    "wins": 6,
+    "ties": 4,
+    "losses": 40
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.23798926788723054,
+    "p_holm": 3.537437009981659e-11,
+    "wins": 4,
+    "ties": 1,
+    "losses": 45
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.18678564395585742,
+    "p_holm": 1.361470935989928e-10,
+    "wins": 6,
+    "ties": 2,
+    "losses": 42
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.4",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.07338635889843684,
+    "p_holm": 0.023638067457600442,
+    "wins": 18,
+    "ties": 1,
+    "losses": 31
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.1479844623995425,
+    "p_holm": 1.743577513479977e-07,
+    "wins": 6,
+    "ties": 6,
+    "losses": 38
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "pagerank",
+    "mean_diff": -0.09992725590073503,
+    "p_holm": 0.0008924123205960754,
+    "wins": 14,
+    "ties": 1,
+    "losses": 35
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "q40_py",
+    "mean_diff": -0.19811011851033794,
+    "p_holm": 2.81308842886574e-09,
+    "wins": 7,
+    "ties": 0,
+    "losses": 43
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "q40_r",
+    "mean_diff": -0.23033669980703755,
+    "p_holm": 3.3822118439275073e-09,
+    "wins": 8,
+    "ties": 0,
+    "losses": 42
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "raeer",
+    "mean_diff": -0.2426521047197554,
+    "p_holm": 3.907985046680551e-13,
+    "wins": 3,
+    "ties": 2,
+    "losses": 45
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.2683564441586409,
+    "p_holm": 2.4868995751603507e-13,
+    "wins": 3,
+    "ties": 1,
+    "losses": 46
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.20488860944426165,
+    "p_holm": 9.166001291305292e-10,
+    "wins": 6,
+    "ties": 3,
+    "losses": 41
+  },
+  {
+    "scenario": "mixed_quality \u00b7 level 0.6",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.10670743086571913,
+    "p_holm": 0.00032407658280853013,
+    "wins": 13,
+    "ties": 0,
+    "losses": 37
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.0037614110630933974,
+    "p_holm": 0.7313888072967529,
+    "wins": 12,
+    "ties": 27,
+    "losses": 11
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": 0.004259317440558868,
+    "p_holm": 0.7454086757986678,
+    "wins": 13,
+    "ties": 28,
+    "losses": 9
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.03752646126527929,
+    "p_holm": 0.015262326560426427,
+    "wins": 7,
+    "ties": 24,
+    "losses": 19
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.04449523804240721,
+    "p_holm": 0.0054630049113601935,
+    "wins": 7,
+    "ties": 22,
+    "losses": 21
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.03752646126527929,
+    "p_holm": 0.015262326560426427,
+    "wins": 7,
+    "ties": 24,
+    "losses": 19
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.004531347105825971,
+    "p_holm": 0.9219441431459215,
+    "wins": 19,
+    "ties": 19,
+    "losses": 12
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.09312648497831769,
+    "p_holm": 0.00036312487554823747,
+    "wins": 13,
+    "ties": 9,
+    "losses": 28
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.08816230699878824,
+    "p_holm": 0.0017621693396602835,
+    "wins": 18,
+    "ties": 6,
+    "losses": 26
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.1485354536354402,
+    "p_holm": 5.07985839235584e-07,
+    "wins": 8,
+    "ties": 7,
+    "losses": 35
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.14544955259157255,
+    "p_holm": 5.757852521356583e-07,
+    "wins": 6,
+    "ties": 7,
+    "losses": 37
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.1485354536354402,
+    "p_holm": 5.07985839235584e-07,
+    "wins": 8,
+    "ties": 7,
+    "losses": 35
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.03540625527525708,
+    "p_holm": 0.24052124611117165,
+    "wins": 24,
+    "ties": 4,
+    "losses": 22
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.11379738839868882,
+    "p_holm": 0.0021374868341297315,
+    "wins": 15,
+    "ties": 4,
+    "losses": 31
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.11951824365503771,
+    "p_holm": 0.0023147779224643728,
+    "wins": 16,
+    "ties": 4,
+    "losses": 30
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.1759002695473458,
+    "p_holm": 2.434094703573919e-08,
+    "wins": 9,
+    "ties": 0,
+    "losses": 41
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.1817080710946826,
+    "p_holm": 1.9532286898993334e-09,
+    "wins": 6,
+    "ties": 1,
+    "losses": 43
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.1759002695473458,
+    "p_holm": 2.434094703573919e-08,
+    "wins": 9,
+    "ties": 0,
+    "losses": 41
+  },
+  {
+    "scenario": "noisy_location \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.03662603557110561,
+    "p_holm": 0.25513743488716756,
+    "wins": 20,
+    "ties": 1,
+    "losses": 29
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.01670119501726184,
+    "p_holm": 0.14379452937430112,
+    "wins": 13,
+    "ties": 16,
+    "losses": 21
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": 0.001208602935312769,
+    "p_holm": 0.5,
+    "wins": 2,
+    "ties": 48,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": 0.00916100474109959,
+    "p_holm": 0.09375,
+    "wins": 5,
+    "ties": 44,
+    "losses": 1
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": 0.0003455724525037662,
+    "p_holm": 1.0,
+    "wins": 1,
+    "ties": 48,
+    "losses": 1
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.0015564230619249785,
+    "p_holm": 0.875,
+    "wins": 2,
+    "ties": 46,
+    "losses": 2
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0003455724525037662,
+    "p_holm": 1.0,
+    "wins": 1,
+    "ties": 48,
+    "losses": 1
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.0355749716132624,
+    "p_holm": 0.022950143712855857,
+    "wins": 14,
+    "ties": 9,
+    "losses": 27
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": 0.003421341366931511,
+    "p_holm": 0.191356864878787,
+    "wins": 11,
+    "ties": 35,
+    "losses": 4
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": 0.017486565507132453,
+    "p_holm": 0.013176533646947123,
+    "wins": 17,
+    "ties": 27,
+    "losses": 6
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.0017535668080537947,
+    "p_holm": 0.232421875,
+    "wins": 2,
+    "ties": 40,
+    "losses": 8
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.002756836756791217,
+    "p_holm": 0.078125,
+    "wins": 1,
+    "ties": 42,
+    "losses": 7
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.0017535668080537947,
+    "p_holm": 0.232421875,
+    "wins": 2,
+    "ties": 40,
+    "losses": 8
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.10504269329526117,
+    "p_holm": 2.4259803327717968e-05,
+    "wins": 11,
+    "ties": 5,
+    "losses": 34
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": 0.0013920588521796106,
+    "p_holm": 0.667113287993444,
+    "wins": 11,
+    "ties": 30,
+    "losses": 9
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": 0.0007292434615023724,
+    "p_holm": 0.805037372957797,
+    "wins": 15,
+    "ties": 20,
+    "losses": 15
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.01110908812645272,
+    "p_holm": 0.0525122500680818,
+    "wins": 4,
+    "ties": 32,
+    "losses": 14
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.016418221151385734,
+    "p_holm": 0.0018128119328097274,
+    "wins": 2,
+    "ties": 29,
+    "losses": 19
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.01110908812645272,
+    "p_holm": 0.0525122500680818,
+    "wins": 4,
+    "ties": 32,
+    "losses": 14
+  },
+  {
+    "scenario": "reduced_communication \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": -0.030843187238053824,
+    "p_holm": 0.1809707986596436,
+    "wins": 19,
+    "ties": 5,
+    "losses": 26
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": 0.0027554112035107292,
+    "p_holm": 0.625,
+    "wins": 3,
+    "ties": 46,
+    "losses": 1
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": 0.004041019579236396,
+    "p_holm": 0.375,
+    "wins": 3,
+    "ties": 46,
+    "losses": 1
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.007068180464908392,
+    "p_holm": 0.16015625,
+    "wins": 2,
+    "ties": 40,
+    "losses": 8
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.010181411514508803,
+    "p_holm": 0.0185546875,
+    "wins": 1,
+    "ties": 39,
+    "losses": 10
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.007068180464908392,
+    "p_holm": 0.16015625,
+    "wins": 2,
+    "ties": 40,
+    "losses": 8
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": -0.09546125216959775,
+    "p_holm": 0.0002308518560638216,
+    "wins": 12,
+    "ties": 3,
+    "losses": 35
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": 0.004200770084015391,
+    "p_holm": 0.37593143158140063,
+    "wins": 13,
+    "ties": 31,
+    "losses": 6
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": 0.012504160241055712,
+    "p_holm": 0.0909624041851633,
+    "wins": 14,
+    "ties": 31,
+    "losses": 5
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.00930924374873283,
+    "p_holm": 0.2246856689453125,
+    "wins": 7,
+    "ties": 33,
+    "losses": 10
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.013774583874952766,
+    "p_holm": 0.009185791015625,
+    "wins": 3,
+    "ties": 34,
+    "losses": 13
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.00930924374873283,
+    "p_holm": 0.2246856689453125,
+    "wins": 7,
+    "ties": 33,
+    "losses": 10
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": -0.1712905974253778,
+    "p_holm": 4.843332135351375e-08,
+    "wins": 6,
+    "ties": 4,
+    "losses": 40
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": 0.011186949129183523,
+    "p_holm": 0.31757782103873955,
+    "wins": 20,
+    "ties": 19,
+    "losses": 11
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": 0.015240479684766607,
+    "p_holm": 0.15799953328472138,
+    "wins": 21,
+    "ties": 18,
+    "losses": 11
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.008462860107813523,
+    "p_holm": 0.15790619727866417,
+    "wins": 10,
+    "ties": 22,
+    "losses": 18
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.0050683288233046775,
+    "p_holm": 0.4236337061314851,
+    "wins": 12,
+    "ties": 24,
+    "losses": 14
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": -0.008462860107813523,
+    "p_holm": 0.15790619727866417,
+    "wins": 10,
+    "ties": 22,
+    "losses": 18
+  },
+  {
+    "scenario": "reduced_graph \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.032033585212913794,
+    "p_holm": 0.2948169606661395,
+    "wins": 20,
+    "ties": 10,
+    "losses": 20
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "pagerank",
+    "mean_diff": -0.003760576252611035,
+    "p_holm": 0.791015625,
+    "wins": 5,
+    "ties": 38,
+    "losses": 7
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "q40_py",
+    "mean_diff": -0.03551948558544585,
+    "p_holm": 0.20957495552209426,
+    "wins": 14,
+    "ties": 20,
+    "losses": 16
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "q40_r",
+    "mean_diff": -0.03432513205098793,
+    "p_holm": 0.2050601834645136,
+    "wins": 18,
+    "ties": 13,
+    "losses": 19
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "raeer",
+    "mean_diff": -0.04227236565378426,
+    "p_holm": 0.0030108817555389187,
+    "wins": 8,
+    "ties": 16,
+    "losses": 26
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.0438224267142919,
+    "p_holm": 0.0030978356295453557,
+    "wins": 9,
+    "ties": 16,
+    "losses": 25
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.1",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.004911589999679164,
+    "p_holm": 0.632485878954026,
+    "wins": 17,
+    "ties": 22,
+    "losses": 11
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.09672765449313818,
+    "p_holm": 0.00016357209961353916,
+    "wins": 14,
+    "ties": 6,
+    "losses": 30
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "pagerank",
+    "mean_diff": -0.04365163438173271,
+    "p_holm": 0.018423355703333668,
+    "wins": 10,
+    "ties": 21,
+    "losses": 19
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "q40_py",
+    "mean_diff": -0.10646751326551492,
+    "p_holm": 0.0005688746885823548,
+    "wins": 15,
+    "ties": 4,
+    "losses": 31
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "q40_r",
+    "mean_diff": -0.11325784374692374,
+    "p_holm": 0.0002970514707953953,
+    "wins": 14,
+    "ties": 3,
+    "losses": 33
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "raeer",
+    "mean_diff": -0.16241495230743588,
+    "p_holm": 1.2258705917061073e-06,
+    "wins": 7,
+    "ties": 2,
+    "losses": 41
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.17154076200032428,
+    "p_holm": 5.290025323354086e-07,
+    "wins": 7,
+    "ties": 2,
+    "losses": 41
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.3",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.03907802736690499,
+    "p_holm": 0.05696386993121649,
+    "wins": 18,
+    "ties": 1,
+    "losses": 31
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "communication_frequency",
+    "mean_diff": -0.12941594007380755,
+    "p_holm": 1.0896568198859313e-05,
+    "wins": 12,
+    "ties": 4,
+    "losses": 34
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "pagerank",
+    "mean_diff": -0.06518404479563197,
+    "p_holm": 7.074084714986384e-05,
+    "wins": 8,
+    "ties": 13,
+    "losses": 29
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "q40_py",
+    "mean_diff": -0.15283612486946663,
+    "p_holm": 2.1499046276574063e-07,
+    "wins": 9,
+    "ties": 0,
+    "losses": 41
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "q40_r",
+    "mean_diff": -0.17764770140501912,
+    "p_holm": 1.507920117660433e-07,
+    "wins": 9,
+    "ties": 0,
+    "losses": 41
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "raeer",
+    "mean_diff": -0.2730809424803668,
+    "p_holm": 4.973799150320701e-14,
+    "wins": 2,
+    "ties": 2,
+    "losses": 46
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "raeer-no_independence",
+    "mean_diff": -0.27471714526565405,
+    "p_holm": 1.3500311979441904e-13,
+    "wins": 1,
+    "ties": 2,
+    "losses": 47
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "raeer-no_lifecycle",
+    "mean_diff": 0.0,
+    "p_holm": 1.0,
+    "wins": 0,
+    "ties": 50,
+    "losses": 0
+  },
+  {
+    "scenario": "update_superseded \u00b7 level 0.5",
+    "comparison": "spatial_proximity",
+    "mean_diff": -0.07983399300615343,
+    "p_holm": 0.00941394555985653,
+    "wins": 18,
+    "ties": 1,
+    "losses": 31
+  }
+]

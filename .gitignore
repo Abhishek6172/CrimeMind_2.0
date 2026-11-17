@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & test
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+research/results/*/pytest_cache
+
+# Build outputs
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local PostgreSQL binaries and data cluster
+pgsql/
+pgsql.zip
+*.log
+logfile
+
+# OS metadata
+.DS_Store
+Thumbs.db

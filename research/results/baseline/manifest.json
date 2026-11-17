@@ -1,0 +1,26 @@
+{
+  "captured_at_utc": "2026-10-31T17:41:49+00:00",
+  "generator_seed": 2026,
+  "database": "research_baseline",
+  "seeded_counts": "seeded: {'entities': 188, 'location_observations': 1304, 'communications': 1211, 'transactions': 249, 'relationships': 463, 'evidence': 386, 'correlations': 1217, 'findings': 112}",
+  "git_commit": "9f05c415475e1701fbd194a1e304f93ea9cdc14d",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "packages": {
+    "fastapi": "0.162.0",
+    "psycopg": "3.3.6",
+    "pytest": "9.1.1",
+    "httpx": "0.28.1",
+    "bcrypt": "5.0.0",
+    "PyJWT": "2.15.0",
+    "networkx": "3.7"
+  },
+  "postgres": "psql (PostgreSQL) 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1)",
+  "ai_provider": "offline-template (no LLM)",
+  "tests": [
+    "49 passed, 4 warnings in 22.08s"
+  ],
+  "q40_module_sha256": "01bea117b208ce839a755b9695547f649efe73ee7cd8609455a758961b7f18c6",
+  "q40_config": "research/baseline/q40_config.json",
+  "scenario_steps_matching_expected": "6/6"
+}

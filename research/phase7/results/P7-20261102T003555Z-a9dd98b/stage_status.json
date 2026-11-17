@@ -1,0 +1,10 @@
+{
+ "run_id": "P7-20261102T003555Z-a9dd98b",
+ "stages": {
+  "oracles": "EXECUTED",
+  "q40": "EXECUTED",
+  "db": "EXECUTED",
+  "perf": "EXECUTED"
+ },
+ "errors": {}
+}

@@ -1,0 +1,8 @@
+{
+  "first_seed": 2026,
+  "n_seeds": 50,
+  "cases_per_seed": 2,
+  "generator_version": "1.0",
+  "description": "Identical for every seed; only the random seed differs. Story structure (leads, decoys, witnesses, evolution) is drawn from these ranges by the seed.",
+  "source": "research/generation_config.json"
+}
