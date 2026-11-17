@@ -5,7 +5,7 @@ import { MouseEffects } from "./components/MouseEffects.jsx";
 import "./styles.css";
 
 export default function App() {
-  const [mode, setMode] = useState("casework");
+  const [mode, setMode] = useState("research");
 
   return (
     <div className="cm-universe">
