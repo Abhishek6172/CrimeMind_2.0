@@ -37,16 +37,24 @@ export async function api(path, { method = "GET", body, params } = {}) {
   }
 
   // If Vercel rewrites to index.html (returns HTML) or returns 405 Method Not Allowed on static POST:
-  const isHtml = text.trim().startsWith("<!DOCTYPE") || text.trim().startsWith("<html");
-  if (res.status === 405 || (res.ok && isHtml) || res.status === 404) {
-    return getMockResponse(path, method, body);
+  const contentType = res.headers.get("content-type") || "";
+  const isHtml =
+    contentType.toLowerCase().includes("text/html") ||
+    text.toLowerCase().includes("<!doctype") ||
+    text.toLowerCase().includes("<html") ||
+    text.includes('<div id="root">');
+
+  if (res.status === 405 || res.status === 404 || isHtml) {
+    const mock = getMockResponse(path, method, body);
+    if (mock !== undefined) return mock;
   }
 
   let data = null;
   try { data = text ? JSON.parse(text) : null; } catch {}
   if (res.status === 401 && path !== "/auth/login") { onUnauthorized(); }
-  if (!res.ok) {
-    return getMockResponse(path, method, body);
+  if (!res.ok || data === null) {
+    const mock = getMockResponse(path, method, body);
+    if (mock !== undefined) return mock;
   }
   return data;
 }
@@ -65,15 +73,21 @@ export async function apiUpload(path, formData) {
     return getMockResponse(path, "POST", null);
   }
 
-  const isHtml = text.trim().startsWith("<!DOCTYPE") || text.trim().startsWith("<html");
-  if (res.status === 405 || (res.ok && isHtml) || res.status === 404) {
+  const contentType = res.headers.get("content-type") || "";
+  const isHtml =
+    contentType.toLowerCase().includes("text/html") ||
+    text.toLowerCase().includes("<!doctype") ||
+    text.toLowerCase().includes("<html") ||
+    text.includes('<div id="root">');
+
+  if (res.status === 405 || res.status === 404 || isHtml) {
     return getMockResponse(path, "POST", null);
   }
 
   let data = null;
   try { data = text ? JSON.parse(text) : null; } catch {}
   if (res.status === 401 && path !== "/auth/login") { onUnauthorized(); }
-  if (!res.ok) return getMockResponse(path, "POST", null);
+  if (!res.ok || data === null) return getMockResponse(path, "POST", null);
   return data;
 }
 

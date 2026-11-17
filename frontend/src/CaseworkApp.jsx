@@ -258,16 +258,17 @@ function CaseList({ onOpen, user }) {
 
       <Async
         state={st}
-        empty={Object.assign((d) => !d.cases?.length, {
+        empty={Object.assign((d) => !d?.cases?.length, {
           message: "You have not been assigned to any case docket.",
         })}
       >
         {(d) => {
-          const filtered = (d.cases || []).filter(
+          const casesList = (d && d.cases) || [];
+          const filtered = casesList.filter(
             (c) =>
-              c.title.toLowerCase().includes(search.toLowerCase()) ||
-              c.case_ref.toLowerCase().includes(search.toLowerCase()) ||
-              c.status.toLowerCase().includes(search.toLowerCase())
+              c.title?.toLowerCase().includes(search.toLowerCase()) ||
+              c.case_ref?.toLowerCase().includes(search.toLowerCase()) ||
+              c.status?.toLowerCase().includes(search.toLowerCase())
           );
 
           if (!filtered.length) {
@@ -565,7 +566,9 @@ export default function CaseworkApp({ onOpenResearch }) {
             />
           </Boundary>
         ) : (
-          <CaseList onOpen={setCaseRef} user={user} />
+          <Boundary>
+            <CaseList onOpen={setCaseRef} user={user} />
+          </Boundary>
         )}
       </main>
 
