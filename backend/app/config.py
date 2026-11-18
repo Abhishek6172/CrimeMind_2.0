@@ -41,7 +41,7 @@ CORS_ORIGINS = [o for o in os.environ.get("CM_CORS_ORIGINS", "http://localhost:5
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 ANTHROPIC_MODEL = os.environ.get("CM_AI_MODEL", "claude-sonnet-5-5")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_MODEL = os.environ.get("CM_GEMINI_MODEL", "gemini-3.6-flash")
+GEMINI_MODEL = os.environ.get("CM_GEMINI_MODEL", "gemini-3.5-flash-lite")
 # auto (default: Anthropic key, else Gemini key, else offline) | anthropic | gemini | offline
 AI_PROVIDER = os.environ.get("CM_AI_PROVIDER", "auto").lower()
 AI_TIMEOUT_SECONDS = float(os.environ.get("CM_AI_TIMEOUT", "30"))

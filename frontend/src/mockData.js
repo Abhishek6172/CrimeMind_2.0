@@ -1,6 +1,37 @@
 // Fallback demo dataset for standalone deployment (e.g. Vercel) when the local Python backend is not connected.
+
+const defaultAiHistory = [
+  {
+    analysis_id: "AI-SYNTH-8821",
+    requested_by: "admin",
+    question: "Summarise what the current evidence says about movements near the park around the incident.",
+    provider: "gemini-3.5-flash-lite",
+    status: "OK",
+    created_at: new Date(Date.now() - 3600000).toISOString()
+  },
+  {
+    analysis_id: "AI-SYNTH-8819",
+    requested_by: "inv.asha",
+    question: "Are there conflicting alibis or impossible speed jumps detected for Karan Bhatt?",
+    provider: "gemini-3.5-flash-lite",
+    status: "OK",
+    created_at: new Date(Date.now() - 7200000).toISOString()
+  }
+];
+
+let aiHistory = [...defaultAiHistory];
+
 export function getMockResponse(path, method = "GET", body = null) {
   const p = path.split("?")[0].replace(/\/$/, "");
+
+  // AI Intelligence Assistant Status
+  if (p === "/ai/status") {
+    return {
+      provider: "gemini-3.5-flash-lite",
+      is_llm: true,
+      message: "Google Gemini 3.5 Flash neural intelligence model active and verified."
+    };
+  }
 
   // Auth
   if (p === "/auth/login") {
@@ -353,6 +384,251 @@ export function getMockResponse(path, method = "GET", body = null) {
 
   if (p.includes("/audit") || p.includes("/impacts")) {
     return [];
+  }
+
+  // AI Analyses History: /cases/:ref/ai/analyses
+  if (p.includes("/ai/analyses")) {
+    return {
+      analyses: [...aiHistory]
+    };
+  }
+
+  // AI Intelligence Synthesis Query: /cases/:ref/ai/analyze
+  if (p.includes("/ai/analyze")) {
+    const q = (body?.question || "").toLowerCase();
+    let summary = "";
+    let findings = [];
+    let uncertainties = [];
+
+    if (q.includes("movement") || q.includes("park") || q.includes("gazebo")) {
+      summary = "Multi-modal correlation synthesizes CCTV footage (E-001), mobile tower sector pings (F-001), and witness testimony (E-003). Suspect Karan Bhatt's sedan DL-03-AB-4412 crossed Outer Ring Road at 20:58, and an individual matching his profile was sighted near the west gazebo walkway at 21:14. Co-location with victim Meera Sen is verified within a 150-metre radius between 21:15 and 21:30.";
+      findings = [
+        {
+          statement: "Footage from CAM-05 confirms an individual matching Karan Bhatt entering the west perimeter walkway at 21:14.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-001"],
+          correlation_ids: [],
+          confidence: 0.95
+        },
+        {
+          statement: "Cellular tower sector telemetry places Karan Bhatt's registered mobile device in the Green Park sector at 21:22.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-001"],
+          correlation_ids: ["C-01"],
+          confidence: 0.99
+        },
+        {
+          statement: "Witness Ananya Sharma placed two arguing individuals matching victim and suspect near the gazebo at 21:25.",
+          classification: "CORRELATED",
+          evidence_ids: ["E-003"],
+          correlation_ids: ["C-01"],
+          confidence: 0.88
+        },
+        {
+          statement: "Transit time from Outer Ring Road (20:58) to park walkway (21:14) is consistent with normal urban traffic speeds (38 km/h).",
+          classification: "CORRELATED",
+          evidence_ids: ["E-001"],
+          correlation_ids: ["C-02"],
+          confidence: 0.92
+        },
+        {
+          statement: "Spatial co-location suggests opportunity for physical confrontation; subjective intent remains unverified.",
+          classification: "AI-INFERRED",
+          evidence_ids: ["E-001", "E-003"],
+          correlation_ids: ["C-01"],
+          confidence: 0.84
+        }
+      ];
+      uncertainties = [
+        "Forensic clock drift audit on CAM-05 unit pending final cryptographic sign-off.",
+        "Dim lighting along west perimeter limits facial biometric recognition to 87% confidence."
+      ];
+    } else if (q.includes("comm") || q.includes("fund") || q.includes("transfer") || q.includes("money") || q.includes("call")) {
+      summary = "Telemetry and telecom audit reveals high-frequency communication immediately preceding the incident window. Karan Bhatt (P-002) placed 3 unanswered voice calls to Meera Sen (P-001) between 21:05 and 21:12. Banking records reflect a disputed ₹2,50,000 escrow transfer under transaction TX-9942.";
+      findings = [
+        {
+          statement: "Telecom CDR logs record three rapid outbound calls from P-002 to P-001 between 21:05 and 21:12.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-002"],
+          correlation_ids: [],
+          confidence: 0.98
+        },
+        {
+          statement: "Victim device ceased network signalling after 21:38, coinciding with battery disconnect or suppression.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-002"],
+          correlation_ids: [],
+          confidence: 0.94
+        },
+        {
+          statement: "Escrow transfer TX-9942 was flagged with status 'DISPUTED_ROYALTY' by issuing bank 48 hours prior.",
+          classification: "CORRELATED",
+          evidence_ids: ["E-004"],
+          correlation_ids: ["C-02"],
+          confidence: 0.91
+        },
+        {
+          statement: "Communication frequency spike represents a 4.2x elevation above the 30-day baseline interaction rate.",
+          classification: "AI-INFERRED",
+          evidence_ids: ["E-002"],
+          correlation_ids: [],
+          confidence: 0.86
+        }
+      ];
+      uncertainties = [
+        "Encrypted messaging channels (Signal/Telegram) remain uninspected pending physical hardware extraction."
+      ];
+    } else if (q.includes("alibi") || q.includes("speed") || q.includes("jump") || q.includes("conflict")) {
+      summary = "The suspect's claimed alibi—asserting continuous presence at Orbit Tech Park until 22:15—is decisively refuted. Electronic turnstile logs confirm physical departure at 20:45, and ANPR sensors captured his sedan en route at 20:58.";
+      findings = [
+        {
+          statement: "Orbit Tech Park access control system logged Karan Bhatt's physical badge exit at 20:45.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-002"],
+          correlation_ids: [],
+          confidence: 0.99
+        },
+        {
+          statement: "Outer Ring Road ANPR toll camera captured sedan DL-03-AB-4412 in motion at 20:58.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-001"],
+          correlation_ids: [],
+          confidence: 0.96
+        },
+        {
+          statement: "Claimed alibi contradicts electronic physical access control and ANPR surveillance records.",
+          classification: "CORRELATED",
+          evidence_ids: ["E-001", "E-002"],
+          correlation_ids: ["C-01"],
+          confidence: 0.97
+        },
+        {
+          statement: "Maintaining presence at workplace until 22:15 would require an impossible kinematic velocity jump (>110 km/h).",
+          classification: "AI-INFERRED",
+          evidence_ids: ["E-002"],
+          correlation_ids: ["C-01"],
+          confidence: 0.93
+        }
+      ];
+      uncertainties = [
+        "Possibility of badge credential borrowing or transfer has not been completely ruled out by biometric gates."
+      ];
+    } else if (q.includes("cctv") || q.includes("sight") || q.includes("camera") || q.includes("video")) {
+      summary = "Corroborated optical surveillance isolates two verified feeds in the 60-minute incident window: Outer Ring Road ANPR camera 03 (20:58) and Green Park West Walkway CAM-05 (21:14). Both feeds have matching cryptographic hash records.";
+      findings = [
+        {
+          statement: "ANPR Camera 03 recorded vehicle DL-03-AB-4412 heading southbound at 20:58:12.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-001"],
+          correlation_ids: [],
+          confidence: 0.98
+        },
+        {
+          statement: "CCTV CAM-05 recorded an individual matching suspect's physical profile entering west perimeter at 21:14:05.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-001"],
+          correlation_ids: [],
+          confidence: 0.95
+        },
+        {
+          statement: "Witness Ananya Sharma's report aligns temporally with CAM-05 pedestrian detection at 21:14.",
+          classification: "CORRELATED",
+          evidence_ids: ["E-001", "E-003"],
+          correlation_ids: ["C-01"],
+          confidence: 0.89
+        },
+        {
+          statement: "Vehicle travel trajectory from toll camera to perimeter parking corresponds to continuous route.",
+          classification: "AI-INFERRED",
+          evidence_ids: ["E-001"],
+          correlation_ids: [],
+          confidence: 0.91
+        }
+      ];
+      uncertainties = [
+        "CAM-06 (East gate camera) was offline for scheduled sensor maintenance during the event horizon."
+      ];
+    } else {
+      // General intelligence query synthesis
+      summary = `Verified intelligence synthesis for inquiry: "${body?.question || "investigative query"}". Evaluated 40 case facts, 12 deterministic correlations, and 4 primary evidence exhibits under strict decision-support integrity rules.`;
+      findings = [
+        {
+          statement: "Karan Bhatt (P-002) is verified present within the Green Park mobile tower sector at 21:22.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-001"],
+          correlation_ids: ["C-01"],
+          confidence: 0.98
+        },
+        {
+          statement: "Electronic badge access records establish departure from Orbit Tech Park at 20:45, preceding the incident.",
+          classification: "RECORDED FACT",
+          evidence_ids: ["E-002"],
+          correlation_ids: [],
+          confidence: 0.99
+        },
+        {
+          statement: "Spatial-temporal coincidence rule confirms co-location between suspect vehicle and incident locus.",
+          classification: "CORRELATED",
+          evidence_ids: ["E-001", "E-003"],
+          correlation_ids: ["C-01", "C-02"],
+          confidence: 0.91
+        },
+        {
+          statement: "Evidence exhibits strong correlation with case hypothesis H-01; criminal intent remains unadjudicated.",
+          classification: "AI-INFERRED",
+          evidence_ids: ["E-001", "E-002", "E-003"],
+          correlation_ids: ["C-01"],
+          confidence: 0.85
+        }
+      ];
+      uncertainties = [
+        "GPS-17 telemetry unit reported potential clock drift, subject to ongoing diagnostic calibration.",
+        "Decision-support output: findings require independent judicial and forensic officer verification."
+      ];
+    }
+
+    const newAnalysis = {
+      analysis_id: "AI-SYNTH-" + Math.floor(1000 + Math.random() * 9000),
+      status: "OK",
+      provider: "gemini-3.5-flash-lite",
+      provider_is_llm: true,
+      created_at: new Date().toISOString(),
+      message: "AI-assisted analysis. Findings are labelled by classification and require investigator review.",
+      context_sha256: "7b8e1f04d9c49a620b784fa201bce5539fa08ef91823bbd4484b360bfa25df23",
+      context_summary: "40 facts, 12 correlations, 6 evidence exhibits inspected in controlled context.",
+      problems: [],
+      output: {
+        summary,
+        findings,
+        confidence: 0.94,
+        uncertainties
+      },
+      classification_legend: {
+        "RECORDED FACT": "directly recorded in source records",
+        "CORRELATED": "result of an approved deterministic rule",
+        "AI-INFERRED": "model interpretation; requires review",
+        "UNCERTAIN": "insufficient or conflicting support"
+      }
+    };
+
+    aiHistory.unshift({
+      analysis_id: newAnalysis.analysis_id,
+      requested_by: "admin",
+      question: body?.question || "Investigation query",
+      provider: "gemini-3.5-flash-lite",
+      status: "OK",
+      created_at: newAnalysis.created_at
+    });
+
+    return newAnalysis;
+  }
+
+  if (p.includes("/reviews")) {
+    return {
+      review_id: "REV-" + Date.now(),
+      status: "RECORDED",
+      created_at: new Date().toISOString()
+    };
   }
 
   // Default fallback for any unspecified endpoint
